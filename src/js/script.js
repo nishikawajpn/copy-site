@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import fadeAnimation from './_fade-animation';
 import onScroll from './_on-scroll';
-import smoothScroll from './_smooth-scroll';
+// import smoothScroll from './_smooth-scroll';
 import '../css/style.scss';
 
 // $('.slick02').slick({
@@ -57,3 +57,20 @@ $('.slick03-tab').slick({
 
 
 $('.slick04').slick();
+
+
+
+$(function () {
+  var $slider = $('.slick05');
+  $slider.slick();
+
+  var $wrap = $('.clinic-map__map');
+  var $panel = $('.clinic-map__room');
+
+  $wrap.each(function () {
+    $panel.click(function () {
+      var panelIndex = $(this).index();
+      $slider.slick('slickGoTo', panelIndex);
+    });
+  });
+});

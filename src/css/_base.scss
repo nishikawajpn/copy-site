@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  // scroll-behavior: smooth;
 }
 
 body {
@@ -1226,6 +1227,158 @@ $color-diary: #e5958b;
   }
 }
 
+
+// *********************************
+//  Clinic Map
+// *********************************
+.clinic-map {
+
+  &__map {
+    background: url('../images/map_img_01.svg') center no-repeat;
+    background-size: contain;
+    width: 100%;
+    padding-bottom: 104%;
+    position: relative;
+    z-index: 0;
+  }
+
+  &__room {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    height: auto;
+    box-sizing: border-box;
+    font-size: 0;
+
+    &--no1 {
+      width: 11%;
+      top: 13%;
+      left: 46%;
+    }
+
+    &--no2 {
+      width: 11%;
+      top: 13%;
+      left: 57%;
+    }
+
+    &--no3 {
+      width: 17%;
+      top: 13%;
+      left: 68%;
+    }
+
+    &--no4 {
+      width: 21%;
+      top: 40%;
+      left: 66%;
+    }
+
+    &--no5 {
+      width: 21%;
+      top: 51%;
+      left: 66%;
+    }
+
+    &--no6 {
+      width: 21%;
+      top: 62%;
+      left: 66%;
+    }
+
+    &--no7 {
+      width: 21%;
+      top: 73%;
+      left: 66%;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+  }
+
+  .clinic-photos {
+    counter-reset: room-num -1;
+    font-size: 0;
+
+    &__item {
+      position: relative;
+
+      &--no1 .clinic-photos__num { background-color: #908cc1; }
+      &--no2 .clinic-photos__num { background-color: #3c648b; }
+      &--no3 .clinic-photos__num { background-color: #a6c2e1; }
+      &--no4 .clinic-photos__num { background-color: #8bb89e; }
+      &--no5 .clinic-photos__num { background-color: #eadb88; }
+      &--no6 .clinic-photos__num { background-color: #e2915a; }
+      &--no7 .clinic-photos__num { background-color: #da6669; }
+    }
+
+    &__room-num {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 80px;
+      height: 40px;
+      z-index: 1;
+      color: #fff;
+      display: flex;
+    }
+
+    &__room {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      background-color: #959090;
+      font-size: 10px;
+      line-height: 1;
+      margin: 0;
+    }
+
+    &__num {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      margin: 0;
+      font-size: 21px;
+      line-height: 1;
+    }
+
+    &__image {
+      width: 100%;
+      position: relative;
+      z-index: 0;
+    }
+
+    &__comment {
+      padding: 16px;
+      background: #959090;
+      color: #fff;
+      font-size: 1.3rem;
+    }
+  }
+}
+
+@include media('tb') {
+
+  .clinic-map {
+    display: flex;
+    justify-content: space-between;
+
+    &__map {
+      width: 45%;
+      padding-bottom: 46.8%;
+    }
+  }
+
+  .clinic-photos--wrapper {
+      width: 50%;
+  }
+}
 
 
 //  ------ タブレット -------

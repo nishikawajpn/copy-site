@@ -6,7 +6,7 @@ block locals
   - var url = 'https://';
 
 block content
-  main(class="main")
+  main(class="main" id="top")
 
     section(class="home-about on-scroll-add-class")
       div(class="inner-wrapper")
@@ -570,7 +570,61 @@ block content
             span(class="") プ
           span(class="content-head__en") Clinic Map
         p(class="") 当院は虹の7色をコンセプトに、7つの診察室それぞれにイメージカラーが使われています。
-        
+        div(class="clinic-map")
+          ul(class="slick05-tab clinic-map__map")
+            li(class="clinic-map__room clinic-map__room--no1")
+              img(src="../images/map_btn_01.svg" alt="Room1" class="clinic-map__image" width="30px" height="auto")
+            li(class="clinic-map__room clinic-map__room--no2")
+              img(src="../images/map_btn_02.svg" alt="Room2" class="clinic-map__image" width="30px" height="auto")
+            li(class="clinic-map__room clinic-map__room--no3")
+              img(src="../images/map_btn_03.svg" alt="Room3" class="clinic-map__image" width="30px" height="auto")
+            li(class="clinic-map__room clinic-map__room--no4")
+              img(src="../images/map_btn_04.svg" alt="Room4" class="clinic-map__image" width="30px" height="auto")
+            li(class="clinic-map__room clinic-map__room--no5")
+              img(src="../images/map_btn_05.svg" alt="Room5" class="clinic-map__image" width="30px" height="auto")
+            li(class="clinic-map__room clinic-map__room--no6")
+              img(src="../images/map_btn_06.svg" alt="Room6" class="clinic-map__image" width="30px" height="auto")
+            li(class="clinic-map__room clinic-map__room--no7")
+              img(src="../images/map_btn_07.svg" alt="Room7" class="clinic-map__image" width="30px" height="auto")
+          div(class="clinic-photos--wrapper")
+            ul(class="slick05 clinic-photos")
+              li(class="clinic-photos__item clinic-photos__item--no1")
+                p(class="clinic-photos__room-num")
+                  span(class="clinic-photos__room") Room
+                  span(class="clinic-photos__num") 1
+                img(src="../images/map_img_01.jpg" alt="Room1" class="clinic-photos__image" width="532" height="auto")
+              li(class="clinic-photos__item clinic-photos__item--no2")
+                p(class="clinic-photos__room-num")
+                  span(class="clinic-photos__room") Room
+                  span(class="clinic-photos__num") 2
+                img(src="../images/map_img_02.jpg" alt="Room2" class="clinic-photos__image" width="532" height="auto")
+              li(class="clinic-photos__item clinic-photos__item--no3")
+                p(class="clinic-photos__room-num")
+                  span(class="clinic-photos__room") Room
+                  span(class="clinic-photos__num") 3
+                img(src="../images/map_img_03.jpg" alt="Room3" class="clinic-photos__image" width="532" height="auto")
+              li(class="clinic-photos__item clinic-photos__item--no4")
+                p(class="clinic-photos__room-num")
+                  span(class="clinic-photos__room") Room
+                  span(class="clinic-photos__num") 4
+                img(src="../images/map_img_04.jpg" alt="Room4" class="clinic-photos__image" width="532" height="auto")
+              li(class="clinic-photos__item clinic-photos__item--no5")
+                p(class="clinic-photos__room-num")
+                  span(class="clinic-photos__room") Room
+                  span(class="clinic-photos__num") 5
+                img(src="../images/map_img_05.jpg" alt="Room5" class="clinic-photos__image" width="532" height="auto")
+              li(class="clinic-photos__item clinic-photos__item--no6")
+                p(class="clinic-photos__room-num")
+                  span(class="clinic-photos__room") Room
+                  span(class="clinic-photos__num") 6
+                img(src="../images/map_img_06.jpg" alt="Room6" class="clinic-photos__image" width="532" height="auto")
+              li(class="clinic-photos__item clinic-photos__item--no7")
+                p(class="clinic-photos__room-num")
+                  span(class="clinic-photos__room") Room
+                  span(class="clinic-photos__num") 7
+                img(src="../images/map_img_07.jpg" alt="Room7" class="clinic-photos__image" width="532" height="auto")
+            div(class="clinic-photos__comment")
+              p イメージカラーにあわせ、壁紙やチェア、小物やカーテンまで色合いを揃えた快適な診察室をご用意しております。
 
     section(class="home-access on-scroll-add-class")
       div(class="pattern-bg")
@@ -628,5 +682,5 @@ block content
         div(class="home-reservation--box")
           h3(class="home-reservation__title") アンチエイジング
           div(class="home-reservation__dl")
-            a(href="#" class="button-arrow button-arrow--orange") 初診の方
+            a(href="#top" class="button-arrow button-arrow--orange") 初診の方
 
