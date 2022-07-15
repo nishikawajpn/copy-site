@@ -1,0 +1,632 @@
+extends _layout.pug
+
+block locals
+  - var title = 'Top Page'
+  - var pageDescription = 'This is Top Page.'
+  - var url = 'https://';
+
+block content
+  main(class="main")
+
+    section(class="home-about on-scroll-add-class")
+      div(class="inner-wrapper")
+        h2(class="content-head")
+          span(class="content-head__jp")
+            span(class="") わ
+            span(class="") た
+            span(class="") し
+            span(class="") た
+            span(class="") ち
+            span(class="") の
+            span(class="") こ
+            span(class="") と
+          span(class="content-head__en") About
+        p(class="lead-sentence")
+          span(class="lead-sentence__child") 医
+          span(class="lead-sentence__child") 療
+          span(class="lead-sentence__child") で
+          span(class="lead-sentence__child") 繋
+          span(class="lead-sentence__child") が
+          span(class="lead-sentence__child") る
+          span(class="lead-sentence__child") 縁
+          span(class="lead-sentence__child") を
+          span(class="lead-sentence__child") 大
+          span(class="lead-sentence__child") 切
+          span(class="lead-sentence__child") に
+          span(class="lead-sentence__child") 。
+        p(class="text--about") 長く付き合っていく病だからこそ、患者さん一人一人との縁を大切にして治療を続けていきたいと願っています。<br class="pc-tab-only">リウマチ専門医による確かな医療を気軽に、快適に受けていただきたい。<br class="pc-tab-only">専門クリニックではありますが、「お待たせしない」ことを追求しました。待合室はありません。<br class="pc-tab-only">完全予約制なので、来院してすぐ診察室へお入りいただけます。<br class="pc-tab-only">より快適に過ごしていただくために、当院では医療コンシェルジュが患者さんを<br class="pc-tab-only">受付からお会計までサポートいたします。
+        p(class="text--about") リウマチは女性に多い病気です。当院は内科診療やアンチエイジングのご相談も含め、<br class="pc-tab-only">女性のライフスタイルを支えるクリニックとして開院しました。<br class="pc-tab-only">なにか気になる症状がある方は、虹の七色で彩られた心地よい診察室へ気軽にいらしてください。
+        img(src="../images/logo_02.svg" class="logo--vertical" width="145" height="135.19")
+
+    section(class="home-point on-scroll-add-class")
+      //- h2(class="content-head")
+      //-   span(class="content-head__jp")
+      //-     span(class="") わ
+      //-     span(class="") た
+      //-     span(class="") し
+      //-     span(class="") た
+      //-     span(class="") ち
+      //-     span(class="") の
+      //-     span(class="") こ
+      //-     span(class="") と
+      //-   span(class="content-head__en") About
+
+    section(class="home-greeting on-scroll-add-class")
+      div(class="inner-wrapper")
+        h2(class="content-head")
+          span(class="content-head__jp")
+            span(class="") 院
+            span(class="") 長
+            span(class="") ご
+            span(class="") あ
+            span(class="") い
+            span(class="") さ
+            span(class="") つ
+          span(class="content-head__en") Greeting
+        p(class="lead-sentence--small") 説明は「わかりやすく丁寧に」を心がけています。
+        p(class="") ​大学病院では重症・難病の治療、新規治療法の研究、学生や医師の教育などを行ってきました。研究や教育もやりがいはありましたが、多くの患者さんと関わり、患者さんから感謝の言葉をいただくことで、専門医として努力してきたことが報われた気がし、何より医者になって本当に良かったと実感できました。<br>女性に多く、長期的な治療が大切なリウマチ。ですが、病院では待ち時間ばかりが長く、診察はすぐ終わってしまうということも珍しくありません。女性の方に快適に、専門クリニックでもお待たせしない診療を目指し、過去に前例のないユニークなクリニックを開院しました。<br>専門医による最新の治療を、患者さん一人一人に寄り添って提供していきたいと考えております。<br>あなたに寄り添い、共にリウマチに向き合う医療を。
+        p(class="role-name--wrapper") 院長
+          span(class="role-name__name") 山田 一郎
+
+    section(class="home-beginner on-scroll-add-class")
+      div(class="inner-wrapper")
+        h2(class="content-head")
+          span(class="content-head__jp")
+            span(class="") は
+            span(class="") じ
+            span(class="") め
+            span(class="") て
+            span(class="") の
+            span(class="") 方
+            span(class="") へ
+          span(class="content-head__en") Beginner's Guide
+        p(class="lead-sentence")
+          span(class="lead-sentence__child") も
+          span(class="lead-sentence__child") し
+          span(class="lead-sentence__child") か
+          span(class="lead-sentence__child") し
+          span(class="lead-sentence__child") て
+          span(class="lead-sentence__child") 、
+          span(class="lead-sentence__child") リ
+          span(class="lead-sentence__child") ウ
+          span(class="lead-sentence__child") マ
+          span(class="lead-sentence__child") チ
+          span(class="lead-sentence__child") ？<br>
+          span(class="lead-sentence__child") ど
+          span(class="lead-sentence__child") ん
+          span(class="lead-sentence__child") な
+          span(class="lead-sentence__child") 病
+          span(class="lead-sentence__child") 気
+          span(class="lead-sentence__child") な
+          span(class="lead-sentence__child") ん
+          span(class="lead-sentence__child") だ
+          span(class="lead-sentence__child") ろ
+          span(class="lead-sentence__child") う
+          span(class="lead-sentence__child") ？
+        p(class="") 初めて症状に気づいた方も、既に治療を受けられている方も、リウマチ専門医が分かりやすく丁寧に診察します。<br>気になることを相談しながら、あなたにあった治療を考えていきましょう。<br>リウマチにはいい薬ができ、「寛解」という痛みがない状態に多くの方を導くことが可能な時代になりました。<br>費用のこと、極力ステロイドを使わないこと、新薬の話まで、納得のいくまで説明します。<br>リウマチに共に向き合い、あなたに寄り添う医療を目指します。
+        div(class="selfcheck-bubble")
+          p(class="selfcheck-bubble__head") あてはまるものはありますか？
+          p(class="icon-check open-close-trigger") セルフチェックしてみる
+          ul(class="selfcheck-bubble__li")
+            li(class="selfcheck-bubble__item icon-check") 朝にこわばりがある
+            li(class="selfcheck-bubble__item icon-check") ふしぶしが痛い
+            li(class="selfcheck-bubble__item icon-check") 手足が腫れぼったい
+            li(class="selfcheck-bubble__item icon-check") 熱っぽい、微熱がある
+            li(class="selfcheck-bubble__item icon-check") 疲れやすくなった
+            li(class="selfcheck-bubble__item icon-check") 関節が3か所以上痛い
+            li(class="selfcheck-bubble__item icon-check") 腱鞘炎が続く
+            li(class="selfcheck-bubble__item icon-check") 歩くと足の裏が痛い
+            li(class="selfcheck-bubble__item icon-check") 皮膚に異変が出てきた
+            li(class="selfcheck-bubble__item icon-check") 手足の変形がある
+            li(class="selfcheck-bubble__item icon-check") 家事がしづらくなった
+            li(class="selfcheck-bubble__item icon-check") 携帯をしづらくなった
+            li(class="selfcheck-bubble__item icon-check") 痛みで雪かきができなくなった
+            li(class="selfcheck-bubble__item icon-check") 血縁者にリウマチの方がいる
+          p(class="selfcheck-bubble__text") これらの症状が1週間続けば疑いがあります。朝に強いことが多いですが、人それぞれです。<br>最初は断続的に続くなど、波があることもあります。手の症状でお気づきになる方が多いですが、足の指の付け根などにもリウマチは出ます。<br>例えば右肘だけなど、一つの関節だけでも可能性は考えられます。<br>気になる症状があったら初診のご予約をおすすめいたします。
+          p(class="icon-cross open-close-trigger") 閉じる
+
+    section(class="home-flow on-scroll-add-class")
+      div(class="pattern-bg")
+        div(class="pattern-bg__pattern")
+        div(class="pattern-bg__white--left")
+        div(class="pattern-bg__white--right")
+      div(class="inner-wrapper inner-wrapper--flow")
+        h2(class="content-head")
+          span(class="content-head__jp")
+            span(class="") 診
+            span(class="") 察
+            span(class="") の
+            span(class="") 流
+            span(class="") れ
+          span(class="content-head__en") Flow
+        ul(class="slick02 home-flow__li")
+          li(class="home-flow__item")
+            img(alt="予約・受付" src="../images/flow_head_02.svg" width="254" height="auto" class="home-flow__image")
+            p(class="home-flow__desc") 完全予約制、当日予約もお受けします。スマホでネット予約が便利ですが、お電話もOK。受付後はまっすぐ診察室へ。
+          li(class="home-flow__item")
+            img(alt="問診" src="../images/flow_head_02.svg" width="254" height="auto" class="home-flow__image")
+            p(class="home-flow__desc") コンシェルジュが丁寧に問診をします。気になる症状についてお伝え下さい。
+          li(class="home-flow__item")
+            img(alt="診察・検査" src="../images/flow_head_03.svg" width="254" height="auto" class="home-flow__image")
+            p(class="home-flow__desc") 先生が丁寧に関節を診察し、超音波検査や血液検査、注射も診察室でおこなえます。納得のいくまで治療方針を相談しましょう。
+          li(class="home-flow__item")
+            img(alt="処方" src="../images/flow_head_04.svg" width="254" height="auto" class="home-flow__image")
+            p(class="home-flow__desc") 治療方針が決定したら、院内処方を診察室でお受け取りください（※内服7剤以上は院外処方となります）。次回予約をしてお会計となります。
+    div(class="home-apps")
+      div(class="inner-wrapper inner-wrapper--apps")
+        div(class="home-apps__item home-apps__item--welby")
+          h2(class="home-apps__head")
+            img(src="../images/app01_h.png" alt="welby マイカルテ 〜つながる自己管理ノート〜" class="home-apps__head-image" width="296" height="78")
+          div(class="home-apps__body")
+            div(class="home-apps__body--inner")
+              p(class="home-apps__lead") 「検査結果を<br>スマホで確認できます」
+              p(class="home-apps__description") 当院はWelbyマイカルテ導入クリニックです。病院で待たなくても、アプリを使ってスマホで検査結果をチェックできます。詳しくはスタッフまでお問い合わせください。
+              p(class="home-apps__attention") 定期受診のある再診の方のみご利用頂けます
+          ul(class="home-apps__link-list")
+            li(class="home-apps__link-item")
+              a(href="#" class="home-apps__anchor")
+                img(src="../images/badge_appStore.png" class="home-apps__app-image" alt="App Store からダウンロード" width="205" height="auto")
+            li(class="home-apps__link-item")
+              a(href="#" class="home-apps__anchor")
+                img(src="../images/badge_googlePlay.png" class="home-apps__app-image" alt="Google Play で手に入れよう" width="205" height="auto")
+        div(class="home-apps__item home-apps__item--diary")
+          h2(class="home-apps__head")
+            img(src="../images/app02_h.png" alt="関節リウマチの痛みや症状が医師と伝わるリウマチダイアリー" class="home-apps__head-image" width="296" height="78")
+          div(class="home-apps__body")
+            div(class="home-apps__body--inner")
+              p(class="home-apps__lead") 「スマホで<br>治療の記録ができます」
+              p(class="home-apps__description") リウマチダイアリーを使うことで、症状やお薬、日常生活のメモなどを手軽にスマホで記録し、病院と共有することができます。アプリを利用して、治療に役立てましょう。
+          ul(class="home-apps__link-list")
+            li(class="home-apps__link-item")
+              a(href="#" class="home-apps__anchor")
+                img(src="../images/badge_appStore.png" class="home-apps__app-image" alt="App Store からダウンロード" width="205" height="auto")
+            li(class="home-apps__link-item")
+              a(href="#" class="home-apps__anchor")
+                img(src="../images/badge_googlePlay.png" class="home-apps__app-image" alt="Google Play で手に入れよう" width="205" height="auto")
+
+    section(class="home-service on-scroll-add-class")
+      div(class="inner-wrapper")
+        h2(class="content-head")
+          span(class="content-head__jp")
+            span(class="") 診
+            span(class="") 療
+            span(class="") 内
+            span(class="") 容
+            span(class="") に
+            span(class="") つ
+            span(class="") い
+            span(class="") て
+          span(class="content-head__en") Medical Service
+        ul(class="slick03-tab medical-service-tab__li")
+          li(class="medical-service-tab__item medical-service-tab__item--rheumatoid") リウマチ科
+          li(class="medical-service-tab__item medical-service-tab__item--internal") 内科
+          li(class="medical-service-tab__item medical-service-tab__item--aging") アンチエンジング
+        ul(class="slick03 medical-service__li")
+          li(class="medical-service__item medical-service__item--rheumatoid")
+            div(class="medical-service__head")
+              p(class="medical-service__number") Medical Service
+              h3(class="medical-service__title") リウマチ科
+            div(class="medical-service__body")
+              div(class="medical-service__image--wrapper")
+                img(src="../images/service_img_01.jpg" alt="リウマチの寛解の定義" class="medical-service__image" width="308" height="auto")
+              div(class="medical-service__description")
+                p(class="") 関節リウマチは、30代～50代で発症することが多い病気です。患者さんは女性の比率が高く、早期発見で治療を始めることが大切。<br>現在では良い薬があり、多くの方を「寛解」という痛みのない状態へ導くことが可能です。もしかして、と思われた時に受診してみることをおすすめします。
+                a(href="#" class="button-arrow button-arrow--red") 詳しく見る
+          li(class="medical-service__item medical-service__item--internal")
+            div(class="medical-service__head")
+              p(class="medical-service__number") Medical Service
+              h3(class="medical-service__title") 内科
+            div(class="medical-service__body")
+              div(class="medical-service__image--wrapper")
+                img(src="../images/service_img_02.jpg" alt="" class="medical-service__image medical-service__image--round" width="240" height="auto")
+              div(class="medical-service__description")
+                p(class="") 風邪やインフルエンザ、痛風、血圧が高いなど、なんでもお気軽にご相談下さい。仕事の休憩の時間に定期薬の継続で通院したい、出勤前に病院の風邪薬が欲しい。そんな時にも時間が読める内科診療を目指します。
+                a(href="#" class="button-arrow button-arrow--blue") 詳しく見る
+          li(class="medical-service__item medical-service__item--aging")
+            div(class="medical-service__head")
+              p(class="medical-service__number") Medical Service
+              h3(class="medical-service__title") アンチエイジング
+            div(class="medical-service__body")
+              div(class="medical-service__image--wrapper")
+                img(src="../images/service_img_03.jpg" alt="" class="medical-service__image medical-service__image--round" width="308" height="auto")
+              div(class="medical-service__description")
+                p(class="") プラセンタ、ニンニク注射などを取り扱っております。健やかに美しく、リウマチと生きる女性のトータルサポートを目指します。もちろん、アンチエイジングのみの方も大歓迎です。尚、アンチエイジングは自費診療となります。※お支払いには現金のほか、各種クレジットカード(VISA/ MasterCard/ /Diners/ AMEX/ JCB)もご利用いただけます。
+                a(href="#" class="button-arrow button-arrow--orange") 詳しく見る
+
+        ul(class="service-post")
+          li(class="service-post__item category--aging")
+            a(href="" class="service-post__link")
+              span(class="service-post__thumbnail" style="background-image: url('../images/4e5623daafd5f233f41c91645a8ec0a4-500x300.jpg')")
+              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+              ul(class="service-post__service service-list")
+                li(class="service-list__item") リウマチ科
+                li(class="service-list__item") アンチエイジング
+              h3(class="service-post__title") 「関節リウマチ除外後の関節痛に対するアグリコン型イソフラボン (へバスター) の効果の検討」日本リウマチ学会（2021）で院長が発表
+              p(class="service-post__excerpt") 院長が2021年4/26に行われる第65回日本…
+
+          li(class="service-post__item category--rheumatoid")
+            a(href="" class="service-post__link")
+              span(class="service-post__thumbnail" style="background-image: url('../images/7dd4c3f74f006b34bb1d70d7adebd54e-500x300.jpg')")
+              time(datetime="2021-01-05" class="service-post__time") 2021.01.05
+              ul(class="service-post__service service-list")
+                li(class="service-list__item") リウマチ科
+              h3(class="service-post__title") 関節リウマチと更年期関節痛の鑑別と対策　情報誌に院長の記事が掲載
+              p(class="service-post__excerpt") 情報誌　調剤と情報（2021年1月1日発行）に、院長の記事が…
+
+          li(class="service-post__item category--aging")
+            a(href="" class="service-post__link")
+              span(class="service-post__thumbnail" style="background-image: url('../images/85d50a5d6f17e17653ecdd60c1e63fc2-scaled-e1597046043749-500x300.jpg')")
+              time(datetime="2021-04-14" class="service-post__time") 2020.08.10
+              ul(class="service-post__service service-list")
+                li(class="service-list__item") リウマチ科
+                li(class="service-list__item") アンチエイジング
+              h3(class="service-post__title") 「更年期関節痛に対するエクオールの効果」日本リウマチ学会（2020）で院長が発表
+              p(class="service-post__excerpt") 院長が日本リウマチ学会に下記内容で発表いたします。本来4月に…
+
+          li(class="service-post__item category--aging")
+            a(href="" class="service-post__link")
+              span(class="service-post__thumbnail" style="background-image: url('../images/85d50a5d6f17e17653ecdd60c1e63fc2-scaled-e1597046043749-500x300.jpg')")
+              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+              ul(class="service-post__service service-list")
+                li(class="service-list__item") リウマチ科
+                li(class="service-list__item") アンチエイジング
+              h3(class="service-post__title") 「関節リウマチ除外後の関節痛に対するアグリコン型イソフラボン (へバスター) の効果の検討」日本リウマチ学会（2021）で院長が発表
+              p(class="service-post__excerpt")
+
+          li(class="service-post__item category--aging")
+            a(href="" class="service-post__link")
+              span(class="service-post__thumbnail" style="background-image: url('../images/85d50a5d6f17e17653ecdd60c1e63fc2-scaled-e1597046043749-500x300.jpg')")
+              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+              ul(class="service-post__service service-list")
+                li(class="service-list__item") リウマチ科
+                li(class="service-list__item") アンチエイジング
+              h3(class="service-post__title") 「関節リウマチ除外後の関節痛に対するアグリコン型イソフラボン (へバスター) の効果の検討」日本リウマチ学会（2021）で院長が発表
+              p(class="service-post__excerpt")
+
+          li(class="service-post__item category--aging")
+            a(href="" class="service-post__link")
+              span(class="service-post__thumbnail" style="background-image: url('../images/85d50a5d6f17e17653ecdd60c1e63fc2-scaled-e1597046043749-500x300.jpg')")
+              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+              ul(class="service-post__service service-list")
+                li(class="service-list__item") リウマチ科
+                li(class="service-list__item") アンチエイジング
+              h3(class="service-post__title") 「関節リウマチ除外後の関節痛に対するアグリコン型イソフラボン (へバスター) の効果の検討」日本リウマチ学会（2021）で院長が発表
+              p(class="service-post__excerpt")
+
+          li(class="service-post__item category--aging")
+            a(href="" class="service-post__link")
+              span(class="service-post__thumbnail" style="background-image: url('../images/85d50a5d6f17e17653ecdd60c1e63fc2-scaled-e1597046043749-500x300.jpg')")
+              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+              ul(class="service-post__service service-list")
+                li(class="service-list__item") リウマチ科
+                li(class="service-list__item") アンチエイジング
+              h3(class="service-post__title") 「関節リウマチ除外後の関節痛に対するアグリコン型イソフラボン (へバスター) の効果の検討」日本リウマチ学会（2021）で院長が発表
+              p(class="service-post__excerpt")
+
+          li(class="service-post__item category--aging")
+            a(href="" class="service-post__link")
+              span(class="service-post__thumbnail" style="background-image: url('../images/85d50a5d6f17e17653ecdd60c1e63fc2-scaled-e1597046043749-500x300.jpg')")
+              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+              ul(class="service-post__service service-list")
+                li(class="service-list__item") リウマチ科
+                li(class="service-list__item") アンチエイジング
+              h3(class="service-post__title") 「関節リウマチ除外後の関節痛に対するアグリコン型イソフラボン (へバスター) の効果の検討」日本リウマチ学会（2021）で院長が発表
+              p(class="service-post__excerpt")
+
+          li(class="service-post__item category--aging")
+            a(href="" class="service-post__link")
+              span(class="service-post__thumbnail" style="background-image: url('../images/85d50a5d6f17e17653ecdd60c1e63fc2-scaled-e1597046043749-500x300.jpg')")
+              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+              ul(class="service-post__service service-list")
+                li(class="service-list__item") リウマチ科
+                li(class="service-list__item") アンチエイジング
+              h3(class="service-post__title") 「関節リウマチ除外後の関節痛に対するアグリコン型イソフラボン (へバスター) の効果の検討」日本リウマチ学会（2021）で院長が発表
+              p(class="service-post__excerpt")
+
+          li(class="service-post__item category--aging")
+            a(href="" class="service-post__link")
+              span(class="service-post__thumbnail" style="background-image: url('../images/85d50a5d6f17e17653ecdd60c1e63fc2-scaled-e1597046043749-500x300.jpg')")
+              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+              ul(class="service-post__service service-list")
+                li(class="service-list__item") リウマチ科
+                li(class="service-list__item") アンチエイジング
+              h3(class="service-post__title") 「関節リウマチ除外後の関節痛に対するアグリコン型イソフラボン (へバスター) の効果の検討」日本リウマチ学会（2021）で院長が発表
+              p(class="service-post__excerpt")
+
+          li(class="service-post__item category--aging")
+            a(href="" class="service-post__link")
+              span(class="service-post__thumbnail" style="background-image: url('../images/85d50a5d6f17e17653ecdd60c1e63fc2-scaled-e1597046043749-500x300.jpg')")
+              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+              ul(class="service-post__service service-list")
+                li(class="service-list__item") リウマチ科
+                li(class="service-list__item") アンチエイジング
+              h3(class="service-post__title") 「関節リウマチ除外後の関節痛に対するアグリコン型イソフラボン (へバスター) の効果の検討」日本リウマチ学会（2021）で院長が発表
+              p(class="service-post__excerpt")
+
+          li(class="service-post__item category--aging")
+            a(href="" class="service-post__link")
+              span(class="service-post__thumbnail" style="background-image: url('../images/85d50a5d6f17e17653ecdd60c1e63fc2-scaled-e1597046043749-500x300.jpg')")
+              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+              ul(class="service-post__service service-list")
+                li(class="service-list__item") リウマチ科
+                li(class="service-list__item") アンチエイジング
+              h3(class="service-post__title") 「関節リウマチ除外後の関節痛に対するアグリコン型イソフラボン (へバスター) の効果の検討」日本リウマチ学会（2021）で院長が発表
+              p(class="service-post__excerpt")
+
+          li(class="service-post__item category--aging")
+            a(href="" class="service-post__link")
+              span(class="service-post__thumbnail" style="background-image: url('../images/85d50a5d6f17e17653ecdd60c1e63fc2-scaled-e1597046043749-500x300.jpg')")
+              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+              ul(class="service-post__service service-list")
+                li(class="service-list__item") リウマチ科
+                li(class="service-list__item") アンチエイジング
+              h3(class="service-post__title") 「関節リウマチ除外後の関節痛に対するアグリコン型イソフラボン (へバスター) の効果の検討」日本リウマチ学会（2021）で院長が発表
+              p(class="service-post__excerpt")
+        a(href="#" class="button-arrow button-arrow--red") もっと見る
+
+
+    section(class="home-doctor on-scroll-add-class")
+      div(class="inner-wrapper")
+        h2(class="content-head")
+          span(class="content-head__jp")
+            span(class="") 医
+            span(class="") 師
+            span(class="") 紹
+            span(class="") 介
+          span(class="content-head__en") Doctor
+        div(class="doctor-profile")
+          div(class="doctor-name--wrapper")
+            h3(class="doctor-profile__name doctor-name") 山田 一郎
+              span(class="doctor-name__ruby") Ichiro <br class="sp-only">Yamada
+          section(class="doctor-career")
+            h4(class="doctor-career__title") ［専門医資格］
+            ul(class="doctor-career__li")
+              li(class="doctor-career__item") 医学博士
+              li(class="doctor-career__item") 日本リウマチ学会専門医・指導医・評議員
+              li(class="doctor-career__item") 日本臨床免疫学会評議員
+              li(class="doctor-career__item") 日本臨床免疫学会免疫療法認定医
+          button(class="sp-only") 詳しく見る
+          div(class="doctor-career--wrapper")
+            section(class="doctor-career")
+              h4(class="doctor-career__title") ［経歴］
+              ul(class="doctor-career__li")
+                li(class="doctor-career__item")
+                  span(class="doctor-career__year") 平成4年
+                  span(class="doctor-career__description") 北海道釧路湖陵高校 理数科 卒業
+                li(class="doctor-career__item")
+                  span(class="doctor-career__year") 平成10年
+                  span(class="doctor-career__description") 産業医科大学医学部　卒業
+                li(class="doctor-career__item")
+                  span(class="doctor-career__year") 平成19年
+                  span(class="doctor-career__description") 産業医科大学第一内科学　助教
+                li(class="doctor-career__item")
+                  span(class="doctor-career__year") 平成21年
+                  span(class="doctor-career__description") 米国ペンシルベニア大学医学部留学
+                li(class="doctor-career__item")
+                  span(class="doctor-career__year") 平成24年
+                  span(class="doctor-career__description") 産業医科大学若松病院<br>リウマチ・糖尿病内科診療科長
+                li(class="doctor-career__item")
+                  span(class="doctor-career__year") 平成27年
+                  span(class="doctor-career__description") 産業医科大学第一内科学外来医長学内講師
+                li(class="doctor-career__item")
+                  span(class="doctor-career__year") 平成28年
+                  span(class="doctor-career__description") 北海道大学内科Ⅱ　特任講師
+                li(class="doctor-career__item")
+                  span(class="doctor-career__year") 平成28年
+                  span(class="doctor-career__description") 北海道内科リウマチ科病院リウマチ膠原病センタ―長北海道大学病院内科Ⅱ 客員臨床講師
+                li(class="doctor-career__item")
+                  span(class="doctor-career__year") 平成31年
+                  span(class="doctor-career__description") 札幌大通リウマチ内科　院長
+            section(class="doctor-career")
+              h4(class="doctor-career__title") ［主要論文］
+              ul
+                li Sawamukai N, et al., Cell-autonomous role of TGFβ and IL-2 receptors in CD4+ and CD8+ inducible regulatory T-cell generation during GVHD.<br>Blood. 2012.
+                li Sawamukai N, et al., Mast cell-derived tryptase inhibits apoptosis of human rheumatoid synovial fibroblasts via rho-mediated signaling.<br>Arthritis Rheum. 2010.
+                li Sawamukai N, et al., J Immunol. 2007.
+                li 上記の筆頭著者論文他、共著者、国内・国際学会発表多数
+
+    section(class="home-staff on-scroll-add-class")
+      div(class="pattern-bg")
+        div(class="pattern-bg__pattern")
+        div(class="pattern-bg__white--left")
+        div(class="pattern-bg__white--right")
+      div(class="inner-wrapper inner-wrapper--staff")
+        h2(class="content-head")
+          span(class="content-head__jp")
+            span(class="") ス
+            span(class="") タ
+            span(class="") ッ
+            span(class="") フ
+            span(class="") 紹
+            span(class="") 介
+          span(class="content-head__en") Staff
+        ul(class="slick04 staff-introduction__li")
+          li(class="staff-introduction__item staff-introduction__item--concierge")
+            dl(class="staff-introduction__dl")
+              dt(class="staff-introduction__dt") 医療コンシェルジュ
+              dd(class="staff-introduction__dd")
+                p(class="") Comment
+                p(class="") 少しでも患者様の心や体が安らげるよう、温かみのある対応を心掛けております。一人一人の患者様と個室で接することにより、安心感や信頼感を感じていただけたら幸いです。痛み、悩み、心配事など、何でもお気軽にご相談ください。患者様のお気持ちに寄り添い、より良い医療を提供できるようサポートしていきたいと思っております。
+          li(class="staff-introduction__item staff-introduction__item--nurse")
+            dl(class="staff-introduction__dl")
+              dt(class="staff-introduction__dt") 看護師
+              dd(class="staff-introduction__dd")
+                p(class="staff-introduction__comment") Comment
+                p(class="staff-introduction__comment-body") リウマチケア看護師（日本リウマチ財団）を取得しております。長年、基幹病院の内科外来で勤務し、リウマチ膠原病の患者さんの薬剤説明や、自己注射指導などリウマチケア看護師として働いておりました。<br>丁寧でわかりやすい対応を心掛け、患者さんに寄りそった看護を提供して参りたいと思います。
+        section(class="staff-blog")
+          div(class="staff-blog__head")
+            h3(class="content-head content-head--align-left")
+              span(class="content-head__jp")
+                span(class="") ス
+                span(class="") タ
+                span(class="") ッ
+                span(class="") フ
+                span(class="") ブ
+                span(class="") ロ
+                span(class="") グ
+            div(class="staff-blog__buttons")
+              a(class="staff-blog__button button-arrow button-arrow--red") 一覧はこちら
+              a(class="staff-blog__button button-arrow button-arrow--blue") 採用情報
+          div(class="staff-blog__body")
+            ul(class="post-list staff-blog__posts")
+              li(class="post-list__post")
+                a(class="post-list__link")
+                  time(class="post-list__date" datetime="2022-07-06") 2022.07.06
+                  p(class="post-list__content") 夏がくる～♪
+              li(class="post-list__post")
+                a(class="post-list__link")
+                  time(class="post-list__date" datetime="2022-07-06") 2022.06.29
+                  p(class="post-list__content") 関節リウマチ患者さんの妊娠・出産について
+              li(class="post-list__post")
+                a(class="post-list__link")
+                  time(class="post-list__date" datetime="2022-07-06") 2022.07.06
+                  p(class="post-list__content") アジサイの季節
+
+    section(class="home-hospital-referral on-scroll-add-class")
+      div(class="inner-wrapper")
+        h2(class="content-head")
+          span(class="content-head__jp")
+            span(class="") 院
+            span(class="") 内
+            span(class="") 紹
+            span(class="") 介
+          span(class="content-head__en") Hospital Referral
+        p(class="text--center") 虹をコンセプトに、7色の診察室を北欧風の内装に整えました。診察室ですぐ受けられる超音波検査や、レントゲン、快適な点滴リクライニングソファーなどの設備も揃っています。
+        ul(class="referral-list")
+          li(class="referral-list__li")
+            a(href="#" class="referral-list__link")
+              dl(class="referral-list__dl")
+                dt(class="referral-list__dt")
+                  figure(class="referral-list__figure")
+                    img(src="../images/hospital_thumb_01.jpg" alt="外観" width="233" height="233" class="referral-list__image")
+                    figcaption(class="referral-list__figcaption") 外観
+                dd(class="referral-list__dd") 札幌三越の隣、1階にマツモトキヨシが入っているビルの5階です。
+          li(class="referral-list__li")
+            a(href="#" class="referral-list__link")
+              dl(class="referral-list__dl")
+                dt(class="referral-list__dt")
+                  figure(class="referral-list__figure")
+                    img(src="../images/hospital_thumb_02.jpg" alt="エントランス" width="233" height="233" class="referral-list__image")
+                    figcaption(class="referral-list__figcaption") エントランス
+                dd(class="referral-list__dd") エレベーターで5階へ上がっていただくとそのままエントランスになっております。
+          li(class="referral-list__li")
+            a(href="#" class="referral-list__link")
+              dl(class="referral-list__dl")
+                dt(class="referral-list__dt")
+                  figure(class="referral-list__figure")
+                    img(src="../images/hospital_thumb_03.jpg" alt="受付" width="233" height="233" class="referral-list__image")
+                    figcaption(class="referral-list__figcaption") 受付
+                dd(class="referral-list__dd") 受付にてご案内いたします。コンシェルジュにお声がけください。
+          li(class="referral-list__li")
+            a(href="#" class="referral-list__link")
+              dl(class="referral-list__dl")
+                dt(class="referral-list__dt")
+                  figure(class="referral-list__figure")
+                    img(src="../images/hospital_thumb_04.jpg" alt="通路" width="233" height="233" class="referral-list__image")
+                    figcaption(class="referral-list__figcaption") 通路
+                dd(class="referral-list__dd") 個室の診察室が7つ並んでおりますので、指定の個室にお入りください。
+          li(class="referral-list__li")
+            a(href="#" class="referral-list__link")
+              dl(class="referral-list__dl")
+                dt(class="referral-list__dt")
+                  figure(class="referral-list__figure")
+                    img(src="../images/hospital_thumb_05.jpg" alt="診察室" width="233" height="233" class="referral-list__image")
+                    figcaption(class="referral-list__figcaption") 診察室
+                dd(class="referral-list__dd") 虹の7色それそれに彩られた個室での診察となります。
+          li(class="referral-list__li")
+            a(href="#" class="referral-list__link")
+              dl(class="referral-list__dl")
+                dt(class="referral-list__dt")
+                  figure(class="referral-list__figure")
+                    img(src="../images/hospital_thumb_06.jpg" alt="レントゲン" width="233" height="233" class="referral-list__image")
+                    figcaption(class="referral-list__figcaption") レントゲン
+                dd(class="referral-list__dd") レントゲン設備を備えております。
+          li(class="referral-list__li")
+            a(href="#" class="referral-list__link")
+              dl(class="referral-list__dl")
+                dt(class="referral-list__dt")
+                  figure(class="referral-list__figure")
+                    img(src="../images/hospital_thumb_07.jpg" alt="点滴室" width="233" height="233" class="referral-list__image")
+                    figcaption(class="referral-list__figcaption") 点滴室
+                dd(class="referral-list__dd") 点滴室にはリラックスできるリクライニングチェアをご用意しております。
+          li(class="referral-list__li")
+            a(href="#" class="referral-list__link")
+              dl(class="referral-list__dl")
+                dt(class="referral-list__dt")
+                  figure(class="referral-list__figure")
+                    img(src="../images/hospital_thumb_08.jpg" alt="院内サイン(アイコン)" width="233" height="233" class="referral-list__image")
+                    figcaption(class="referral-list__figcaption") 院内サイン(アイコン)
+                dd(class="referral-list__dd") 院内にはわかりやすく案内の表示がございます。
+
+    section(class="home-clinic-map on-scroll-add-class")
+      div(class="inner-wrapper")
+        h2(class="content-head")
+          span(class="content-head__jp")
+            span(class="") 診
+            span(class="") 察
+            span(class="") 室
+            span(class="") マ
+            span(class="") ッ
+            span(class="") プ
+          span(class="content-head__en") Clinic Map
+        p(class="") 当院は虹の7色をコンセプトに、7つの診察室それぞれにイメージカラーが使われています。
+        
+
+    section(class="home-access on-scroll-add-class")
+      div(class="pattern-bg")
+        div(class="pattern-bg__pattern")
+        div(class="pattern-bg__white--left")
+        div(class="pattern-bg__white--right")
+      div(class="inner-wrapper inner-wrapper--access")
+        h2(class="content-head content-head--align-left")
+          span(class="content-head__jp")
+            span(class="") ア
+            span(class="") ク
+            span(class="") セ
+            span(class="") ス
+          span(class="content-head__en") Access
+        div(class="home-access__guidance--wrapper")
+          p(class="home-access__guidance") 札幌大通リウマチ内科は南一条通の札幌三越横、マツモトキヨシのビル5階にございます。場所が分からない時はお気軽にお電話ください。
+        div(class="home-access__location access-info")
+          p(class="access-info__post") 〒060-0061
+          p(class="access-info__location") 札幌市中央区南1条⻄3丁⽬8<br>エムズ札幌ビル5階
+          a(href="tel:000-0000-0000" class="access-info__tellink") TEL.
+            span(class="access-info__telnum") 000-0000-0000
+        dl(class="home-access__traffic traffic-info")
+          dt(class="traffic-info__dt traffic-info__dt--subway") 地下鉄
+          dd(class="traffic-info__dd") 南北線・東西線・東豊線 大通駅 17番出口 徒歩1分<br>東豊線からは大通駅 33番出口も便利です。徒歩2分
+          dt(class="traffic-info__dt traffic-info__dt--car") お車
+          dd(class="traffic-info__dd")
+            p(class="") 駐車無料券(カモンチケット1時間分)を差し上げます。チケットが使える近隣駐車場をご利用下さい。大通公園の地下街と直結する、札幌大通地下駐車場（自走式366台、車いす対応、身障者対応エレベーター）が便利です。
+            a(href="#" class="traffic-info__link" target="_blank") このマークの付いた駐車場をご利用ください。<br>↑詳しくはカモンチケットのマークをクリック
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2915.1467514343813!2d141.353761!3d43.059381!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7e06ddb4f6cd27ff!2z5pyt5bmM5aSn6YCa44Oq44Km44Oe44OB5YaF56eR!5e0!3m2!1sja!2sjp!4v1657818779557!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="home-access__googlemap"></iframe>
+
+    section(class="home-reservation on-scroll-add-class")
+      div(class="inner-wrapper")
+        h2(class="content-head")
+          span(class="content-head__jp")
+            span(class="") ご
+            span(class="") 予
+            span(class="") 約
+          span(class="content-head__en") Reservation
+        div(class="home-reservation--box")
+          h3(class="home-reservation__title") リウマチ科
+          div(class="home-reservation__dl--wrapper")
+            dl(class="home-reservation__dl")
+              dt(class="home-reservation__dt")
+                a(href="#" class="button-arrow button-arrow--red") 初診の方
+              dd(class="home-reservation__dd")
+                h4(class="home-reservation__title--small") 初診の方へ
+                p(class="home-reservation__text--small") 初診の方は、丁寧に状況を聞いたり、検査の計画、治療のご提案などの説明にお時間がかかります。お時間に余裕をもってお越し下さい。
+            dl(class="home-reservation__dl")
+              dt(class="home-reservation__dt")
+                p(class="button-arrow button-arrow--red") 再診をご希望の方
+              dd(class="home-reservation__dd")
+                p(class="") 現在当院では、再診のご予約をお電話にて承っております。<br>ご希望の方は、以下までお電話ください。
+                a(href="tel:011-280-7777" class="home-reservation__tel") 011-280-7777
+                p(class="") 月～金曜日 / 9:00-13:00 14:00-17:00<br>土日・祝祭日 / 休診
+        div(class="home-reservation--box")
+          h3(class="home-reservation__title") アンチエイジング
+          div(class="home-reservation__dl")
+            a(href="#" class="button-arrow button-arrow--orange") 初診の方
+

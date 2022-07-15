@@ -1,0 +1,40 @@
+@charset "UTF-8";
+// ====================================
+// サイトの基本設定
+// ====================================
+
+// 幅関係の設定 -------------------------
+$width-base: 1190px;
+// $width-main: 800px;
+// $width-side: 360px;
+
+// フォント関係の設定 -------------------------
+$font-base: 'Noto Serif JP', YuMincho, "Yu Mincho", 'Hiragino Mincho ProN', Georgia, "Times New Roman", Times, 'MS P Mincho', 'MS Mincho', serif;
+$font-gothic: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+
+// 色関係の設定 -------------------------
+// サイトカラー
+$color-base: #fff;
+$color-main: #f7f7f5;
+$color-accent: #da6669;
+
+$color-rheumatoid: #da6669;
+$color-internal: #74c7d1;
+$color-aging: #e2915a;
+
+// フォントカラー
+$color-font: #433f3f;
+
+// リンクカラー
+// $color-link: #ff8c28;
+
+// ブレイクポイント -------------------------
+$breakpoints: (
+  tb: "screen and (min-width: 600px)",
+  pc: "screen and (min-width: 1025px)",
+);
+
+// z-index -------------------------
+$z-index: (
+  header: "10",
+)

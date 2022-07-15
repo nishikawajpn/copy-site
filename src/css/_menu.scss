@@ -1,0 +1,32 @@
+// *********************************
+//  Global navi
+// *********************************
+.global-nav__button {
+  width: 30px;
+  height: 20px;
+  position: relative;
+
+  .global-nav__line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: $color-font;
+    position: absolute;
+
+    &:nth-child(1) {
+      top: 0;
+      left: 0;
+    }
+
+    &:nth-child(2) {
+      top: 50%;
+      left: 0;
+      width: 66%;
+    }
+
+    &:nth-child(3) {
+      top: 100%;
+      left: 0;
+    }
+  }
+}

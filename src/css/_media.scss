@@ -1,0 +1,5 @@
+@mixin media ($device) {
+  @media #{map-get($breakpoints, $device)} {
+    @content;
+  }
+}
