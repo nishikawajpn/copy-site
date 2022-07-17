@@ -1,7 +1,7 @@
 export default (() => {
 
   let homeLoading = document.getElementById('home-loading');
-  let homeMainisual = document.getElementById('home-loading');
+  let homeMainisual = document.getElementById('home-mainvisual');
 
   if (homeLoading) {
     setTimeout(() => {homeLoading.classList.add('on')}, 400);

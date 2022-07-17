@@ -7,7 +7,6 @@
   left: 0;
   width: 100%;
   background-color: #fff;
-  box-shadow: 0 0 3px 0 rgba(0, 0, 0, .1);
   display: flex;
   justify-content: end;
   align-items: center;
@@ -36,7 +35,7 @@
     background-color: $color-accent;
     text-decoration: none;
     color: #fff;
-    padding: 4px 6px 4px 16px;
+    padding: 4px 6px 4px 19px;
     position: relative;
     line-height: 1;
     font-size: 1.1rem;
@@ -58,6 +57,12 @@
 
   &__info--tab-pc {
     display: none;
+  }
+}
+
+body.scrolled {
+  .header {
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .1);
   }
 }
 
@@ -135,9 +140,22 @@
   background-size: 27px 78px;
   padding-bottom: 100px;
 
+  &__left {
+    margin-bottom: 20px;
+  }
+
   &__innner {
     max-width: $width-base;
     padding: 0 20px;
+  }
+
+  &__title {
+    font-size: 1.7rem;
+    margin-bottom: 0.5em;
+
+    small {
+      font-size: .8em;
+    }
   }
 
   &__logo {
@@ -161,6 +179,10 @@
 .footer-nav {
   columns: 2;
   margin: 30px 0 0;
+
+  &__item {
+    margin-bottom: 0.5em;
+  }
 
   &__link {
     color: $color-font;
@@ -194,6 +216,7 @@
     &--wrapper {
       display: flex;
       justify-content: space-between;
+      margin-bottom: 20px;
     }
   }
 
@@ -219,7 +242,65 @@
   }
 }
 
-@include media('pc') {
+.footer-payment {
+  margin-bottom: 1em;
+}
+
+.footer-location {
+  margin-bottom: 1em;
+
+  small {
+    font-size: 0.9em;
+  }
+}
+
+.footer-tellink {
+  background-color: $color-red;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.7rem;
+  padding: 12px 30px 12px 8px;
+  line-height: 1;
+  text-align: center;
+  border-radius: 6px;
+  position: relative;
+  transition: .3s;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url('../images/ico_arrow02_wh.svg') center no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+
+  &__num {
+    font-size: 3.1rem;
+    font-family: $font-mincho;
+  }
+
+  &:hover {
+    opacity: .7;
+  }
+}
+
+@include media('tb') {
+  .footer-tellink {
+    color: $color-font;
+    background: none;
+    text-align: left;
+    padding: 0;
+    pointer-events: none;
+  }
+}
+
+@include media('tb') {
   .footer {
     padding: 0 40px;
 
@@ -237,6 +318,7 @@
       padding: 50px 0;
     }
   }
+
 }
 
 

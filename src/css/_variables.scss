@@ -11,6 +11,7 @@ $width-base: 1190px;
 // フォント関係の設定 -------------------------
 $font-base: 'Noto Serif JP', YuMincho, "Yu Mincho", 'Hiragino Mincho ProN', Georgia, "Times New Roman", Times, 'MS P Mincho', 'MS Mincho', serif;
 $font-gothic: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+$font-mincho: 'Libre Baskerville', serif;
 
 // 色関係の設定 -------------------------
 // サイトカラー
@@ -18,9 +19,15 @@ $color-base: #fff;
 $color-main: #f7f7f5;
 $color-accent: #da6669;
 
-$color-rheumatoid: #da6669;
-$color-internal: #74c7d1;
-$color-aging: #e2915a;
+$color-purple: #b35d9b;
+$color-lightpurple: #908cc1;
+$color-navy: #3c648b;
+$color-blue: #a6c2e1;
+$color-lightblue: #74c7d1;
+$color-green: #8bb89e;
+$color-yellow: #eadb88;
+$color-orange: #e2915a;
+$color-red: #da6669;
 
 // フォントカラー
 $color-font: #433f3f;
@@ -37,5 +44,8 @@ $breakpoints: (
 // z-index -------------------------
 $z-index: (
   header: "10",
-  loading: "11"
+  loading: "11",
+  fixed-button: "9",
+  mainvisual: "2",
+  news: "1",
 )
