@@ -72,4 +72,14 @@ export default(() => {
     });
   });
 
+  $('.slick01').on("beforeChange", function(event, slick, currentSlide, nextSlide){
+    $(".point-slide__item").each(function() {
+      $(this).removeClass('on')
+    });
+  });
+
+  $('.slick01').on("afterChange", function(event, slick, currentSlide){
+    $(".point-slide__item")[currentSlide + 1].classList.add('on');
+  });
+
 });

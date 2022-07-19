@@ -37,6 +37,7 @@ $color-font: #433f3f;
 
 // ブレイクポイント -------------------------
 $breakpoints: (
+  sp: "screen and (max-width: 599px)",
   tb: "screen and (min-width: 600px)",
   pc: "screen and (min-width: 1025px)",
 );
