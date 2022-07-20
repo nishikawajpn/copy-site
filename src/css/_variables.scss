@@ -44,9 +44,10 @@ $breakpoints: (
 
 // z-index -------------------------
 $z-index: (
-  header: "10",
   loading: "11",
-  fixed-button: "9",
+  header: "10",
+  menu: "9",
+  fixed-button: "8",
   mainvisual: "2",
   news: "1",
 )

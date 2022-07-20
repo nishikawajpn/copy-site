@@ -304,6 +304,10 @@
   .point-slide__item {
     flex: 0 1 48%;
 
+    &:nth-child(-n+2) {
+      margin-bottom: 30px;
+    }
+
     &:nth-child(n + 3) {
       flex: 0 1 31%;
     }

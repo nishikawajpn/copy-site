@@ -1,7 +1,7 @@
 @include media(pc) {
-  // body {
-  //   font-size: 1.6rem;
-  // }
+  body {
+    font-size: 1.6rem;
+  }
 
   .button-arrow {
     font-size: 1.9rem;
@@ -9,6 +9,7 @@
 
   .inner-wrapper--flow {
     max-width: 1110px;
+
   }
 
   .inner-wrapper--staff {

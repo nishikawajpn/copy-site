@@ -1,6 +1,37 @@
-div(class="global-nav__button")
-  span(class="global-nav__line")
-  span(class="global-nav__line")
-  span(class="global-nav__line")
-nav(class="global-nav")
-  a(href="/index.html") index.html<br>
+nav(class="global-nav" id="global-nav")
+  div(class="global-nav__inner")
+    div(class="global-nav__li--wrapper")
+      ul(class="global-nav__li")
+        li(class="global-nav__item")
+          a(href="/" class="global-nav__link") わたしたちのこと
+            span(class="global-nav__en") About
+        li(class="global-nav__item")
+          a(href="/" class="global-nav__link") 院長ごあいさつ
+            span(class="global-nav__en") Greeting
+        li(class="global-nav__item")
+          a(href="/" class="global-nav__link") はじめての方へ
+            span(class="global-nav__en") Beginner's Guide
+        li(class="global-nav__item")
+          a(href="/" class="global-nav__link") 診療内容について
+            span(class="global-nav__en") Medical Service
+      ul(class="global-nav__li")
+        li(class="global-nav__item")
+          a(href="/" class="global-nav__link") お知らせ
+            span(class="global-nav__en") News
+        li(class="global-nav__item")
+          a(href="/" class="global-nav__link") スタッフ紹介
+            span(class="global-nav__en") Staff
+        li(class="global-nav__item")
+          a(href="/" class="global-nav__link") 院内紹介
+            span(class="global-nav__en") Hospital Referral
+        li(class="global-nav__item")
+          a(href="/" class="global-nav__link") アクセス
+            span(class="global-nav__en") Access
+    div(class="global-nav__footer")
+      div(class="global-nav__reservation--wrapper")
+        a(href="#" class="global-nav__reservation") 初診の<span class="global-nav__reservation--text-large">ご予約はこちら</span>Reservation
+      div(class="global-nav__info")
+        p(class="global-nav__location") 札幌市中央区南1条西3丁目8 エムズ札幌ビル5階
+        p(class="global-nav__time") 月～金曜日 / 9：00-13：00　14：00-17：00<br>土・日・祝祭日 / 休診
+        p(class="global-nav__tel") Tel : <em class="global-nav__tel-em">011-280-7777</em>
+

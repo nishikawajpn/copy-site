@@ -7,6 +7,7 @@ import onScroll from './_on-scroll';
 import slick from './_slick';
 import slideToggle from './_slide-toggle';
 import loading from './_loading';
+import menu from './_menu';
 // import smoothScroll from './_smooth-scroll';
 import '../css/style.scss';
 

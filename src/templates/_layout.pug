@@ -20,10 +20,14 @@ html(lang="en")
           img(src="../images/logo_01.svg" class="header__logo" width="322" height="auto" alt="")
       a(href="#" class="header__info--sp") 診療時間
       div(class="header__info--tab-pc")
-        a(href="tel:011-280-7777" class="header-tel") Tel :
+        p(class="header-tel") Tel :
           span(class="header-tel__large") 011-280-7777
         p(class="header__date") 月～金　<span class="header__date--emphasis">9:00-13:00／14:00-17:00</span>　土日・祝祭日　休診
-      include _menu.pug
+      div(class="global-nav__button" id="global-nav__button")
+        span(class="global-nav__line")
+        span(class="global-nav__line")
+        span(class="global-nav__line")
+    include _menu.pug
 
     block content
 

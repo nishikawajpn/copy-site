@@ -1,6 +1,6 @@
 html {
   font-size: 62.5%;
-  // scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -1331,6 +1331,10 @@ body {
   position: relative;
 }
 
+.home-flow__li {
+  overflow: hidden;
+}
+
 .home-flow__item {
   margin: 0 auto;
   display: inline-block;
@@ -1339,6 +1343,7 @@ body {
   transform: translateX(50px);
   opacity: 0;
   transition: 1.5s;
+  box-sizing: border-box;
 }
 
 .on .home-flow__item {
