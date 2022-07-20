@@ -1,16 +1,16 @@
 extends _layout.pug
 
 block locals
-  - var title = 'Top Page'
-  - var pageDescription = 'This is Top Page.'
-  - var url = 'https://';
+  - var title = '札幌大通リウマチ内科｜大通駅徒歩1分のリウマチ専門医院'
+  - var pageDescription = '手のこわばりや腫れや痺れが気になったら、まずはリウマチ専門医への受診をおすすめいたします。札幌大通リウマチ内科は、ネット予約対応の完全予約制となっており、受診時は医療コンシェルジュが皆様の症状や心配事を丁寧に伺います。また、リウマチの検査結果や治療の記録はアプリと連携することが可能です。'
+  - var url = 'https://nishikawatakeshi.com/';
 
 block content
   main(class="main" id="top")
 
     a(href="#home-reservation" class="button-reservation") 初診の受付はこちら
 
-    div(class="home-loading on off" id="home-loading")
+    div(class="home-loading" id="home-loading")
       div(class="home-loading__inner")
         div(class="home-loading__bg")
           div(class="home-loading__bg-pattern")
@@ -38,12 +38,12 @@ block content
                 span(class="letter") う
                 span(class="letter") 。
           p(class="home-loading__logo")
-            img(src="../images/logo_02.svg" class="home-loading__logo-image" alt="" width="150" height="auto")
+            img(src="../images/logo_02.svg" class="home-loading__logo-image" alt="札幌大通りリウマチ内科" width="150")
 
-    section(class="home-mainvisual on" id="home-mainvisual")
+    section(class="home-mainvisual" id="home-mainvisual")
       div(class="home-mainvisual__inner")
         h2(class="home-mainvisual__title")
-          div(class="home-mainvisual__title--inner")
+          span(class="home-mainvisual__title--inner")
             span(class="home-mainvisual__char") 病
             span(class="home-mainvisual__char") に
             span(class="home-mainvisual__char") 向
@@ -51,7 +51,7 @@ block content
             span(class="home-mainvisual__char") 合
             span(class="home-mainvisual__char") う
             span(class="home-mainvisual__char") 、
-          div(class="home-mainvisual__title--inner")
+          span(class="home-mainvisual__title--inner")
             span(class="home-mainvisual__char") 人
             span(class="home-mainvisual__char") に
             span(class="home-mainvisual__char") 寄
@@ -62,44 +62,44 @@ block content
         p(class="home-mainvisual__texts") 新しい薬が開発されても。<br>医療がどれだけ進歩しても。<br>あなた自身の「治したい」という<br>強い気持ちには、かなわないと思う。<br>私たちはその背中を押す役目。<br>一人ひとりの痛みと悩みに寄り添う、<br>リウマチ専門クリニックです。
         div(class="home-mainvisual-decos item01 decos--c5")
           div(class="decos__item")
-            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16" alt="")
           img(src="../images/ico_decoGroup_02.svg" alt="" class="decos__image--ruler")
         div(class="home-mainvisual-decos item02 decos--c4")
           div(class="decos__item")
-            img(src="../images/deco_c4.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c4.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c4.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c4.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c4.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c4.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c4.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c4.svg" class="decos__image" width="16" height="16" alt="")
           img(src="../images/mv_deco_02.svg" alt="" class="decos__image--ruler")
         div(class="home-mainvisual-decos item03 decos--c1")
           div(class="decos__item")
-            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16" alt="")
           img(src="../images/ico_decoGroup_03.svg" alt="" class="decos__image--ruler")
       div(class="home-mainvisual__bg")
       a(href="#home-news" class="home-mainvisual__scroll")
-        img(src="../images/mv_ico_scroll.svg" alt="スクロール" width="100px" height="auto" class="home-mainvisual__scroll-image")
+        img(src="../images/mv_ico_scroll.svg" alt="スクロール" width="100" class="home-mainvisual__scroll-image")
       p(class="home-mainvisual__copyright") © sapporo odori riumachi clinic
 
-    section(class="home-news on-scroll-add-class" id="home-news")
+    section(class="home-news on-scroll-add-class")
       div(class="pattern-bg")
         div(class="pattern-bg__pattern")
         div(class="pattern-bg__white pattern-bg__white--left")
@@ -133,33 +133,33 @@ block content
       div(class="inner-wrapper")
         div(class="home-about-decos item01 decos--c7")
           div(class="decos__item")
-            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16" alt="")
           img(src="../images/ico_decoGroup_01.svg" alt="" class="decos__image--ruler")
         div(class="home-about-decos item02 decos--c5")
           div(class="decos__item")
-            img(src="../images/deco_c4.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c4.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c4.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c4.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c4.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c4.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c4.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c4.svg" class="decos__image" width="16" height="16" alt="")
           img(src="../images/mv_deco_02.svg" alt="" class="decos__image--ruler")
         div(class="home-about-decos item03 decos--c1")
           div(class="decos__item")
-            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16" alt="")
           img(src="../images/ico_decoGroup_03.svg" alt="" class="decos__image--ruler")
         h2(class="content-head content-head--mb")
           span(class="content-head__jp")
@@ -190,9 +190,9 @@ block content
           button(class="accordion-trigger home-about__continue") 続きを読む
           div(class="accordion-target home-about__accordion")
             p(class="text--about") リウマチは女性に多い病気です。当院は内科診療やアンチエイジングのご相談も含め、<br class="pc-tab-only">女性のライフスタイルを支えるクリニックとして開院しました。<br class="pc-tab-only">なにか気になる症状がある方は、虹の七色で彩られた心地よい診察室へ気軽にいらしてください。
-        img(src="../images/logo_02.svg" class="logo--vertical" width="145" height="135.19")
+        img(src="../images/logo_02.svg" class="logo--vertical" alt="札幌大通りリウマチ内科" width="145")
 
-    section(class="home-point")
+    div(class="home-point")
       div(class="parallax parallax--point")
       div(class="inner-wrapper inner-wrapper--point")
         ol(class="slick01 point-slide")
@@ -202,9 +202,9 @@ block content
             dl(class="point-slide__dl")
               dt(class="point-slide__dt")
                 div(class="point-slide__icon--container")
-                  img(src="../images/charm_ico_01_parts01.svg" alt="" class="point-slide__icon" width="64" height="auto")
-                  img(src="../images/charm_ico_01_parts02.svg" alt="" class="point-slide__icon" width="64" height="auto")
-                  img(src="../images/charm_ico_01.svg" alt="" class="point-slide__icon--ruler" width="64" height="auto")
+                  img(src="../images/charm_ico_01_parts01.svg" alt="" class="point-slide__icon" width="64")
+                  img(src="../images/charm_ico_01_parts02.svg" alt="" class="point-slide__icon" width="64")
+                  img(src="../images/charm_ico_01.svg" alt="" class="point-slide__icon--ruler" width="64")
                 span(class="point-slide__title") リウマチ専門のクリニック
               dd(class="point-slide__dd")
                 p 専門だからできることがあります。「リウマチかも？」の大半は、実はリウマチではありません。ステロイドを極力使わず、基本のお薬から新薬まで、難しい言葉を使わずに専門医が分かり易く診療します。
@@ -214,9 +214,9 @@ block content
             dl(class="point-slide__dl")
               dt(class="point-slide__dt")
                 div(class="point-slide__icon--container")
-                  img(src="../images/charm_ico_02_parts01.svg" alt="" class="point-slide__icon" width="64" height="auto")
-                  img(src="../images/charm_ico_02_parts02.svg" alt="" class="point-slide__icon" width="64" height="auto")
-                  img(src="../images/charm_ico_02.svg" alt="" class="point-slide__icon--ruler" width="64" height="auto")
+                  img(src="../images/charm_ico_02_parts01.svg" alt="" class="point-slide__icon" width="64")
+                  img(src="../images/charm_ico_02_parts02.svg" alt="" class="point-slide__icon" width="64")
+                  img(src="../images/charm_ico_02.svg" alt="" class="point-slide__icon--ruler" width="64")
                 span(class="point-slide__title") 待合室のない、完全予約制
               dd(class="point-slide__dd")
                 p 「お待たせしない」ことを追求した新しいシステムのクリニックです。完全予約制で来院してすぐに診察室に入れるので、待合室で人を気にする必要もありません。空き時間はネットで簡単に確認可能。時間が読めるクリニックです。
@@ -226,9 +226,9 @@ block content
             dl(class="point-slide__dl")
               dt(class="point-slide__dt")
                 div(class="point-slide__icon--container")
-                  img(src="../images/charm_ico_03_parts01.svg" alt="" class="point-slide__icon" width="64" height="auto")
-                  img(src="../images/charm_ico_03_parts02.svg" alt="" class="point-slide__icon" width="64" height="auto")
-                  img(src="../images/charm_ico_03.svg" alt="" class="point-slide__icon--ruler" width="64" height="auto")
+                  img(src="../images/charm_ico_03_parts01.svg" alt="" class="point-slide__icon" width="64")
+                  img(src="../images/charm_ico_03_parts02.svg" alt="" class="point-slide__icon" width="64")
+                  img(src="../images/charm_ico_03.svg" alt="" class="point-slide__icon--ruler" width="64")
                 span(class="point-slide__title") 医療コンシェルジュが対応
               dd(class="point-slide__dd")
                 p 専属の医療コンシェルジュが問診から会計まで対応します。気になる症状や日常生活で困っていること、今後の通院についてなど、医師にはちょっと言いにくいようなことでも、お気軽にご相談下さい。
@@ -238,9 +238,9 @@ block content
             dl(class="point-slide__dl")
               dt(class="point-slide__dt")
                 div(class="point-slide__icon--container")
-                  img(src="../images/charm_ico_04_parts01.svg" alt="" class="point-slide__icon" width="64" height="auto")
-                  img(src="../images/charm_ico_04_parts02.svg" alt="" class="point-slide__icon" width="64" height="auto")
-                  img(src="../images/charm_ico_04.svg" alt="" class="point-slide__icon--ruler" width="64" height="auto")
+                  img(src="../images/charm_ico_04_parts01.svg" alt="" class="point-slide__icon" width="64")
+                  img(src="../images/charm_ico_04_parts02.svg" alt="" class="point-slide__icon" width="64")
+                  img(src="../images/charm_ico_04.svg" alt="" class="point-slide__icon--ruler" width="64")
                 span(class="point-slide__title") 検査結果もスマホで確認
               dd(class="point-slide__dd")
                 p 検査結果はスマホで確認！もう結果が出るまで待つ必要はありません。特に、リウマチ患者さんが気になる炎症反応（CRP）、血球数は3分で結果が出ます。専門アプリにも対応しておりますので、詳しくはコンシェルジュにお尋ね下さい。
@@ -250,9 +250,9 @@ block content
             dl(class="point-slide__dl")
               dt(class="point-slide__dt")
                 div(class="point-slide__icon--container")
-                  img(src="../images/charm_ico_05_parts01.svg" alt="" class="point-slide__icon" width="64" height="auto")
-                  img(src="../images/charm_ico_05_parts02.svg" alt="" class="point-slide__icon" width="64" height="auto")
-                  img(src="../images/charm_ico_05.svg" alt="" class="point-slide__icon--ruler" width="64" height="auto")
+                  img(src="../images/charm_ico_05_parts01.svg" alt="" class="point-slide__icon" width="64")
+                  img(src="../images/charm_ico_05_parts02.svg" alt="" class="point-slide__icon" width="64")
+                  img(src="../images/charm_ico_05.svg" alt="" class="point-slide__icon--ruler" width="64")
                 span(class="point-slide__title") 大通駅徒歩1分のアクセス
               dd(class="point-slide__dd")
                 p リウマチとは長いお付き合いになっていきます。札幌のショッピング街、デパート近くの立地で、来院ついでにお買い物も。定期通院に付加価値を見つけてちょっとした楽しみにしましょう。
@@ -287,43 +287,43 @@ block content
             p(class="lead-sentence--small") 説明は「わかりやすく丁寧に」を心がけています。
             p(class="home-greeting__text") ​大学病院では重症・難病の治療、新規治療法の研究、学生や医師の教育などを行ってきました。研究や教育もやりがいはありましたが、多くの患者さんと関わり、患者さんから感謝の言葉をいただくことで、専門医として努力してきたことが報われた気がし、何より医者になって本当に良かったと実感できました。<br class="pc-tab-only">女性に多く、長期的な治療が大切なリウマチ。ですが、病院では待ち時間ばかりが長く、診察はすぐ終わってしまうということも珍しくありません。女性の方に快適に、専門クリニックでもお待たせしない診療を目指し、過去に前例のないユニークなクリニックを開院しました。<br class="pc-tab-only">専門医による最新の治療を、患者さん一人一人に寄り添って提供していきたいと考えております。<br class="pc-tab-only">あなたに寄り添い、共にリウマチに向き合う医療を。
             p(class="role-name--wrapper") 院長
-              span(class="role-name__name") 山田 一郎
+              span(class="role-name__name") 澤向 範文
 
     section(class="home-beginner on-scroll-add-class" id="home-beginner")
       div(class="inner-wrapper")
         div(class="home-beginner-decos item01 decos--c7")
           div(class="decos__item")
-            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16" alt="")
           img(src="../images/ico_decoGroup_01.svg" alt="" class="decos__image--ruler")
         div(class="home-beginner-decos item02 decos--c5")
           div(class="decos__item")
-            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16" alt="")
           img(src="../images/ico_decoGroup_02.svg" alt="" class="decos__image--ruler")
         div(class="home-beginner-decos item03 decos--c1")
           div(class="decos__item")
-            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16" alt="")
           img(src="../images/ico_decoGroup_03.svg" alt="" class="decos__image--ruler")
         h2(class="content-head content-head--mb")
           span(class="content-head__jp")
@@ -399,16 +399,16 @@ block content
           span(class="content-head__en") Flow
         ul(class="slick02 home-flow__li")
           li(class="home-flow__item")
-            img(alt="予約・受付" src="../images/flow_head_01.svg" width="254" height="auto" class="home-flow__image")
+            img(alt="予約・受付" src="../images/flow_head_01.svg" width="254" class="home-flow__image")
             p(class="home-flow__desc") 完全予約制、当日予約もお受けします。スマホでネット予約が便利ですが、お電話もOK。受付後はまっすぐ診察室へ。
           li(class="home-flow__item")
-            img(alt="問診" src="../images/flow_head_02.svg" width="254" height="auto" class="home-flow__image")
+            img(alt="問診" src="../images/flow_head_02.svg" width="254" class="home-flow__image")
             p(class="home-flow__desc") コンシェルジュが丁寧に問診をします。気になる症状についてお伝え下さい。
           li(class="home-flow__item")
-            img(alt="診察・検査" src="../images/flow_head_03.svg" width="254" height="auto" class="home-flow__image")
+            img(alt="診察・検査" src="../images/flow_head_03.svg" width="254" class="home-flow__image")
             p(class="home-flow__desc") 先生が丁寧に関節を診察し、超音波検査や血液検査、注射も診察室でおこなえます。納得のいくまで治療方針を相談しましょう。
           li(class="home-flow__item")
-            img(alt="処方" src="../images/flow_head_04.svg" width="254" height="auto" class="home-flow__image")
+            img(alt="処方" src="../images/flow_head_04.svg" width="254" class="home-flow__image")
             p(class="home-flow__desc") 治療方針が決定したら、院内処方を診察室でお受け取りください（※内服7剤以上は院外処方となります）。次回予約をしてお会計となります。
     div(class="home-apps")
       div(class="inner-wrapper inner-wrapper--apps")
@@ -423,10 +423,10 @@ block content
           ul(class="home-apps__link-list")
             li(class="home-apps__link-item")
               a(href="#" class="home-apps__anchor")
-                img(src="../images/badge_appStore.png" class="home-apps__app-image" alt="App Store からダウンロード" width="205" height="auto")
+                img(src="../images/badge_appStore.png" class="home-apps__app-image" alt="App Store からダウンロード" width="205")
             li(class="home-apps__link-item")
               a(href="#" class="home-apps__anchor")
-                img(src="../images/badge_googlePlay.png" class="home-apps__app-image" alt="Google Play で手に入れよう" width="205" height="auto")
+                img(src="../images/badge_googlePlay.png" class="home-apps__app-image" alt="Google Play で手に入れよう" width="205")
         div(class="home-apps__item home-apps__item--diary")
           h2(class="home-apps__head")
             img(src="../images/app02_h.png" alt="関節リウマチの痛みや症状が医師と伝わるリウマチダイアリー" class="home-apps__head-image" width="296" height="78")
@@ -437,10 +437,10 @@ block content
           ul(class="home-apps__link-list")
             li(class="home-apps__link-item")
               a(href="#" class="home-apps__anchor")
-                img(src="../images/badge_appStore.png" class="home-apps__app-image" alt="App Store からダウンロード" width="205" height="auto")
+                img(src="../images/badge_appStore.png" class="home-apps__app-image" alt="App Store からダウンロード" width="205")
             li(class="home-apps__link-item")
               a(href="#" class="home-apps__anchor")
-                img(src="../images/badge_googlePlay.png" class="home-apps__app-image" alt="Google Play で手に入れよう" width="205" height="auto")
+                img(src="../images/badge_googlePlay.png" class="home-apps__app-image" alt="Google Play で手に入れよう" width="205")
 
     section(class="home-service on-scroll-add-class" id="home-service")
       div(class="inner-wrapper")
@@ -458,15 +458,15 @@ block content
         ul(class="slick03-tab medical-service-tab__li")
           li(class="medical-service-tab__item medical-service-tab__item--rheumatoid")
             div(class="medical-service-tab__num")
-              <svg id="bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50" class="medical-service-tab__num-image"><defs><style>.cls-1{fill:#bebebe;}.cls-2{fill:#fff;}</style></defs><path class="cls-1" d="M50,0A50,50,0,0,0,0,50H100A50,50,0,0,0,50,0Z"/><path class="cls-2" d="M20.45,30.56l-3.59-5.37,1.2-1.89.32.21a1.67,1.67,0,0,0-.21.47.55.55,0,0,0,0,.38,1,1,0,0,0,.31.36,5.32,5.32,0,0,0,.6.43l3.31,2.1a7.54,7.54,0,0,0,.69.4,1.13,1.13,0,0,0,.46.11.6.6,0,0,0,.36-.17,3.2,3.2,0,0,0,.35-.44l.32.2-1.74,2.73-.32-.2a2.92,2.92,0,0,0,.25-.51.58.58,0,0,0,0-.39.93.93,0,0,0-.28-.37,6.11,6.11,0,0,0-.6-.43L18,25.69l-.05.08,4,6-.12.18-7.08-1.1,0,0,3.86,2.45a6.28,6.28,0,0,0,.68.39,1,1,0,0,0,.47.11.51.51,0,0,0,.35-.17,3.15,3.15,0,0,0,.36-.44l.32.2-1.5,2.36-.32-.21a2.92,2.92,0,0,0,.25-.51.65.65,0,0,0,0-.39.85.85,0,0,0-.27-.36,5.22,5.22,0,0,0-.61-.44L14.88,31.7a4.72,4.72,0,0,0-.61-.35.87.87,0,0,0-.44-.11.53.53,0,0,0-.35.13,1.81,1.81,0,0,0-.35.4l-.33-.21,1.29-2,6.34,1.05Z"/><path class="cls-2" d="M27.89,23.38a2.66,2.66,0,0,1-.81,2.2,2.82,2.82,0,0,1-.91.6,2.42,2.42,0,0,1-2-.07,3.06,3.06,0,0,1-.9-.66,3.19,3.19,0,0,1-.63-1,2.71,2.71,0,0,1-.21-1,2.61,2.61,0,0,1,.23-1,2.9,2.9,0,0,1,.66-.92,1.83,1.83,0,0,1,2.87.07c.06.07.09.12.07.16a.53.53,0,0,1-.16.2l-2.38,2.27a1.16,1.16,0,0,0,.11.16l.17.19a3.61,3.61,0,0,0,.74.6,2.21,2.21,0,0,0,.76.28,2,2,0,0,0,.73-.05,1.77,1.77,0,0,0,1.08-1.06,2.92,2.92,0,0,0,.11-.95Zm-3.06-.81c.1-.09.17-.17.23-.23a.48.48,0,0,0,.1-.15.17.17,0,0,0,0-.12.31.31,0,0,0-.09-.12,1,1,0,0,0-.72-.33,1.15,1.15,0,0,0-.77.36,1.34,1.34,0,0,0-.08,1.86Z"/><path class="cls-2" d="M32.21,20.48l0,0a2.21,2.21,0,0,1-.24,1,2,2,0,0,1-.68.71,2.51,2.51,0,0,1-1,.4,2.41,2.41,0,0,1-1,0,2.62,2.62,0,0,1-.93-.43,3.19,3.19,0,0,1-1.22-1.84,2.57,2.57,0,0,1,0-1,2.35,2.35,0,0,1,.38-.93,2.65,2.65,0,0,1,.75-.74,2.12,2.12,0,0,1,.8-.34,2.26,2.26,0,0,1,.89,0l-.57-.85c-.2-.32-.38-.58-.53-.79a4.59,4.59,0,0,0-.33-.41.4.4,0,0,0-.4-.1,2.21,2.21,0,0,0-.68.34l-.16-.25,1.5-1.45,3.18,4.81.64.94a2.91,2.91,0,0,0,.4.5.64.64,0,0,0,.17.13.48.48,0,0,0,.18,0,.79.79,0,0,0,.22-.07l.33-.19.19.28-1.33,1Zm-1.38-1.73a4.15,4.15,0,0,0-.48-.63,1.07,1.07,0,0,0-.44-.27,1.55,1.55,0,0,0-.74-.06,1.69,1.69,0,0,0-.68.26,1.21,1.21,0,0,0-.58,1.1,2.93,2.93,0,0,0,.58,1.55,3.62,3.62,0,0,0,.61.75,2.29,2.29,0,0,0,.63.46,1.39,1.39,0,0,0,.65.14,1.24,1.24,0,0,0,.62-.21,2.09,2.09,0,0,0,.28-.24,1.33,1.33,0,0,0,.23-.3,1.58,1.58,0,0,0,.16-.35,1.53,1.53,0,0,0,.07-.36,1.74,1.74,0,0,0-.13-.55,4.74,4.74,0,0,0-.42-.74Z"/><path class="cls-2" d="M32,13.15a.59.59,0,0,1,0-.47.58.58,0,0,1,.32-.35.62.62,0,0,1,.48,0,.63.63,0,0,1,.35.33.59.59,0,0,1,0,.47.58.58,0,0,1-.32.35.62.62,0,0,1-.48,0A.58.58,0,0,1,32,13.15ZM35.5,18a4.26,4.26,0,0,0,.3.55.93.93,0,0,0,.28.28.53.53,0,0,0,.33,0,2,2,0,0,0,.46-.15L37,19l-2.6,1.22-.15-.31a3.11,3.11,0,0,0,.42-.27.59.59,0,0,0,.19-.29.72.72,0,0,0,0-.38,5.61,5.61,0,0,0-.22-.53l-.54-1.16-.42-.86a3.08,3.08,0,0,0-.27-.44.44.44,0,0,0-.34-.19,1.78,1.78,0,0,0-.65.21l-.15-.31,1.61-1.18Z"/><path class="cls-2" d="M41.53,16.57a2.44,2.44,0,0,1-.67.94,3,3,0,0,1-1.1.61A2.3,2.3,0,0,1,37.88,18a2.55,2.55,0,0,1-.74-.66,3.62,3.62,0,0,1-.51-1,3.27,3.27,0,0,1-.17-1.16,2.49,2.49,0,0,1,.27-1,2.38,2.38,0,0,1,.66-.8,3.09,3.09,0,0,1,1-.54,3.79,3.79,0,0,1,.69-.16,2.8,2.8,0,0,1,.58,0,1.09,1.09,0,0,1,.44.15.56.56,0,0,1,.23.3.4.4,0,0,1,0,.34.61.61,0,0,1-.31.21.48.48,0,0,1-.31,0,1.16,1.16,0,0,1-.4-.22,1.36,1.36,0,0,0-.47-.19,1.09,1.09,0,0,0-.48.06,1.21,1.21,0,0,0-.85.86,2.93,2.93,0,0,0,.16,1.65,3.09,3.09,0,0,0,.93,1.53,1.33,1.33,0,0,0,1.31.2,2,2,0,0,0,.7-.4,2.58,2.58,0,0,0,.54-.74Z"/><path class="cls-2" d="M44.72,13.41,44.65,13c-.13-.8-.54-1.14-1.22-1a1.42,1.42,0,0,0-.28.07.44.44,0,0,0-.18.14.51.51,0,0,0-.12.22c0,.09-.05.2-.07.33a1,1,0,0,1-.15.42.44.44,0,0,1-.28.14.45.45,0,0,1-.58-.41.82.82,0,0,1,.39-.82,3.15,3.15,0,0,1,1.38-.5,2.32,2.32,0,0,1,1.46.12,1.5,1.5,0,0,1,.61,1.13L46,15q.2,1.13.63,1.05a1,1,0,0,0,.26-.08.35.35,0,0,0,.19-.22l.18.22a1,1,0,0,1-.37.45,1.7,1.7,0,0,1-.64.26.76.76,0,0,1-.69-.17,1.25,1.25,0,0,1-.34-.75h0a1.91,1.91,0,0,1-.59.88,1.86,1.86,0,0,1-1,.45,1.4,1.4,0,0,1-1-.16,1.08,1.08,0,0,1-.49-.79,1.24,1.24,0,0,1,0-.47,1.27,1.27,0,0,1,.2-.45,2.62,2.62,0,0,1,.43-.47,5.37,5.37,0,0,1,.69-.52Zm.07.42c-.35.21-.65.4-.89.58a3.51,3.51,0,0,0-.55.52,1.39,1.39,0,0,0-.28.47,1,1,0,0,0,0,.44.76.76,0,0,0,.3.5.83.83,0,0,0,.61.11,1,1,0,0,0,.46-.2,1.4,1.4,0,0,0,.33-.42,1.59,1.59,0,0,0,.18-.57,2.36,2.36,0,0,0,0-.65Z"/><path class="cls-2" d="M49.09,14.88c0,.25,0,.45,0,.6a.8.8,0,0,0,.14.36.53.53,0,0,0,.28.17,2,2,0,0,0,.47,0v.35l-2.76.11v-.35a2.29,2.29,0,0,0,.48-.09.59.59,0,0,0,.27-.18.69.69,0,0,0,.13-.34,3.42,3.42,0,0,0,0-.57L48,10.67c0-.35,0-.66-.05-.9a3.94,3.94,0,0,0-.06-.49.41.41,0,0,0-.25-.3A1.87,1.87,0,0,0,47,8.92V8.58l1.88-.44Z"/><path class="cls-2" d="M53.8,14.18l.36.06a2.57,2.57,0,0,0,.11.85,2.12,2.12,0,0,0,1,1.19,2.53,2.53,0,0,0,.8.28,1.77,1.77,0,0,0,1.21-.14,1.14,1.14,0,0,0,.59-.85,1.24,1.24,0,0,0,0-.47,1.14,1.14,0,0,0-.21-.45,2.51,2.51,0,0,0-.46-.48,7.39,7.39,0,0,0-.75-.55,7.46,7.46,0,0,1-.93-.7,2.71,2.71,0,0,1-.57-.63,1.84,1.84,0,0,1-.25-.63,2.39,2.39,0,0,1,0-.7,2.22,2.22,0,0,1,.32-.81,2,2,0,0,1,.58-.58,2.07,2.07,0,0,1,.77-.3,2.58,2.58,0,0,1,.92,0,2.42,2.42,0,0,1,.78.29,3,3,0,0,1,.68.58l.33-.4.23,0-.25,2-.36-.06a2.56,2.56,0,0,0-.47-1.33,1.59,1.59,0,0,0-1-.59,1.51,1.51,0,0,0-1,.12,1,1,0,0,0-.5.74,1.09,1.09,0,0,0,0,.44,1.15,1.15,0,0,0,.19.41,3,3,0,0,0,.4.43,5.59,5.59,0,0,0,.64.48,13,13,0,0,1,1.1.83,3.9,3.9,0,0,1,.67.7,1.59,1.59,0,0,1,.29.66,1.93,1.93,0,0,1,0,.72,2.11,2.11,0,0,1-.36.87,2.33,2.33,0,0,1-.68.61,2.82,2.82,0,0,1-.93.3,3.48,3.48,0,0,1-1.11,0,3,3,0,0,1-1-.35,3.17,3.17,0,0,1-.82-.69l-.36.43-.23,0Z"/><path class="cls-2" d="M64.06,18.42a2.61,2.61,0,0,1-2.33.24,2.83,2.83,0,0,1-.94-.56,2.38,2.38,0,0,1-.58-.8,2.3,2.3,0,0,1-.21-1,3.08,3.08,0,0,1,.2-1.09,3,3,0,0,1,.58-1,2.36,2.36,0,0,1,.84-.64,2.64,2.64,0,0,1,1-.25,2.89,2.89,0,0,1,1.11.19,2,2,0,0,1,1.23,1,2,2,0,0,1,0,1.59c0,.09-.07.14-.11.14a.5.5,0,0,1-.25-.06L61.5,15.09a1.94,1.94,0,0,0-.1.17l-.09.23a3.08,3.08,0,0,0-.21.94,2.29,2.29,0,0,0,.08.8,1.67,1.67,0,0,0,.37.63,1.6,1.6,0,0,0,.62.41,1.82,1.82,0,0,0,.8.09,2.68,2.68,0,0,0,.9-.31Zm-.61-3.11.3.11a.45.45,0,0,0,.19,0,.14.14,0,0,0,.1,0,.32.32,0,0,0,.07-.13.94.94,0,0,0,0-.79,1.17,1.17,0,0,0-.66-.54,1.34,1.34,0,0,0-1.71.75Z"/><path class="cls-2" d="M66.7,19.08a6.17,6.17,0,0,0-.29.58.71.71,0,0,0-.09.37.42.42,0,0,0,.14.26l.36.27-.16.31-2.34-1.28.17-.31a2.33,2.33,0,0,0,.43.17.46.46,0,0,0,.31,0,.73.73,0,0,0,.27-.24c.08-.13.19-.3.31-.52l.56-1c.22-.4.39-.71.5-.94a1.56,1.56,0,0,0,.18-.53.34.34,0,0,0-.13-.32,2.19,2.19,0,0,0-.42-.27l.17-.31,1.72.51-.48,1.16h0a2.33,2.33,0,0,1,.55-.32,2.47,2.47,0,0,1,.57-.17,2.11,2.11,0,0,1,.56,0,1.41,1.41,0,0,1,.49.16.75.75,0,0,1,.37.38.48.48,0,0,1,0,.45.47.47,0,0,1-.31.26.62.62,0,0,1-.44-.09.8.8,0,0,1-.22-.17l-.13-.17-.1-.15a.43.43,0,0,0-.12-.11.73.73,0,0,0-.64,0,2.66,2.66,0,0,0-.79.57,4.77,4.77,0,0,0-.43.51,5.93,5.93,0,0,0-.4.65Z"/><path class="cls-2" d="M71.28,18.93a4.37,4.37,0,0,0,.12-.51,1,1,0,0,0,0-.34.56.56,0,0,0-.13-.24L71,17.62l.21-.28L73.35,19l-.21.28L72.86,19a.6.6,0,0,0-.19-.08.17.17,0,0,0-.14,0,.54.54,0,0,0-.14.13,1.08,1.08,0,0,0-.15.28c0,.1-.08.2-.11.3l-.92,2.94,0,0,2-1.16A5.88,5.88,0,0,0,74,21a2.06,2.06,0,0,0,.4-.36.36.36,0,0,0,.09-.32,1.05,1.05,0,0,0-.36-.38l.21-.28,1.58,1.21-.22.28a.46.46,0,0,0-.27-.11,1.06,1.06,0,0,0-.31,0,1.59,1.59,0,0,0-.31.14l-.37.2a3.13,3.13,0,0,0-.36.22l-.3.17-3.23,1.8-.46-.36Z"/><path class="cls-2" d="M75.31,25.62a3.18,3.18,0,0,0-.42.46,1,1,0,0,0-.17.36.57.57,0,0,0,.07.33,2.4,2.4,0,0,0,.29.38l-.24.25-2-2,.25-.24a3.45,3.45,0,0,0,.39.3.63.63,0,0,0,.34.08.71.71,0,0,0,.34-.15,4.16,4.16,0,0,0,.44-.38l.9-.9c.28-.28.5-.5.67-.69a2.43,2.43,0,0,0,.33-.4.44.44,0,0,0,.06-.38,2,2,0,0,0-.42-.55l.25-.24L78,22.93Zm3.32-4.94a.62.62,0,0,1,.44-.18.6.6,0,0,1,.44.18.58.58,0,0,1,.18.44.62.62,0,0,1-1.06.44.62.62,0,0,1-.18-.44A.6.6,0,0,1,78.63,20.68Z"/><path class="cls-2" d="M78.63,30.84a2.47,2.47,0,0,1-1.11-.32,3.18,3.18,0,0,1-.94-.82,2.22,2.22,0,0,1-.44-.9,2.29,2.29,0,0,1,0-.94,2.56,2.56,0,0,1,.38-.91,3.5,3.5,0,0,1,1.81-1.37,2.65,2.65,0,0,1,1-.09,2.43,2.43,0,0,1,1,.36,3.4,3.4,0,0,1,.85.77,3.77,3.77,0,0,1,.38.61,2.31,2.31,0,0,1,.2.55,1.18,1.18,0,0,1,0,.46.63.63,0,0,1-.2.32.38.38,0,0,1-.33.08.54.54,0,0,1-.31-.21.6.6,0,0,1-.12-.29,1.4,1.4,0,0,1,.08-.45,1.45,1.45,0,0,0,0-.5,1.13,1.13,0,0,0-.22-.44,1.21,1.21,0,0,0-1.09-.51,3,3,0,0,0-1.51.7,3.14,3.14,0,0,0-1.13,1.39,1.34,1.34,0,0,0,.26,1.3,1.93,1.93,0,0,0,.61.53,2.86,2.86,0,0,0,.88.26Z"/><path class="cls-2" d="M81.35,35.5a2.62,2.62,0,0,1-1.91-1.36,2.78,2.78,0,0,1-.34-1,2.36,2.36,0,0,1,.09-1,2.54,2.54,0,0,1,.48-.88,3.46,3.46,0,0,1,.88-.69,3.13,3.13,0,0,1,1.08-.36,2.51,2.51,0,0,1,1.06.07,2.62,2.62,0,0,1,.92.48,3.1,3.1,0,0,1,.72.87,2.07,2.07,0,0,1,.25,1.57,2,2,0,0,1-1.07,1.19c-.08,0-.13.05-.17,0a.5.5,0,0,1-.15-.21L81.61,31.3l-.18.07-.23.11a3.58,3.58,0,0,0-.77.57,2,2,0,0,0-.46.66,1.61,1.61,0,0,0-.14.71,1.56,1.56,0,0,0,.2.72,1.72,1.72,0,0,0,.54.6,2.48,2.48,0,0,0,.88.35Zm1.58-2.74c.07.12.12.21.17.28a.38.38,0,0,0,.12.13.11.11,0,0,0,.11,0,.3.3,0,0,0,.14-.05.94.94,0,0,0,.5-.61,1.13,1.13,0,0,0-.14-.84,1.35,1.35,0,0,0-1.78-.56Z"/><path class="cls-2" d="M51.06,42.67a8.44,8.44,0,0,0,.07,1.25,1.52,1.52,0,0,0,.29.74,1.17,1.17,0,0,0,.63.37,5.71,5.71,0,0,0,1.09.12v.76H47v-.76A4.79,4.79,0,0,0,48.09,45a1.33,1.33,0,0,0,.64-.36A1.37,1.37,0,0,0,49,44a7.35,7.35,0,0,0,.07-1.15V35.47c0-.77,0-1.42,0-1.92a5.76,5.76,0,0,0-.07-1,.68.68,0,0,0-.6-.54,7.94,7.94,0,0,0-1.5-.1v-.76A13.38,13.38,0,0,0,49,30.88a19.44,19.44,0,0,0,2.07-.57Z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50" class="medical-service-tab__num-image"><defs><style>.cls-1{fill:#bebebe;}.cls-2{fill:#fff;}</style></defs><path class="cls-1" d="M50,0A50,50,0,0,0,0,50H100A50,50,0,0,0,50,0Z"/><path class="cls-2" d="M20.45,30.56l-3.59-5.37,1.2-1.89.32.21a1.67,1.67,0,0,0-.21.47.55.55,0,0,0,0,.38,1,1,0,0,0,.31.36,5.32,5.32,0,0,0,.6.43l3.31,2.1a7.54,7.54,0,0,0,.69.4,1.13,1.13,0,0,0,.46.11.6.6,0,0,0,.36-.17,3.2,3.2,0,0,0,.35-.44l.32.2-1.74,2.73-.32-.2a2.92,2.92,0,0,0,.25-.51.58.58,0,0,0,0-.39.93.93,0,0,0-.28-.37,6.11,6.11,0,0,0-.6-.43L18,25.69l-.05.08,4,6-.12.18-7.08-1.1,0,0,3.86,2.45a6.28,6.28,0,0,0,.68.39,1,1,0,0,0,.47.11.51.51,0,0,0,.35-.17,3.15,3.15,0,0,0,.36-.44l.32.2-1.5,2.36-.32-.21a2.92,2.92,0,0,0,.25-.51.65.65,0,0,0,0-.39.85.85,0,0,0-.27-.36,5.22,5.22,0,0,0-.61-.44L14.88,31.7a4.72,4.72,0,0,0-.61-.35.87.87,0,0,0-.44-.11.53.53,0,0,0-.35.13,1.81,1.81,0,0,0-.35.4l-.33-.21,1.29-2,6.34,1.05Z"/><path class="cls-2" d="M27.89,23.38a2.66,2.66,0,0,1-.81,2.2,2.82,2.82,0,0,1-.91.6,2.42,2.42,0,0,1-2-.07,3.06,3.06,0,0,1-.9-.66,3.19,3.19,0,0,1-.63-1,2.71,2.71,0,0,1-.21-1,2.61,2.61,0,0,1,.23-1,2.9,2.9,0,0,1,.66-.92,1.83,1.83,0,0,1,2.87.07c.06.07.09.12.07.16a.53.53,0,0,1-.16.2l-2.38,2.27a1.16,1.16,0,0,0,.11.16l.17.19a3.61,3.61,0,0,0,.74.6,2.21,2.21,0,0,0,.76.28,2,2,0,0,0,.73-.05,1.77,1.77,0,0,0,1.08-1.06,2.92,2.92,0,0,0,.11-.95Zm-3.06-.81c.1-.09.17-.17.23-.23a.48.48,0,0,0,.1-.15.17.17,0,0,0,0-.12.31.31,0,0,0-.09-.12,1,1,0,0,0-.72-.33,1.15,1.15,0,0,0-.77.36,1.34,1.34,0,0,0-.08,1.86Z"/><path class="cls-2" d="M32.21,20.48l0,0a2.21,2.21,0,0,1-.24,1,2,2,0,0,1-.68.71,2.51,2.51,0,0,1-1,.4,2.41,2.41,0,0,1-1,0,2.62,2.62,0,0,1-.93-.43,3.19,3.19,0,0,1-1.22-1.84,2.57,2.57,0,0,1,0-1,2.35,2.35,0,0,1,.38-.93,2.65,2.65,0,0,1,.75-.74,2.12,2.12,0,0,1,.8-.34,2.26,2.26,0,0,1,.89,0l-.57-.85c-.2-.32-.38-.58-.53-.79a4.59,4.59,0,0,0-.33-.41.4.4,0,0,0-.4-.1,2.21,2.21,0,0,0-.68.34l-.16-.25,1.5-1.45,3.18,4.81.64.94a2.91,2.91,0,0,0,.4.5.64.64,0,0,0,.17.13.48.48,0,0,0,.18,0,.79.79,0,0,0,.22-.07l.33-.19.19.28-1.33,1Zm-1.38-1.73a4.15,4.15,0,0,0-.48-.63,1.07,1.07,0,0,0-.44-.27,1.55,1.55,0,0,0-.74-.06,1.69,1.69,0,0,0-.68.26,1.21,1.21,0,0,0-.58,1.1,2.93,2.93,0,0,0,.58,1.55,3.62,3.62,0,0,0,.61.75,2.29,2.29,0,0,0,.63.46,1.39,1.39,0,0,0,.65.14,1.24,1.24,0,0,0,.62-.21,2.09,2.09,0,0,0,.28-.24,1.33,1.33,0,0,0,.23-.3,1.58,1.58,0,0,0,.16-.35,1.53,1.53,0,0,0,.07-.36,1.74,1.74,0,0,0-.13-.55,4.74,4.74,0,0,0-.42-.74Z"/><path class="cls-2" d="M32,13.15a.59.59,0,0,1,0-.47.58.58,0,0,1,.32-.35.62.62,0,0,1,.48,0,.63.63,0,0,1,.35.33.59.59,0,0,1,0,.47.58.58,0,0,1-.32.35.62.62,0,0,1-.48,0A.58.58,0,0,1,32,13.15ZM35.5,18a4.26,4.26,0,0,0,.3.55.93.93,0,0,0,.28.28.53.53,0,0,0,.33,0,2,2,0,0,0,.46-.15L37,19l-2.6,1.22-.15-.31a3.11,3.11,0,0,0,.42-.27.59.59,0,0,0,.19-.29.72.72,0,0,0,0-.38,5.61,5.61,0,0,0-.22-.53l-.54-1.16-.42-.86a3.08,3.08,0,0,0-.27-.44.44.44,0,0,0-.34-.19,1.78,1.78,0,0,0-.65.21l-.15-.31,1.61-1.18Z"/><path class="cls-2" d="M41.53,16.57a2.44,2.44,0,0,1-.67.94,3,3,0,0,1-1.1.61A2.3,2.3,0,0,1,37.88,18a2.55,2.55,0,0,1-.74-.66,3.62,3.62,0,0,1-.51-1,3.27,3.27,0,0,1-.17-1.16,2.49,2.49,0,0,1,.27-1,2.38,2.38,0,0,1,.66-.8,3.09,3.09,0,0,1,1-.54,3.79,3.79,0,0,1,.69-.16,2.8,2.8,0,0,1,.58,0,1.09,1.09,0,0,1,.44.15.56.56,0,0,1,.23.3.4.4,0,0,1,0,.34.61.61,0,0,1-.31.21.48.48,0,0,1-.31,0,1.16,1.16,0,0,1-.4-.22,1.36,1.36,0,0,0-.47-.19,1.09,1.09,0,0,0-.48.06,1.21,1.21,0,0,0-.85.86,2.93,2.93,0,0,0,.16,1.65,3.09,3.09,0,0,0,.93,1.53,1.33,1.33,0,0,0,1.31.2,2,2,0,0,0,.7-.4,2.58,2.58,0,0,0,.54-.74Z"/><path class="cls-2" d="M44.72,13.41,44.65,13c-.13-.8-.54-1.14-1.22-1a1.42,1.42,0,0,0-.28.07.44.44,0,0,0-.18.14.51.51,0,0,0-.12.22c0,.09-.05.2-.07.33a1,1,0,0,1-.15.42.44.44,0,0,1-.28.14.45.45,0,0,1-.58-.41.82.82,0,0,1,.39-.82,3.15,3.15,0,0,1,1.38-.5,2.32,2.32,0,0,1,1.46.12,1.5,1.5,0,0,1,.61,1.13L46,15q.2,1.13.63,1.05a1,1,0,0,0,.26-.08.35.35,0,0,0,.19-.22l.18.22a1,1,0,0,1-.37.45,1.7,1.7,0,0,1-.64.26.76.76,0,0,1-.69-.17,1.25,1.25,0,0,1-.34-.75h0a1.91,1.91,0,0,1-.59.88,1.86,1.86,0,0,1-1,.45,1.4,1.4,0,0,1-1-.16,1.08,1.08,0,0,1-.49-.79,1.24,1.24,0,0,1,0-.47,1.27,1.27,0,0,1,.2-.45,2.62,2.62,0,0,1,.43-.47,5.37,5.37,0,0,1,.69-.52Zm.07.42c-.35.21-.65.4-.89.58a3.51,3.51,0,0,0-.55.52,1.39,1.39,0,0,0-.28.47,1,1,0,0,0,0,.44.76.76,0,0,0,.3.5.83.83,0,0,0,.61.11,1,1,0,0,0,.46-.2,1.4,1.4,0,0,0,.33-.42,1.59,1.59,0,0,0,.18-.57,2.36,2.36,0,0,0,0-.65Z"/><path class="cls-2" d="M49.09,14.88c0,.25,0,.45,0,.6a.8.8,0,0,0,.14.36.53.53,0,0,0,.28.17,2,2,0,0,0,.47,0v.35l-2.76.11v-.35a2.29,2.29,0,0,0,.48-.09.59.59,0,0,0,.27-.18.69.69,0,0,0,.13-.34,3.42,3.42,0,0,0,0-.57L48,10.67c0-.35,0-.66-.05-.9a3.94,3.94,0,0,0-.06-.49.41.41,0,0,0-.25-.3A1.87,1.87,0,0,0,47,8.92V8.58l1.88-.44Z"/><path class="cls-2" d="M53.8,14.18l.36.06a2.57,2.57,0,0,0,.11.85,2.12,2.12,0,0,0,1,1.19,2.53,2.53,0,0,0,.8.28,1.77,1.77,0,0,0,1.21-.14,1.14,1.14,0,0,0,.59-.85,1.24,1.24,0,0,0,0-.47,1.14,1.14,0,0,0-.21-.45,2.51,2.51,0,0,0-.46-.48,7.39,7.39,0,0,0-.75-.55,7.46,7.46,0,0,1-.93-.7,2.71,2.71,0,0,1-.57-.63,1.84,1.84,0,0,1-.25-.63,2.39,2.39,0,0,1,0-.7,2.22,2.22,0,0,1,.32-.81,2,2,0,0,1,.58-.58,2.07,2.07,0,0,1,.77-.3,2.58,2.58,0,0,1,.92,0,2.42,2.42,0,0,1,.78.29,3,3,0,0,1,.68.58l.33-.4.23,0-.25,2-.36-.06a2.56,2.56,0,0,0-.47-1.33,1.59,1.59,0,0,0-1-.59,1.51,1.51,0,0,0-1,.12,1,1,0,0,0-.5.74,1.09,1.09,0,0,0,0,.44,1.15,1.15,0,0,0,.19.41,3,3,0,0,0,.4.43,5.59,5.59,0,0,0,.64.48,13,13,0,0,1,1.1.83,3.9,3.9,0,0,1,.67.7,1.59,1.59,0,0,1,.29.66,1.93,1.93,0,0,1,0,.72,2.11,2.11,0,0,1-.36.87,2.33,2.33,0,0,1-.68.61,2.82,2.82,0,0,1-.93.3,3.48,3.48,0,0,1-1.11,0,3,3,0,0,1-1-.35,3.17,3.17,0,0,1-.82-.69l-.36.43-.23,0Z"/><path class="cls-2" d="M64.06,18.42a2.61,2.61,0,0,1-2.33.24,2.83,2.83,0,0,1-.94-.56,2.38,2.38,0,0,1-.58-.8,2.3,2.3,0,0,1-.21-1,3.08,3.08,0,0,1,.2-1.09,3,3,0,0,1,.58-1,2.36,2.36,0,0,1,.84-.64,2.64,2.64,0,0,1,1-.25,2.89,2.89,0,0,1,1.11.19,2,2,0,0,1,1.23,1,2,2,0,0,1,0,1.59c0,.09-.07.14-.11.14a.5.5,0,0,1-.25-.06L61.5,15.09a1.94,1.94,0,0,0-.1.17l-.09.23a3.08,3.08,0,0,0-.21.94,2.29,2.29,0,0,0,.08.8,1.67,1.67,0,0,0,.37.63,1.6,1.6,0,0,0,.62.41,1.82,1.82,0,0,0,.8.09,2.68,2.68,0,0,0,.9-.31Zm-.61-3.11.3.11a.45.45,0,0,0,.19,0,.14.14,0,0,0,.1,0,.32.32,0,0,0,.07-.13.94.94,0,0,0,0-.79,1.17,1.17,0,0,0-.66-.54,1.34,1.34,0,0,0-1.71.75Z"/><path class="cls-2" d="M66.7,19.08a6.17,6.17,0,0,0-.29.58.71.71,0,0,0-.09.37.42.42,0,0,0,.14.26l.36.27-.16.31-2.34-1.28.17-.31a2.33,2.33,0,0,0,.43.17.46.46,0,0,0,.31,0,.73.73,0,0,0,.27-.24c.08-.13.19-.3.31-.52l.56-1c.22-.4.39-.71.5-.94a1.56,1.56,0,0,0,.18-.53.34.34,0,0,0-.13-.32,2.19,2.19,0,0,0-.42-.27l.17-.31,1.72.51-.48,1.16h0a2.33,2.33,0,0,1,.55-.32,2.47,2.47,0,0,1,.57-.17,2.11,2.11,0,0,1,.56,0,1.41,1.41,0,0,1,.49.16.75.75,0,0,1,.37.38.48.48,0,0,1,0,.45.47.47,0,0,1-.31.26.62.62,0,0,1-.44-.09.8.8,0,0,1-.22-.17l-.13-.17-.1-.15a.43.43,0,0,0-.12-.11.73.73,0,0,0-.64,0,2.66,2.66,0,0,0-.79.57,4.77,4.77,0,0,0-.43.51,5.93,5.93,0,0,0-.4.65Z"/><path class="cls-2" d="M71.28,18.93a4.37,4.37,0,0,0,.12-.51,1,1,0,0,0,0-.34.56.56,0,0,0-.13-.24L71,17.62l.21-.28L73.35,19l-.21.28L72.86,19a.6.6,0,0,0-.19-.08.17.17,0,0,0-.14,0,.54.54,0,0,0-.14.13,1.08,1.08,0,0,0-.15.28c0,.1-.08.2-.11.3l-.92,2.94,0,0,2-1.16A5.88,5.88,0,0,0,74,21a2.06,2.06,0,0,0,.4-.36.36.36,0,0,0,.09-.32,1.05,1.05,0,0,0-.36-.38l.21-.28,1.58,1.21-.22.28a.46.46,0,0,0-.27-.11,1.06,1.06,0,0,0-.31,0,1.59,1.59,0,0,0-.31.14l-.37.2a3.13,3.13,0,0,0-.36.22l-.3.17-3.23,1.8-.46-.36Z"/><path class="cls-2" d="M75.31,25.62a3.18,3.18,0,0,0-.42.46,1,1,0,0,0-.17.36.57.57,0,0,0,.07.33,2.4,2.4,0,0,0,.29.38l-.24.25-2-2,.25-.24a3.45,3.45,0,0,0,.39.3.63.63,0,0,0,.34.08.71.71,0,0,0,.34-.15,4.16,4.16,0,0,0,.44-.38l.9-.9c.28-.28.5-.5.67-.69a2.43,2.43,0,0,0,.33-.4.44.44,0,0,0,.06-.38,2,2,0,0,0-.42-.55l.25-.24L78,22.93Zm3.32-4.94a.62.62,0,0,1,.44-.18.6.6,0,0,1,.44.18.58.58,0,0,1,.18.44.62.62,0,0,1-1.06.44.62.62,0,0,1-.18-.44A.6.6,0,0,1,78.63,20.68Z"/><path class="cls-2" d="M78.63,30.84a2.47,2.47,0,0,1-1.11-.32,3.18,3.18,0,0,1-.94-.82,2.22,2.22,0,0,1-.44-.9,2.29,2.29,0,0,1,0-.94,2.56,2.56,0,0,1,.38-.91,3.5,3.5,0,0,1,1.81-1.37,2.65,2.65,0,0,1,1-.09,2.43,2.43,0,0,1,1,.36,3.4,3.4,0,0,1,.85.77,3.77,3.77,0,0,1,.38.61,2.31,2.31,0,0,1,.2.55,1.18,1.18,0,0,1,0,.46.63.63,0,0,1-.2.32.38.38,0,0,1-.33.08.54.54,0,0,1-.31-.21.6.6,0,0,1-.12-.29,1.4,1.4,0,0,1,.08-.45,1.45,1.45,0,0,0,0-.5,1.13,1.13,0,0,0-.22-.44,1.21,1.21,0,0,0-1.09-.51,3,3,0,0,0-1.51.7,3.14,3.14,0,0,0-1.13,1.39,1.34,1.34,0,0,0,.26,1.3,1.93,1.93,0,0,0,.61.53,2.86,2.86,0,0,0,.88.26Z"/><path class="cls-2" d="M81.35,35.5a2.62,2.62,0,0,1-1.91-1.36,2.78,2.78,0,0,1-.34-1,2.36,2.36,0,0,1,.09-1,2.54,2.54,0,0,1,.48-.88,3.46,3.46,0,0,1,.88-.69,3.13,3.13,0,0,1,1.08-.36,2.51,2.51,0,0,1,1.06.07,2.62,2.62,0,0,1,.92.48,3.1,3.1,0,0,1,.72.87,2.07,2.07,0,0,1,.25,1.57,2,2,0,0,1-1.07,1.19c-.08,0-.13.05-.17,0a.5.5,0,0,1-.15-.21L81.61,31.3l-.18.07-.23.11a3.58,3.58,0,0,0-.77.57,2,2,0,0,0-.46.66,1.61,1.61,0,0,0-.14.71,1.56,1.56,0,0,0,.2.72,1.72,1.72,0,0,0,.54.6,2.48,2.48,0,0,0,.88.35Zm1.58-2.74c.07.12.12.21.17.28a.38.38,0,0,0,.12.13.11.11,0,0,0,.11,0,.3.3,0,0,0,.14-.05.94.94,0,0,0,.5-.61,1.13,1.13,0,0,0-.14-.84,1.35,1.35,0,0,0-1.78-.56Z"/><path class="cls-2" d="M51.06,42.67a8.44,8.44,0,0,0,.07,1.25,1.52,1.52,0,0,0,.29.74,1.17,1.17,0,0,0,.63.37,5.71,5.71,0,0,0,1.09.12v.76H47v-.76A4.79,4.79,0,0,0,48.09,45a1.33,1.33,0,0,0,.64-.36A1.37,1.37,0,0,0,49,44a7.35,7.35,0,0,0,.07-1.15V35.47c0-.77,0-1.42,0-1.92a5.76,5.76,0,0,0-.07-1,.68.68,0,0,0-.6-.54,7.94,7.94,0,0,0-1.5-.1v-.76A13.38,13.38,0,0,0,49,30.88a19.44,19.44,0,0,0,2.07-.57Z"/></svg>
             p(class="medical-service-tab__title") リウマチ科
           li(class="medical-service-tab__item medical-service-tab__item--internal")
             div(class="medical-service-tab__num")
-              <svg id="bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50" class="medical-service-tab__num-image"><defs><style>.cls-1{fill:#bebebe;}.cls-2{fill:#fff;}</style></defs><path class="cls-1" d="M50,0A50,50,0,0,0,0,50H100A50,50,0,0,0,50,0Z"/><path class="cls-2" d="M47.76,44h4a3.49,3.49,0,0,0,.84-.09,1.49,1.49,0,0,0,.64-.35,2.48,2.48,0,0,0,.5-.71,8.78,8.78,0,0,0,.44-1.15h.74l-.76,4.26h-9.3v-.66q2.28-2,3.75-3.57a22.9,22.9,0,0,0,2.31-2.75,8.64,8.64,0,0,0,1.16-2.25,7.17,7.17,0,0,0,.32-2.09,3.78,3.78,0,0,0-.73-2.46,2.43,2.43,0,0,0-2-.9,2.58,2.58,0,0,0-1.95.78A2.79,2.79,0,0,0,47,34a2.46,2.46,0,0,0,.59,1.72,2.1,2.1,0,0,0,1.61.64,1.24,1.24,0,0,1-.52.77,1.82,1.82,0,0,1-1,.29,2.5,2.5,0,0,1-1-.22,2.62,2.62,0,0,1-.82-.62,3.05,3.05,0,0,1-.54-.95A3.61,3.61,0,0,1,45,34.46a3.68,3.68,0,0,1,.38-1.66,3.9,3.9,0,0,1,1-1.31A4.87,4.87,0,0,1,48,30.62a5.73,5.73,0,0,1,2-.32,5.49,5.49,0,0,1,1.94.32,4.44,4.44,0,0,1,1.52.9,3.86,3.86,0,0,1,1,1.37,4.31,4.31,0,0,1,.35,1.75,5.73,5.73,0,0,1-.55,2.43,10.91,10.91,0,0,1-1.51,2.34,20.69,20.69,0,0,1-2.24,2.26c-.85.74-1.77,1.47-2.74,2.19Z"/><path class="cls-2" d="M20.45,30.56l-3.59-5.37,1.2-1.89.32.21a1.67,1.67,0,0,0-.21.47.55.55,0,0,0,0,.38,1,1,0,0,0,.31.36,5.32,5.32,0,0,0,.6.43l3.31,2.1a7.54,7.54,0,0,0,.69.4,1.13,1.13,0,0,0,.46.11.6.6,0,0,0,.36-.17,3.2,3.2,0,0,0,.35-.44l.32.2-1.74,2.73-.32-.2a2.92,2.92,0,0,0,.25-.51.58.58,0,0,0,0-.39.93.93,0,0,0-.28-.37,6.11,6.11,0,0,0-.6-.43L18,25.69l-.05.08,4,6-.12.18-7.08-1.1,0,0,3.86,2.45a6.28,6.28,0,0,0,.68.39,1,1,0,0,0,.47.11.51.51,0,0,0,.35-.17,3.15,3.15,0,0,0,.36-.44l.32.2-1.5,2.36-.32-.21a2.92,2.92,0,0,0,.25-.51.65.65,0,0,0,0-.39.85.85,0,0,0-.27-.36,5.22,5.22,0,0,0-.61-.44L14.88,31.7a4.72,4.72,0,0,0-.61-.35.87.87,0,0,0-.44-.11.53.53,0,0,0-.35.13,1.81,1.81,0,0,0-.35.4l-.33-.21,1.29-2,6.34,1.05Z"/><path class="cls-2" d="M27.89,23.38a2.66,2.66,0,0,1-.81,2.2,2.82,2.82,0,0,1-.91.6,2.42,2.42,0,0,1-2-.07,3.06,3.06,0,0,1-.9-.66,3.19,3.19,0,0,1-.63-1,2.71,2.71,0,0,1-.21-1,2.61,2.61,0,0,1,.23-1,2.9,2.9,0,0,1,.66-.92,1.83,1.83,0,0,1,2.87.07c.06.07.09.12.07.16a.53.53,0,0,1-.16.2l-2.38,2.27a1.16,1.16,0,0,0,.11.16l.17.19a3.61,3.61,0,0,0,.74.6,2.21,2.21,0,0,0,.76.28,2,2,0,0,0,.73-.05,1.77,1.77,0,0,0,1.08-1.06,2.92,2.92,0,0,0,.11-.95Zm-3.06-.81c.1-.09.17-.17.23-.23a.48.48,0,0,0,.1-.15.17.17,0,0,0,0-.12.31.31,0,0,0-.09-.12,1,1,0,0,0-.72-.33,1.15,1.15,0,0,0-.77.36,1.34,1.34,0,0,0-.08,1.86Z"/><path class="cls-2" d="M32.21,20.48l0,0a2.21,2.21,0,0,1-.24,1,2,2,0,0,1-.68.71,2.51,2.51,0,0,1-1,.4,2.41,2.41,0,0,1-1,0,2.62,2.62,0,0,1-.93-.43,3.19,3.19,0,0,1-1.22-1.84,2.57,2.57,0,0,1,0-1,2.35,2.35,0,0,1,.38-.93,2.65,2.65,0,0,1,.75-.74,2.12,2.12,0,0,1,.8-.34,2.26,2.26,0,0,1,.89,0l-.57-.85c-.2-.32-.38-.58-.53-.79a4.59,4.59,0,0,0-.33-.41.4.4,0,0,0-.4-.1,2.21,2.21,0,0,0-.68.34l-.16-.25,1.5-1.45,3.18,4.81.64.94a2.91,2.91,0,0,0,.4.5.64.64,0,0,0,.17.13.48.48,0,0,0,.18,0,.79.79,0,0,0,.22-.07l.33-.19.19.28-1.33,1Zm-1.38-1.73a4.15,4.15,0,0,0-.48-.63,1.07,1.07,0,0,0-.44-.27,1.55,1.55,0,0,0-.74-.06,1.69,1.69,0,0,0-.68.26,1.21,1.21,0,0,0-.58,1.1,2.93,2.93,0,0,0,.58,1.55,3.62,3.62,0,0,0,.61.75,2.29,2.29,0,0,0,.63.46,1.39,1.39,0,0,0,.65.14,1.24,1.24,0,0,0,.62-.21,2.09,2.09,0,0,0,.28-.24,1.33,1.33,0,0,0,.23-.3,1.58,1.58,0,0,0,.16-.35,1.53,1.53,0,0,0,.07-.36,1.74,1.74,0,0,0-.13-.55,4.74,4.74,0,0,0-.42-.74Z"/><path class="cls-2" d="M32,13.15a.59.59,0,0,1,0-.47.58.58,0,0,1,.32-.35.62.62,0,0,1,.48,0,.63.63,0,0,1,.35.33.59.59,0,0,1,0,.47.58.58,0,0,1-.32.35.62.62,0,0,1-.48,0A.58.58,0,0,1,32,13.15ZM35.5,18a4.26,4.26,0,0,0,.3.55.93.93,0,0,0,.28.28.53.53,0,0,0,.33,0,2,2,0,0,0,.46-.15L37,19l-2.6,1.22-.15-.31a3.11,3.11,0,0,0,.42-.27.59.59,0,0,0,.19-.29.72.72,0,0,0,0-.38,5.61,5.61,0,0,0-.22-.53l-.54-1.16-.42-.86a3.08,3.08,0,0,0-.27-.44.44.44,0,0,0-.34-.19,1.78,1.78,0,0,0-.65.21l-.15-.31,1.61-1.18Z"/><path class="cls-2" d="M41.53,16.57a2.44,2.44,0,0,1-.67.94,3,3,0,0,1-1.1.61A2.3,2.3,0,0,1,37.88,18a2.55,2.55,0,0,1-.74-.66,3.62,3.62,0,0,1-.51-1,3.27,3.27,0,0,1-.17-1.16,2.49,2.49,0,0,1,.27-1,2.38,2.38,0,0,1,.66-.8,3.09,3.09,0,0,1,1-.54,3.79,3.79,0,0,1,.69-.16,2.8,2.8,0,0,1,.58,0,1.09,1.09,0,0,1,.44.15.56.56,0,0,1,.23.3.4.4,0,0,1,0,.34.61.61,0,0,1-.31.21.48.48,0,0,1-.31,0,1.16,1.16,0,0,1-.4-.22,1.36,1.36,0,0,0-.47-.19,1.09,1.09,0,0,0-.48.06,1.21,1.21,0,0,0-.85.86,2.93,2.93,0,0,0,.16,1.65,3.09,3.09,0,0,0,.93,1.53,1.33,1.33,0,0,0,1.31.2,2,2,0,0,0,.7-.4,2.58,2.58,0,0,0,.54-.74Z"/><path class="cls-2" d="M44.72,13.41,44.65,13c-.13-.8-.54-1.14-1.22-1a1.42,1.42,0,0,0-.28.07.44.44,0,0,0-.18.14.51.51,0,0,0-.12.22c0,.09-.05.2-.07.33a1,1,0,0,1-.15.42.44.44,0,0,1-.28.14.45.45,0,0,1-.58-.41.82.82,0,0,1,.39-.82,3.15,3.15,0,0,1,1.38-.5,2.32,2.32,0,0,1,1.46.12,1.5,1.5,0,0,1,.61,1.13L46,15q.2,1.13.63,1.05a1,1,0,0,0,.26-.08.35.35,0,0,0,.19-.22l.18.22a1,1,0,0,1-.37.45,1.7,1.7,0,0,1-.64.26.76.76,0,0,1-.69-.17,1.25,1.25,0,0,1-.34-.75h0a1.91,1.91,0,0,1-.59.88,1.86,1.86,0,0,1-1,.45,1.4,1.4,0,0,1-1-.16,1.08,1.08,0,0,1-.49-.79,1.24,1.24,0,0,1,0-.47,1.27,1.27,0,0,1,.2-.45,2.62,2.62,0,0,1,.43-.47,5.37,5.37,0,0,1,.69-.52Zm.07.42c-.35.21-.65.4-.89.58a3.51,3.51,0,0,0-.55.52,1.39,1.39,0,0,0-.28.47,1,1,0,0,0,0,.44.76.76,0,0,0,.3.5.83.83,0,0,0,.61.11,1,1,0,0,0,.46-.2,1.4,1.4,0,0,0,.33-.42,1.59,1.59,0,0,0,.18-.57,2.36,2.36,0,0,0,0-.65Z"/><path class="cls-2" d="M49.09,14.88c0,.25,0,.45,0,.6a.8.8,0,0,0,.14.36.53.53,0,0,0,.28.17,2,2,0,0,0,.47,0v.35l-2.76.11v-.35a2.29,2.29,0,0,0,.48-.09.59.59,0,0,0,.27-.18.69.69,0,0,0,.13-.34,3.42,3.42,0,0,0,0-.57L48,10.67c0-.35,0-.66-.05-.9a3.94,3.94,0,0,0-.06-.49.41.41,0,0,0-.25-.3A1.87,1.87,0,0,0,47,8.92V8.58l1.88-.44Z"/><path class="cls-2" d="M53.8,14.18l.36.06a2.57,2.57,0,0,0,.11.85,2.12,2.12,0,0,0,1,1.19,2.53,2.53,0,0,0,.8.28,1.77,1.77,0,0,0,1.21-.14,1.14,1.14,0,0,0,.59-.85,1.24,1.24,0,0,0,0-.47,1.14,1.14,0,0,0-.21-.45,2.51,2.51,0,0,0-.46-.48,7.39,7.39,0,0,0-.75-.55,7.46,7.46,0,0,1-.93-.7,2.71,2.71,0,0,1-.57-.63,1.84,1.84,0,0,1-.25-.63,2.39,2.39,0,0,1,0-.7,2.22,2.22,0,0,1,.32-.81,2,2,0,0,1,.58-.58,2.07,2.07,0,0,1,.77-.3,2.58,2.58,0,0,1,.92,0,2.42,2.42,0,0,1,.78.29,3,3,0,0,1,.68.58l.33-.4.23,0-.25,2-.36-.06a2.56,2.56,0,0,0-.47-1.33,1.59,1.59,0,0,0-1-.59,1.51,1.51,0,0,0-1,.12,1,1,0,0,0-.5.74,1.09,1.09,0,0,0,0,.44,1.15,1.15,0,0,0,.19.41,3,3,0,0,0,.4.43,5.59,5.59,0,0,0,.64.48,13,13,0,0,1,1.1.83,3.9,3.9,0,0,1,.67.7,1.59,1.59,0,0,1,.29.66,1.93,1.93,0,0,1,0,.72,2.11,2.11,0,0,1-.36.87,2.33,2.33,0,0,1-.68.61,2.82,2.82,0,0,1-.93.3,3.48,3.48,0,0,1-1.11,0,3,3,0,0,1-1-.35,3.17,3.17,0,0,1-.82-.69l-.36.43-.23,0Z"/><path class="cls-2" d="M64.06,18.42a2.61,2.61,0,0,1-2.33.24,2.83,2.83,0,0,1-.94-.56,2.38,2.38,0,0,1-.58-.8,2.3,2.3,0,0,1-.21-1,3.08,3.08,0,0,1,.2-1.09,3,3,0,0,1,.58-1,2.36,2.36,0,0,1,.84-.64,2.64,2.64,0,0,1,1-.25,2.89,2.89,0,0,1,1.11.19,2,2,0,0,1,1.23,1,2,2,0,0,1,0,1.59c0,.09-.07.14-.11.14a.5.5,0,0,1-.25-.06L61.5,15.09a1.94,1.94,0,0,0-.1.17l-.09.23a3.08,3.08,0,0,0-.21.94,2.29,2.29,0,0,0,.08.8,1.67,1.67,0,0,0,.37.63,1.6,1.6,0,0,0,.62.41,1.82,1.82,0,0,0,.8.09,2.68,2.68,0,0,0,.9-.31Zm-.61-3.11.3.11a.45.45,0,0,0,.19,0,.14.14,0,0,0,.1,0,.32.32,0,0,0,.07-.13.94.94,0,0,0,0-.79,1.17,1.17,0,0,0-.66-.54,1.34,1.34,0,0,0-1.71.75Z"/><path class="cls-2" d="M66.7,19.08a6.17,6.17,0,0,0-.29.58.71.71,0,0,0-.09.37.42.42,0,0,0,.14.26l.36.27-.16.31-2.34-1.28.17-.31a2.33,2.33,0,0,0,.43.17.46.46,0,0,0,.31,0,.73.73,0,0,0,.27-.24c.08-.13.19-.3.31-.52l.56-1c.22-.4.39-.71.5-.94a1.56,1.56,0,0,0,.18-.53.34.34,0,0,0-.13-.32,2.19,2.19,0,0,0-.42-.27l.17-.31,1.72.51-.48,1.16h0a2.33,2.33,0,0,1,.55-.32,2.47,2.47,0,0,1,.57-.17,2.11,2.11,0,0,1,.56,0,1.41,1.41,0,0,1,.49.16.75.75,0,0,1,.37.38.48.48,0,0,1,0,.45.47.47,0,0,1-.31.26.62.62,0,0,1-.44-.09.8.8,0,0,1-.22-.17l-.13-.17-.1-.15a.43.43,0,0,0-.12-.11.73.73,0,0,0-.64,0,2.66,2.66,0,0,0-.79.57,4.77,4.77,0,0,0-.43.51,5.93,5.93,0,0,0-.4.65Z"/><path class="cls-2" d="M71.28,18.93a4.37,4.37,0,0,0,.12-.51,1,1,0,0,0,0-.34.56.56,0,0,0-.13-.24L71,17.62l.21-.28L73.35,19l-.21.28L72.86,19a.6.6,0,0,0-.19-.08.17.17,0,0,0-.14,0,.54.54,0,0,0-.14.13,1.08,1.08,0,0,0-.15.28c0,.1-.08.2-.11.3l-.92,2.94,0,0,2-1.16A5.88,5.88,0,0,0,74,21a2.06,2.06,0,0,0,.4-.36.36.36,0,0,0,.09-.32,1.05,1.05,0,0,0-.36-.38l.21-.28,1.58,1.21-.22.28a.46.46,0,0,0-.27-.11,1.06,1.06,0,0,0-.31,0,1.59,1.59,0,0,0-.31.14l-.37.2a3.13,3.13,0,0,0-.36.22l-.3.17-3.23,1.8-.46-.36Z"/><path class="cls-2" d="M75.31,25.62a3.18,3.18,0,0,0-.42.46,1,1,0,0,0-.17.36.57.57,0,0,0,.07.33,2.4,2.4,0,0,0,.29.38l-.24.25-2-2,.25-.24a3.45,3.45,0,0,0,.39.3.63.63,0,0,0,.34.08.71.71,0,0,0,.34-.15,4.16,4.16,0,0,0,.44-.38l.9-.9c.28-.28.5-.5.67-.69a2.43,2.43,0,0,0,.33-.4.44.44,0,0,0,.06-.38,2,2,0,0,0-.42-.55l.25-.24L78,22.93Zm3.32-4.94a.62.62,0,0,1,.44-.18.6.6,0,0,1,.44.18.58.58,0,0,1,.18.44.62.62,0,0,1-1.06.44.62.62,0,0,1-.18-.44A.6.6,0,0,1,78.63,20.68Z"/><path class="cls-2" d="M78.63,30.84a2.47,2.47,0,0,1-1.11-.32,3.18,3.18,0,0,1-.94-.82,2.22,2.22,0,0,1-.44-.9,2.29,2.29,0,0,1,0-.94,2.56,2.56,0,0,1,.38-.91,3.5,3.5,0,0,1,1.81-1.37,2.65,2.65,0,0,1,1-.09,2.43,2.43,0,0,1,1,.36,3.4,3.4,0,0,1,.85.77,3.77,3.77,0,0,1,.38.61,2.31,2.31,0,0,1,.2.55,1.18,1.18,0,0,1,0,.46.63.63,0,0,1-.2.32.38.38,0,0,1-.33.08.54.54,0,0,1-.31-.21.6.6,0,0,1-.12-.29,1.4,1.4,0,0,1,.08-.45,1.45,1.45,0,0,0,0-.5,1.13,1.13,0,0,0-.22-.44,1.21,1.21,0,0,0-1.09-.51,3,3,0,0,0-1.51.7,3.14,3.14,0,0,0-1.13,1.39,1.34,1.34,0,0,0,.26,1.3,1.93,1.93,0,0,0,.61.53,2.86,2.86,0,0,0,.88.26Z"/><path class="cls-2" d="M81.35,35.5a2.62,2.62,0,0,1-1.91-1.36,2.78,2.78,0,0,1-.34-1,2.36,2.36,0,0,1,.09-1,2.54,2.54,0,0,1,.48-.88,3.46,3.46,0,0,1,.88-.69,3.13,3.13,0,0,1,1.08-.36,2.51,2.51,0,0,1,1.06.07,2.62,2.62,0,0,1,.92.48,3.1,3.1,0,0,1,.72.87,2.07,2.07,0,0,1,.25,1.57,2,2,0,0,1-1.07,1.19c-.08,0-.13.05-.17,0a.5.5,0,0,1-.15-.21L81.61,31.3l-.18.07-.23.11a3.58,3.58,0,0,0-.77.57,2,2,0,0,0-.46.66,1.61,1.61,0,0,0-.14.71,1.56,1.56,0,0,0,.2.72,1.72,1.72,0,0,0,.54.6,2.48,2.48,0,0,0,.88.35Zm1.58-2.74c.07.12.12.21.17.28a.38.38,0,0,0,.12.13.11.11,0,0,0,.11,0,.3.3,0,0,0,.14-.05.94.94,0,0,0,.5-.61,1.13,1.13,0,0,0-.14-.84,1.35,1.35,0,0,0-1.78-.56Z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50" class="medical-service-tab__num-image"><defs><style>.cls-1{fill:#bebebe;}.cls-2{fill:#fff;}</style></defs><path class="cls-1" d="M50,0A50,50,0,0,0,0,50H100A50,50,0,0,0,50,0Z"/><path class="cls-2" d="M47.76,44h4a3.49,3.49,0,0,0,.84-.09,1.49,1.49,0,0,0,.64-.35,2.48,2.48,0,0,0,.5-.71,8.78,8.78,0,0,0,.44-1.15h.74l-.76,4.26h-9.3v-.66q2.28-2,3.75-3.57a22.9,22.9,0,0,0,2.31-2.75,8.64,8.64,0,0,0,1.16-2.25,7.17,7.17,0,0,0,.32-2.09,3.78,3.78,0,0,0-.73-2.46,2.43,2.43,0,0,0-2-.9,2.58,2.58,0,0,0-1.95.78A2.79,2.79,0,0,0,47,34a2.46,2.46,0,0,0,.59,1.72,2.1,2.1,0,0,0,1.61.64,1.24,1.24,0,0,1-.52.77,1.82,1.82,0,0,1-1,.29,2.5,2.5,0,0,1-1-.22,2.62,2.62,0,0,1-.82-.62,3.05,3.05,0,0,1-.54-.95A3.61,3.61,0,0,1,45,34.46a3.68,3.68,0,0,1,.38-1.66,3.9,3.9,0,0,1,1-1.31A4.87,4.87,0,0,1,48,30.62a5.73,5.73,0,0,1,2-.32,5.49,5.49,0,0,1,1.94.32,4.44,4.44,0,0,1,1.52.9,3.86,3.86,0,0,1,1,1.37,4.31,4.31,0,0,1,.35,1.75,5.73,5.73,0,0,1-.55,2.43,10.91,10.91,0,0,1-1.51,2.34,20.69,20.69,0,0,1-2.24,2.26c-.85.74-1.77,1.47-2.74,2.19Z"/><path class="cls-2" d="M20.45,30.56l-3.59-5.37,1.2-1.89.32.21a1.67,1.67,0,0,0-.21.47.55.55,0,0,0,0,.38,1,1,0,0,0,.31.36,5.32,5.32,0,0,0,.6.43l3.31,2.1a7.54,7.54,0,0,0,.69.4,1.13,1.13,0,0,0,.46.11.6.6,0,0,0,.36-.17,3.2,3.2,0,0,0,.35-.44l.32.2-1.74,2.73-.32-.2a2.92,2.92,0,0,0,.25-.51.58.58,0,0,0,0-.39.93.93,0,0,0-.28-.37,6.11,6.11,0,0,0-.6-.43L18,25.69l-.05.08,4,6-.12.18-7.08-1.1,0,0,3.86,2.45a6.28,6.28,0,0,0,.68.39,1,1,0,0,0,.47.11.51.51,0,0,0,.35-.17,3.15,3.15,0,0,0,.36-.44l.32.2-1.5,2.36-.32-.21a2.92,2.92,0,0,0,.25-.51.65.65,0,0,0,0-.39.85.85,0,0,0-.27-.36,5.22,5.22,0,0,0-.61-.44L14.88,31.7a4.72,4.72,0,0,0-.61-.35.87.87,0,0,0-.44-.11.53.53,0,0,0-.35.13,1.81,1.81,0,0,0-.35.4l-.33-.21,1.29-2,6.34,1.05Z"/><path class="cls-2" d="M27.89,23.38a2.66,2.66,0,0,1-.81,2.2,2.82,2.82,0,0,1-.91.6,2.42,2.42,0,0,1-2-.07,3.06,3.06,0,0,1-.9-.66,3.19,3.19,0,0,1-.63-1,2.71,2.71,0,0,1-.21-1,2.61,2.61,0,0,1,.23-1,2.9,2.9,0,0,1,.66-.92,1.83,1.83,0,0,1,2.87.07c.06.07.09.12.07.16a.53.53,0,0,1-.16.2l-2.38,2.27a1.16,1.16,0,0,0,.11.16l.17.19a3.61,3.61,0,0,0,.74.6,2.21,2.21,0,0,0,.76.28,2,2,0,0,0,.73-.05,1.77,1.77,0,0,0,1.08-1.06,2.92,2.92,0,0,0,.11-.95Zm-3.06-.81c.1-.09.17-.17.23-.23a.48.48,0,0,0,.1-.15.17.17,0,0,0,0-.12.31.31,0,0,0-.09-.12,1,1,0,0,0-.72-.33,1.15,1.15,0,0,0-.77.36,1.34,1.34,0,0,0-.08,1.86Z"/><path class="cls-2" d="M32.21,20.48l0,0a2.21,2.21,0,0,1-.24,1,2,2,0,0,1-.68.71,2.51,2.51,0,0,1-1,.4,2.41,2.41,0,0,1-1,0,2.62,2.62,0,0,1-.93-.43,3.19,3.19,0,0,1-1.22-1.84,2.57,2.57,0,0,1,0-1,2.35,2.35,0,0,1,.38-.93,2.65,2.65,0,0,1,.75-.74,2.12,2.12,0,0,1,.8-.34,2.26,2.26,0,0,1,.89,0l-.57-.85c-.2-.32-.38-.58-.53-.79a4.59,4.59,0,0,0-.33-.41.4.4,0,0,0-.4-.1,2.21,2.21,0,0,0-.68.34l-.16-.25,1.5-1.45,3.18,4.81.64.94a2.91,2.91,0,0,0,.4.5.64.64,0,0,0,.17.13.48.48,0,0,0,.18,0,.79.79,0,0,0,.22-.07l.33-.19.19.28-1.33,1Zm-1.38-1.73a4.15,4.15,0,0,0-.48-.63,1.07,1.07,0,0,0-.44-.27,1.55,1.55,0,0,0-.74-.06,1.69,1.69,0,0,0-.68.26,1.21,1.21,0,0,0-.58,1.1,2.93,2.93,0,0,0,.58,1.55,3.62,3.62,0,0,0,.61.75,2.29,2.29,0,0,0,.63.46,1.39,1.39,0,0,0,.65.14,1.24,1.24,0,0,0,.62-.21,2.09,2.09,0,0,0,.28-.24,1.33,1.33,0,0,0,.23-.3,1.58,1.58,0,0,0,.16-.35,1.53,1.53,0,0,0,.07-.36,1.74,1.74,0,0,0-.13-.55,4.74,4.74,0,0,0-.42-.74Z"/><path class="cls-2" d="M32,13.15a.59.59,0,0,1,0-.47.58.58,0,0,1,.32-.35.62.62,0,0,1,.48,0,.63.63,0,0,1,.35.33.59.59,0,0,1,0,.47.58.58,0,0,1-.32.35.62.62,0,0,1-.48,0A.58.58,0,0,1,32,13.15ZM35.5,18a4.26,4.26,0,0,0,.3.55.93.93,0,0,0,.28.28.53.53,0,0,0,.33,0,2,2,0,0,0,.46-.15L37,19l-2.6,1.22-.15-.31a3.11,3.11,0,0,0,.42-.27.59.59,0,0,0,.19-.29.72.72,0,0,0,0-.38,5.61,5.61,0,0,0-.22-.53l-.54-1.16-.42-.86a3.08,3.08,0,0,0-.27-.44.44.44,0,0,0-.34-.19,1.78,1.78,0,0,0-.65.21l-.15-.31,1.61-1.18Z"/><path class="cls-2" d="M41.53,16.57a2.44,2.44,0,0,1-.67.94,3,3,0,0,1-1.1.61A2.3,2.3,0,0,1,37.88,18a2.55,2.55,0,0,1-.74-.66,3.62,3.62,0,0,1-.51-1,3.27,3.27,0,0,1-.17-1.16,2.49,2.49,0,0,1,.27-1,2.38,2.38,0,0,1,.66-.8,3.09,3.09,0,0,1,1-.54,3.79,3.79,0,0,1,.69-.16,2.8,2.8,0,0,1,.58,0,1.09,1.09,0,0,1,.44.15.56.56,0,0,1,.23.3.4.4,0,0,1,0,.34.61.61,0,0,1-.31.21.48.48,0,0,1-.31,0,1.16,1.16,0,0,1-.4-.22,1.36,1.36,0,0,0-.47-.19,1.09,1.09,0,0,0-.48.06,1.21,1.21,0,0,0-.85.86,2.93,2.93,0,0,0,.16,1.65,3.09,3.09,0,0,0,.93,1.53,1.33,1.33,0,0,0,1.31.2,2,2,0,0,0,.7-.4,2.58,2.58,0,0,0,.54-.74Z"/><path class="cls-2" d="M44.72,13.41,44.65,13c-.13-.8-.54-1.14-1.22-1a1.42,1.42,0,0,0-.28.07.44.44,0,0,0-.18.14.51.51,0,0,0-.12.22c0,.09-.05.2-.07.33a1,1,0,0,1-.15.42.44.44,0,0,1-.28.14.45.45,0,0,1-.58-.41.82.82,0,0,1,.39-.82,3.15,3.15,0,0,1,1.38-.5,2.32,2.32,0,0,1,1.46.12,1.5,1.5,0,0,1,.61,1.13L46,15q.2,1.13.63,1.05a1,1,0,0,0,.26-.08.35.35,0,0,0,.19-.22l.18.22a1,1,0,0,1-.37.45,1.7,1.7,0,0,1-.64.26.76.76,0,0,1-.69-.17,1.25,1.25,0,0,1-.34-.75h0a1.91,1.91,0,0,1-.59.88,1.86,1.86,0,0,1-1,.45,1.4,1.4,0,0,1-1-.16,1.08,1.08,0,0,1-.49-.79,1.24,1.24,0,0,1,0-.47,1.27,1.27,0,0,1,.2-.45,2.62,2.62,0,0,1,.43-.47,5.37,5.37,0,0,1,.69-.52Zm.07.42c-.35.21-.65.4-.89.58a3.51,3.51,0,0,0-.55.52,1.39,1.39,0,0,0-.28.47,1,1,0,0,0,0,.44.76.76,0,0,0,.3.5.83.83,0,0,0,.61.11,1,1,0,0,0,.46-.2,1.4,1.4,0,0,0,.33-.42,1.59,1.59,0,0,0,.18-.57,2.36,2.36,0,0,0,0-.65Z"/><path class="cls-2" d="M49.09,14.88c0,.25,0,.45,0,.6a.8.8,0,0,0,.14.36.53.53,0,0,0,.28.17,2,2,0,0,0,.47,0v.35l-2.76.11v-.35a2.29,2.29,0,0,0,.48-.09.59.59,0,0,0,.27-.18.69.69,0,0,0,.13-.34,3.42,3.42,0,0,0,0-.57L48,10.67c0-.35,0-.66-.05-.9a3.94,3.94,0,0,0-.06-.49.41.41,0,0,0-.25-.3A1.87,1.87,0,0,0,47,8.92V8.58l1.88-.44Z"/><path class="cls-2" d="M53.8,14.18l.36.06a2.57,2.57,0,0,0,.11.85,2.12,2.12,0,0,0,1,1.19,2.53,2.53,0,0,0,.8.28,1.77,1.77,0,0,0,1.21-.14,1.14,1.14,0,0,0,.59-.85,1.24,1.24,0,0,0,0-.47,1.14,1.14,0,0,0-.21-.45,2.51,2.51,0,0,0-.46-.48,7.39,7.39,0,0,0-.75-.55,7.46,7.46,0,0,1-.93-.7,2.71,2.71,0,0,1-.57-.63,1.84,1.84,0,0,1-.25-.63,2.39,2.39,0,0,1,0-.7,2.22,2.22,0,0,1,.32-.81,2,2,0,0,1,.58-.58,2.07,2.07,0,0,1,.77-.3,2.58,2.58,0,0,1,.92,0,2.42,2.42,0,0,1,.78.29,3,3,0,0,1,.68.58l.33-.4.23,0-.25,2-.36-.06a2.56,2.56,0,0,0-.47-1.33,1.59,1.59,0,0,0-1-.59,1.51,1.51,0,0,0-1,.12,1,1,0,0,0-.5.74,1.09,1.09,0,0,0,0,.44,1.15,1.15,0,0,0,.19.41,3,3,0,0,0,.4.43,5.59,5.59,0,0,0,.64.48,13,13,0,0,1,1.1.83,3.9,3.9,0,0,1,.67.7,1.59,1.59,0,0,1,.29.66,1.93,1.93,0,0,1,0,.72,2.11,2.11,0,0,1-.36.87,2.33,2.33,0,0,1-.68.61,2.82,2.82,0,0,1-.93.3,3.48,3.48,0,0,1-1.11,0,3,3,0,0,1-1-.35,3.17,3.17,0,0,1-.82-.69l-.36.43-.23,0Z"/><path class="cls-2" d="M64.06,18.42a2.61,2.61,0,0,1-2.33.24,2.83,2.83,0,0,1-.94-.56,2.38,2.38,0,0,1-.58-.8,2.3,2.3,0,0,1-.21-1,3.08,3.08,0,0,1,.2-1.09,3,3,0,0,1,.58-1,2.36,2.36,0,0,1,.84-.64,2.64,2.64,0,0,1,1-.25,2.89,2.89,0,0,1,1.11.19,2,2,0,0,1,1.23,1,2,2,0,0,1,0,1.59c0,.09-.07.14-.11.14a.5.5,0,0,1-.25-.06L61.5,15.09a1.94,1.94,0,0,0-.1.17l-.09.23a3.08,3.08,0,0,0-.21.94,2.29,2.29,0,0,0,.08.8,1.67,1.67,0,0,0,.37.63,1.6,1.6,0,0,0,.62.41,1.82,1.82,0,0,0,.8.09,2.68,2.68,0,0,0,.9-.31Zm-.61-3.11.3.11a.45.45,0,0,0,.19,0,.14.14,0,0,0,.1,0,.32.32,0,0,0,.07-.13.94.94,0,0,0,0-.79,1.17,1.17,0,0,0-.66-.54,1.34,1.34,0,0,0-1.71.75Z"/><path class="cls-2" d="M66.7,19.08a6.17,6.17,0,0,0-.29.58.71.71,0,0,0-.09.37.42.42,0,0,0,.14.26l.36.27-.16.31-2.34-1.28.17-.31a2.33,2.33,0,0,0,.43.17.46.46,0,0,0,.31,0,.73.73,0,0,0,.27-.24c.08-.13.19-.3.31-.52l.56-1c.22-.4.39-.71.5-.94a1.56,1.56,0,0,0,.18-.53.34.34,0,0,0-.13-.32,2.19,2.19,0,0,0-.42-.27l.17-.31,1.72.51-.48,1.16h0a2.33,2.33,0,0,1,.55-.32,2.47,2.47,0,0,1,.57-.17,2.11,2.11,0,0,1,.56,0,1.41,1.41,0,0,1,.49.16.75.75,0,0,1,.37.38.48.48,0,0,1,0,.45.47.47,0,0,1-.31.26.62.62,0,0,1-.44-.09.8.8,0,0,1-.22-.17l-.13-.17-.1-.15a.43.43,0,0,0-.12-.11.73.73,0,0,0-.64,0,2.66,2.66,0,0,0-.79.57,4.77,4.77,0,0,0-.43.51,5.93,5.93,0,0,0-.4.65Z"/><path class="cls-2" d="M71.28,18.93a4.37,4.37,0,0,0,.12-.51,1,1,0,0,0,0-.34.56.56,0,0,0-.13-.24L71,17.62l.21-.28L73.35,19l-.21.28L72.86,19a.6.6,0,0,0-.19-.08.17.17,0,0,0-.14,0,.54.54,0,0,0-.14.13,1.08,1.08,0,0,0-.15.28c0,.1-.08.2-.11.3l-.92,2.94,0,0,2-1.16A5.88,5.88,0,0,0,74,21a2.06,2.06,0,0,0,.4-.36.36.36,0,0,0,.09-.32,1.05,1.05,0,0,0-.36-.38l.21-.28,1.58,1.21-.22.28a.46.46,0,0,0-.27-.11,1.06,1.06,0,0,0-.31,0,1.59,1.59,0,0,0-.31.14l-.37.2a3.13,3.13,0,0,0-.36.22l-.3.17-3.23,1.8-.46-.36Z"/><path class="cls-2" d="M75.31,25.62a3.18,3.18,0,0,0-.42.46,1,1,0,0,0-.17.36.57.57,0,0,0,.07.33,2.4,2.4,0,0,0,.29.38l-.24.25-2-2,.25-.24a3.45,3.45,0,0,0,.39.3.63.63,0,0,0,.34.08.71.71,0,0,0,.34-.15,4.16,4.16,0,0,0,.44-.38l.9-.9c.28-.28.5-.5.67-.69a2.43,2.43,0,0,0,.33-.4.44.44,0,0,0,.06-.38,2,2,0,0,0-.42-.55l.25-.24L78,22.93Zm3.32-4.94a.62.62,0,0,1,.44-.18.6.6,0,0,1,.44.18.58.58,0,0,1,.18.44.62.62,0,0,1-1.06.44.62.62,0,0,1-.18-.44A.6.6,0,0,1,78.63,20.68Z"/><path class="cls-2" d="M78.63,30.84a2.47,2.47,0,0,1-1.11-.32,3.18,3.18,0,0,1-.94-.82,2.22,2.22,0,0,1-.44-.9,2.29,2.29,0,0,1,0-.94,2.56,2.56,0,0,1,.38-.91,3.5,3.5,0,0,1,1.81-1.37,2.65,2.65,0,0,1,1-.09,2.43,2.43,0,0,1,1,.36,3.4,3.4,0,0,1,.85.77,3.77,3.77,0,0,1,.38.61,2.31,2.31,0,0,1,.2.55,1.18,1.18,0,0,1,0,.46.63.63,0,0,1-.2.32.38.38,0,0,1-.33.08.54.54,0,0,1-.31-.21.6.6,0,0,1-.12-.29,1.4,1.4,0,0,1,.08-.45,1.45,1.45,0,0,0,0-.5,1.13,1.13,0,0,0-.22-.44,1.21,1.21,0,0,0-1.09-.51,3,3,0,0,0-1.51.7,3.14,3.14,0,0,0-1.13,1.39,1.34,1.34,0,0,0,.26,1.3,1.93,1.93,0,0,0,.61.53,2.86,2.86,0,0,0,.88.26Z"/><path class="cls-2" d="M81.35,35.5a2.62,2.62,0,0,1-1.91-1.36,2.78,2.78,0,0,1-.34-1,2.36,2.36,0,0,1,.09-1,2.54,2.54,0,0,1,.48-.88,3.46,3.46,0,0,1,.88-.69,3.13,3.13,0,0,1,1.08-.36,2.51,2.51,0,0,1,1.06.07,2.62,2.62,0,0,1,.92.48,3.1,3.1,0,0,1,.72.87,2.07,2.07,0,0,1,.25,1.57,2,2,0,0,1-1.07,1.19c-.08,0-.13.05-.17,0a.5.5,0,0,1-.15-.21L81.61,31.3l-.18.07-.23.11a3.58,3.58,0,0,0-.77.57,2,2,0,0,0-.46.66,1.61,1.61,0,0,0-.14.71,1.56,1.56,0,0,0,.2.72,1.72,1.72,0,0,0,.54.6,2.48,2.48,0,0,0,.88.35Zm1.58-2.74c.07.12.12.21.17.28a.38.38,0,0,0,.12.13.11.11,0,0,0,.11,0,.3.3,0,0,0,.14-.05.94.94,0,0,0,.5-.61,1.13,1.13,0,0,0-.14-.84,1.35,1.35,0,0,0-1.78-.56Z"/></svg>
             p(class="medical-service-tab__title") 内科
           li(class="medical-service-tab__item medical-service-tab__item--aging")
             div(class="medical-service-tab__num")
-              <svg id="bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50" class="medical-service-tab__num-image"><defs><style>.cls-1{fill:#bebebe;}.cls-2{fill:#fff;}</style></defs><path class="cls-1" d="M50,0A50,50,0,0,0,0,50H100A50,50,0,0,0,50,0Z"/><path class="cls-2" d="M20.45,30.56l-3.59-5.37,1.2-1.89.32.21a1.67,1.67,0,0,0-.21.47.55.55,0,0,0,0,.38,1,1,0,0,0,.31.36,5.32,5.32,0,0,0,.6.43l3.31,2.1a7.54,7.54,0,0,0,.69.4,1.13,1.13,0,0,0,.46.11.6.6,0,0,0,.36-.17,3.2,3.2,0,0,0,.35-.44l.32.2-1.74,2.73-.32-.2a2.92,2.92,0,0,0,.25-.51.58.58,0,0,0,0-.39.93.93,0,0,0-.28-.37,6.11,6.11,0,0,0-.6-.43L18,25.69l-.05.08,4,6-.12.18-7.08-1.1,0,0,3.86,2.45a6.28,6.28,0,0,0,.68.39,1,1,0,0,0,.47.11.51.51,0,0,0,.35-.17,3.15,3.15,0,0,0,.36-.44l.32.2-1.5,2.36-.32-.21a2.92,2.92,0,0,0,.25-.51.65.65,0,0,0,0-.39.85.85,0,0,0-.27-.36,5.22,5.22,0,0,0-.61-.44L14.88,31.7a4.72,4.72,0,0,0-.61-.35.87.87,0,0,0-.44-.11.53.53,0,0,0-.35.13,1.81,1.81,0,0,0-.35.4l-.33-.21,1.29-2,6.34,1.05Z"/><path class="cls-2" d="M27.89,23.38a2.66,2.66,0,0,1-.81,2.2,2.82,2.82,0,0,1-.91.6,2.42,2.42,0,0,1-2-.07,3.06,3.06,0,0,1-.9-.66,3.19,3.19,0,0,1-.63-1,2.71,2.71,0,0,1-.21-1,2.61,2.61,0,0,1,.23-1,2.9,2.9,0,0,1,.66-.92,1.83,1.83,0,0,1,2.87.07c.06.07.09.12.07.16a.53.53,0,0,1-.16.2l-2.38,2.27a1.16,1.16,0,0,0,.11.16l.17.19a3.61,3.61,0,0,0,.74.6,2.21,2.21,0,0,0,.76.28,2,2,0,0,0,.73-.05,1.77,1.77,0,0,0,1.08-1.06,2.92,2.92,0,0,0,.11-.95Zm-3.06-.81c.1-.09.17-.17.23-.23a.48.48,0,0,0,.1-.15.17.17,0,0,0,0-.12.31.31,0,0,0-.09-.12,1,1,0,0,0-.72-.33,1.15,1.15,0,0,0-.77.36,1.34,1.34,0,0,0-.08,1.86Z"/><path class="cls-2" d="M32.21,20.48l0,0a2.21,2.21,0,0,1-.24,1,2,2,0,0,1-.68.71,2.51,2.51,0,0,1-1,.4,2.41,2.41,0,0,1-1,0,2.62,2.62,0,0,1-.93-.43,3.19,3.19,0,0,1-1.22-1.84,2.57,2.57,0,0,1,0-1,2.35,2.35,0,0,1,.38-.93,2.65,2.65,0,0,1,.75-.74,2.12,2.12,0,0,1,.8-.34,2.26,2.26,0,0,1,.89,0l-.57-.85c-.2-.32-.38-.58-.53-.79a4.59,4.59,0,0,0-.33-.41.4.4,0,0,0-.4-.1,2.21,2.21,0,0,0-.68.34l-.16-.25,1.5-1.45,3.18,4.81.64.94a2.91,2.91,0,0,0,.4.5.64.64,0,0,0,.17.13.48.48,0,0,0,.18,0,.79.79,0,0,0,.22-.07l.33-.19.19.28-1.33,1Zm-1.38-1.73a4.15,4.15,0,0,0-.48-.63,1.07,1.07,0,0,0-.44-.27,1.55,1.55,0,0,0-.74-.06,1.69,1.69,0,0,0-.68.26,1.21,1.21,0,0,0-.58,1.1,2.93,2.93,0,0,0,.58,1.55,3.62,3.62,0,0,0,.61.75,2.29,2.29,0,0,0,.63.46,1.39,1.39,0,0,0,.65.14,1.24,1.24,0,0,0,.62-.21,2.09,2.09,0,0,0,.28-.24,1.33,1.33,0,0,0,.23-.3,1.58,1.58,0,0,0,.16-.35,1.53,1.53,0,0,0,.07-.36,1.74,1.74,0,0,0-.13-.55,4.74,4.74,0,0,0-.42-.74Z"/><path class="cls-2" d="M32,13.15a.59.59,0,0,1,0-.47.58.58,0,0,1,.32-.35.62.62,0,0,1,.48,0,.63.63,0,0,1,.35.33.59.59,0,0,1,0,.47.58.58,0,0,1-.32.35.62.62,0,0,1-.48,0A.58.58,0,0,1,32,13.15ZM35.5,18a4.26,4.26,0,0,0,.3.55.93.93,0,0,0,.28.28.53.53,0,0,0,.33,0,2,2,0,0,0,.46-.15L37,19l-2.6,1.22-.15-.31a3.11,3.11,0,0,0,.42-.27.59.59,0,0,0,.19-.29.72.72,0,0,0,0-.38,5.61,5.61,0,0,0-.22-.53l-.54-1.16-.42-.86a3.08,3.08,0,0,0-.27-.44.44.44,0,0,0-.34-.19,1.78,1.78,0,0,0-.65.21l-.15-.31,1.61-1.18Z"/><path class="cls-2" d="M41.53,16.57a2.44,2.44,0,0,1-.67.94,3,3,0,0,1-1.1.61A2.3,2.3,0,0,1,37.88,18a2.55,2.55,0,0,1-.74-.66,3.62,3.62,0,0,1-.51-1,3.27,3.27,0,0,1-.17-1.16,2.49,2.49,0,0,1,.27-1,2.38,2.38,0,0,1,.66-.8,3.09,3.09,0,0,1,1-.54,3.79,3.79,0,0,1,.69-.16,2.8,2.8,0,0,1,.58,0,1.09,1.09,0,0,1,.44.15.56.56,0,0,1,.23.3.4.4,0,0,1,0,.34.61.61,0,0,1-.31.21.48.48,0,0,1-.31,0,1.16,1.16,0,0,1-.4-.22,1.36,1.36,0,0,0-.47-.19,1.09,1.09,0,0,0-.48.06,1.21,1.21,0,0,0-.85.86,2.93,2.93,0,0,0,.16,1.65,3.09,3.09,0,0,0,.93,1.53,1.33,1.33,0,0,0,1.31.2,2,2,0,0,0,.7-.4,2.58,2.58,0,0,0,.54-.74Z"/><path class="cls-2" d="M44.72,13.41,44.65,13c-.13-.8-.54-1.14-1.22-1a1.42,1.42,0,0,0-.28.07.44.44,0,0,0-.18.14.51.51,0,0,0-.12.22c0,.09-.05.2-.07.33a1,1,0,0,1-.15.42.44.44,0,0,1-.28.14.45.45,0,0,1-.58-.41.82.82,0,0,1,.39-.82,3.15,3.15,0,0,1,1.38-.5,2.32,2.32,0,0,1,1.46.12,1.5,1.5,0,0,1,.61,1.13L46,15q.2,1.13.63,1.05a1,1,0,0,0,.26-.08.35.35,0,0,0,.19-.22l.18.22a1,1,0,0,1-.37.45,1.7,1.7,0,0,1-.64.26.76.76,0,0,1-.69-.17,1.25,1.25,0,0,1-.34-.75h0a1.91,1.91,0,0,1-.59.88,1.86,1.86,0,0,1-1,.45,1.4,1.4,0,0,1-1-.16,1.08,1.08,0,0,1-.49-.79,1.24,1.24,0,0,1,0-.47,1.27,1.27,0,0,1,.2-.45,2.62,2.62,0,0,1,.43-.47,5.37,5.37,0,0,1,.69-.52Zm.07.42c-.35.21-.65.4-.89.58a3.51,3.51,0,0,0-.55.52,1.39,1.39,0,0,0-.28.47,1,1,0,0,0,0,.44.76.76,0,0,0,.3.5.83.83,0,0,0,.61.11,1,1,0,0,0,.46-.2,1.4,1.4,0,0,0,.33-.42,1.59,1.59,0,0,0,.18-.57,2.36,2.36,0,0,0,0-.65Z"/><path class="cls-2" d="M49.09,14.88c0,.25,0,.45,0,.6a.8.8,0,0,0,.14.36.53.53,0,0,0,.28.17,2,2,0,0,0,.47,0v.35l-2.76.11v-.35a2.29,2.29,0,0,0,.48-.09.59.59,0,0,0,.27-.18.69.69,0,0,0,.13-.34,3.42,3.42,0,0,0,0-.57L48,10.67c0-.35,0-.66-.05-.9a3.94,3.94,0,0,0-.06-.49.41.41,0,0,0-.25-.3A1.87,1.87,0,0,0,47,8.92V8.58l1.88-.44Z"/><path class="cls-2" d="M53.8,14.18l.36.06a2.57,2.57,0,0,0,.11.85,2.12,2.12,0,0,0,1,1.19,2.53,2.53,0,0,0,.8.28,1.77,1.77,0,0,0,1.21-.14,1.14,1.14,0,0,0,.59-.85,1.24,1.24,0,0,0,0-.47,1.14,1.14,0,0,0-.21-.45,2.51,2.51,0,0,0-.46-.48,7.39,7.39,0,0,0-.75-.55,7.46,7.46,0,0,1-.93-.7,2.71,2.71,0,0,1-.57-.63,1.84,1.84,0,0,1-.25-.63,2.39,2.39,0,0,1,0-.7,2.22,2.22,0,0,1,.32-.81,2,2,0,0,1,.58-.58,2.07,2.07,0,0,1,.77-.3,2.58,2.58,0,0,1,.92,0,2.42,2.42,0,0,1,.78.29,3,3,0,0,1,.68.58l.33-.4.23,0-.25,2-.36-.06a2.56,2.56,0,0,0-.47-1.33,1.59,1.59,0,0,0-1-.59,1.51,1.51,0,0,0-1,.12,1,1,0,0,0-.5.74,1.09,1.09,0,0,0,0,.44,1.15,1.15,0,0,0,.19.41,3,3,0,0,0,.4.43,5.59,5.59,0,0,0,.64.48,13,13,0,0,1,1.1.83,3.9,3.9,0,0,1,.67.7,1.59,1.59,0,0,1,.29.66,1.93,1.93,0,0,1,0,.72,2.11,2.11,0,0,1-.36.87,2.33,2.33,0,0,1-.68.61,2.82,2.82,0,0,1-.93.3,3.48,3.48,0,0,1-1.11,0,3,3,0,0,1-1-.35,3.17,3.17,0,0,1-.82-.69l-.36.43-.23,0Z"/><path class="cls-2" d="M64.06,18.42a2.61,2.61,0,0,1-2.33.24,2.83,2.83,0,0,1-.94-.56,2.38,2.38,0,0,1-.58-.8,2.3,2.3,0,0,1-.21-1,3.08,3.08,0,0,1,.2-1.09,3,3,0,0,1,.58-1,2.36,2.36,0,0,1,.84-.64,2.64,2.64,0,0,1,1-.25,2.89,2.89,0,0,1,1.11.19,2,2,0,0,1,1.23,1,2,2,0,0,1,0,1.59c0,.09-.07.14-.11.14a.5.5,0,0,1-.25-.06L61.5,15.09a1.94,1.94,0,0,0-.1.17l-.09.23a3.08,3.08,0,0,0-.21.94,2.29,2.29,0,0,0,.08.8,1.67,1.67,0,0,0,.37.63,1.6,1.6,0,0,0,.62.41,1.82,1.82,0,0,0,.8.09,2.68,2.68,0,0,0,.9-.31Zm-.61-3.11.3.11a.45.45,0,0,0,.19,0,.14.14,0,0,0,.1,0,.32.32,0,0,0,.07-.13.94.94,0,0,0,0-.79,1.17,1.17,0,0,0-.66-.54,1.34,1.34,0,0,0-1.71.75Z"/><path class="cls-2" d="M66.7,19.08a6.17,6.17,0,0,0-.29.58.71.71,0,0,0-.09.37.42.42,0,0,0,.14.26l.36.27-.16.31-2.34-1.28.17-.31a2.33,2.33,0,0,0,.43.17.46.46,0,0,0,.31,0,.73.73,0,0,0,.27-.24c.08-.13.19-.3.31-.52l.56-1c.22-.4.39-.71.5-.94a1.56,1.56,0,0,0,.18-.53.34.34,0,0,0-.13-.32,2.19,2.19,0,0,0-.42-.27l.17-.31,1.72.51-.48,1.16h0a2.33,2.33,0,0,1,.55-.32,2.47,2.47,0,0,1,.57-.17,2.11,2.11,0,0,1,.56,0,1.41,1.41,0,0,1,.49.16.75.75,0,0,1,.37.38.48.48,0,0,1,0,.45.47.47,0,0,1-.31.26.62.62,0,0,1-.44-.09.8.8,0,0,1-.22-.17l-.13-.17-.1-.15a.43.43,0,0,0-.12-.11.73.73,0,0,0-.64,0,2.66,2.66,0,0,0-.79.57,4.77,4.77,0,0,0-.43.51,5.93,5.93,0,0,0-.4.65Z"/><path class="cls-2" d="M71.28,18.93a4.37,4.37,0,0,0,.12-.51,1,1,0,0,0,0-.34.56.56,0,0,0-.13-.24L71,17.62l.21-.28L73.35,19l-.21.28L72.86,19a.6.6,0,0,0-.19-.08.17.17,0,0,0-.14,0,.54.54,0,0,0-.14.13,1.08,1.08,0,0,0-.15.28c0,.1-.08.2-.11.3l-.92,2.94,0,0,2-1.16A5.88,5.88,0,0,0,74,21a2.06,2.06,0,0,0,.4-.36.36.36,0,0,0,.09-.32,1.05,1.05,0,0,0-.36-.38l.21-.28,1.58,1.21-.22.28a.46.46,0,0,0-.27-.11,1.06,1.06,0,0,0-.31,0,1.59,1.59,0,0,0-.31.14l-.37.2a3.13,3.13,0,0,0-.36.22l-.3.17-3.23,1.8-.46-.36Z"/><path class="cls-2" d="M75.31,25.62a3.18,3.18,0,0,0-.42.46,1,1,0,0,0-.17.36.57.57,0,0,0,.07.33,2.4,2.4,0,0,0,.29.38l-.24.25-2-2,.25-.24a3.45,3.45,0,0,0,.39.3.63.63,0,0,0,.34.08.71.71,0,0,0,.34-.15,4.16,4.16,0,0,0,.44-.38l.9-.9c.28-.28.5-.5.67-.69a2.43,2.43,0,0,0,.33-.4.44.44,0,0,0,.06-.38,2,2,0,0,0-.42-.55l.25-.24L78,22.93Zm3.32-4.94a.62.62,0,0,1,.44-.18.6.6,0,0,1,.44.18.58.58,0,0,1,.18.44.62.62,0,0,1-1.06.44.62.62,0,0,1-.18-.44A.6.6,0,0,1,78.63,20.68Z"/><path class="cls-2" d="M78.63,30.84a2.47,2.47,0,0,1-1.11-.32,3.18,3.18,0,0,1-.94-.82,2.22,2.22,0,0,1-.44-.9,2.29,2.29,0,0,1,0-.94,2.56,2.56,0,0,1,.38-.91,3.5,3.5,0,0,1,1.81-1.37,2.65,2.65,0,0,1,1-.09,2.43,2.43,0,0,1,1,.36,3.4,3.4,0,0,1,.85.77,3.77,3.77,0,0,1,.38.61,2.31,2.31,0,0,1,.2.55,1.18,1.18,0,0,1,0,.46.63.63,0,0,1-.2.32.38.38,0,0,1-.33.08.54.54,0,0,1-.31-.21.6.6,0,0,1-.12-.29,1.4,1.4,0,0,1,.08-.45,1.45,1.45,0,0,0,0-.5,1.13,1.13,0,0,0-.22-.44,1.21,1.21,0,0,0-1.09-.51,3,3,0,0,0-1.51.7,3.14,3.14,0,0,0-1.13,1.39,1.34,1.34,0,0,0,.26,1.3,1.93,1.93,0,0,0,.61.53,2.86,2.86,0,0,0,.88.26Z"/><path class="cls-2" d="M81.35,35.5a2.62,2.62,0,0,1-1.91-1.36,2.78,2.78,0,0,1-.34-1,2.36,2.36,0,0,1,.09-1,2.54,2.54,0,0,1,.48-.88,3.46,3.46,0,0,1,.88-.69,3.13,3.13,0,0,1,1.08-.36,2.51,2.51,0,0,1,1.06.07,2.62,2.62,0,0,1,.92.48,3.1,3.1,0,0,1,.72.87,2.07,2.07,0,0,1,.25,1.57,2,2,0,0,1-1.07,1.19c-.08,0-.13.05-.17,0a.5.5,0,0,1-.15-.21L81.61,31.3l-.18.07-.23.11a3.58,3.58,0,0,0-.77.57,2,2,0,0,0-.46.66,1.61,1.61,0,0,0-.14.71,1.56,1.56,0,0,0,.2.72,1.72,1.72,0,0,0,.54.6,2.48,2.48,0,0,0,.88.35Zm1.58-2.74c.07.12.12.21.17.28a.38.38,0,0,0,.12.13.11.11,0,0,0,.11,0,.3.3,0,0,0,.14-.05.94.94,0,0,0,.5-.61,1.13,1.13,0,0,0-.14-.84,1.35,1.35,0,0,0-1.78-.56Z"/><path class="cls-2" d="M52.42,41.63a4.23,4.23,0,0,0-.67-2.57,2.21,2.21,0,0,0-1.89-.91,3.74,3.74,0,0,1-.67.26,2.94,2.94,0,0,1-.67.1,1.05,1.05,0,0,1-.66-.19.59.59,0,0,1-.26-.49.45.45,0,0,1,.24-.42,1.19,1.19,0,0,1,.64-.14,3.37,3.37,0,0,1,.59.06,4.15,4.15,0,0,1,.63.16,2,2,0,0,0,1.73-1A4.54,4.54,0,0,0,52.08,34c0-1.87-.79-2.8-2.36-2.8a2.63,2.63,0,0,0-1.67.48A1.58,1.58,0,0,0,47.44,33a1.52,1.52,0,0,0,.4,1.1,1.37,1.37,0,0,0,1,.42,1,1,0,0,1-.49.55,1.88,1.88,0,0,1-.91.21,2,2,0,0,1-.81-.16,2,2,0,0,1-.64-.45A2.33,2.33,0,0,1,45.6,34a2.13,2.13,0,0,1-.16-.84A2.17,2.17,0,0,1,45.75,32a2.73,2.73,0,0,1,.87-.89A4.16,4.16,0,0,1,48,30.51a6.84,6.84,0,0,1,1.75-.2,6.69,6.69,0,0,1,2,.26,4.55,4.55,0,0,1,1.5.72,3.23,3.23,0,0,1,1,1.12,3.08,3.08,0,0,1,.34,1.46,3.43,3.43,0,0,1-.24,1.28,4.11,4.11,0,0,1-.64,1.09,4,4,0,0,1-1,.83,4.64,4.64,0,0,1-1.17.5v.12a5.25,5.25,0,0,1,1.38.58,4.42,4.42,0,0,1,1.1.9,3.74,3.74,0,0,1,.72,1.18,3.9,3.9,0,0,1,.26,1.42,3.76,3.76,0,0,1-.4,1.73,4.38,4.38,0,0,1-1.1,1.37,5.36,5.36,0,0,1-1.67.91,6.61,6.61,0,0,1-2.13.33,6.44,6.44,0,0,1-1.91-.27,5.19,5.19,0,0,1-1.51-.74,3.53,3.53,0,0,1-1-1.12,2.9,2.9,0,0,1-.36-1.41,2.7,2.7,0,0,1,.18-1,2.54,2.54,0,0,1,.49-.81,2,2,0,0,1,.73-.54,2.11,2.11,0,0,1,.9-.19,2,2,0,0,1,1,.25,1.08,1.08,0,0,1,.54.63,1.55,1.55,0,0,0-1.24.55A2,2,0,0,0,47,42.87a2.12,2.12,0,0,0,.72,1.66,2.78,2.78,0,0,0,1.9.64,2.54,2.54,0,0,0,2.1-.91A4.18,4.18,0,0,0,52.42,41.63Z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50" class="medical-service-tab__num-image"><defs><style>.cls-1{fill:#bebebe;}.cls-2{fill:#fff;}</style></defs><path class="cls-1" d="M50,0A50,50,0,0,0,0,50H100A50,50,0,0,0,50,0Z"/><path class="cls-2" d="M20.45,30.56l-3.59-5.37,1.2-1.89.32.21a1.67,1.67,0,0,0-.21.47.55.55,0,0,0,0,.38,1,1,0,0,0,.31.36,5.32,5.32,0,0,0,.6.43l3.31,2.1a7.54,7.54,0,0,0,.69.4,1.13,1.13,0,0,0,.46.11.6.6,0,0,0,.36-.17,3.2,3.2,0,0,0,.35-.44l.32.2-1.74,2.73-.32-.2a2.92,2.92,0,0,0,.25-.51.58.58,0,0,0,0-.39.93.93,0,0,0-.28-.37,6.11,6.11,0,0,0-.6-.43L18,25.69l-.05.08,4,6-.12.18-7.08-1.1,0,0,3.86,2.45a6.28,6.28,0,0,0,.68.39,1,1,0,0,0,.47.11.51.51,0,0,0,.35-.17,3.15,3.15,0,0,0,.36-.44l.32.2-1.5,2.36-.32-.21a2.92,2.92,0,0,0,.25-.51.65.65,0,0,0,0-.39.85.85,0,0,0-.27-.36,5.22,5.22,0,0,0-.61-.44L14.88,31.7a4.72,4.72,0,0,0-.61-.35.87.87,0,0,0-.44-.11.53.53,0,0,0-.35.13,1.81,1.81,0,0,0-.35.4l-.33-.21,1.29-2,6.34,1.05Z"/><path class="cls-2" d="M27.89,23.38a2.66,2.66,0,0,1-.81,2.2,2.82,2.82,0,0,1-.91.6,2.42,2.42,0,0,1-2-.07,3.06,3.06,0,0,1-.9-.66,3.19,3.19,0,0,1-.63-1,2.71,2.71,0,0,1-.21-1,2.61,2.61,0,0,1,.23-1,2.9,2.9,0,0,1,.66-.92,1.83,1.83,0,0,1,2.87.07c.06.07.09.12.07.16a.53.53,0,0,1-.16.2l-2.38,2.27a1.16,1.16,0,0,0,.11.16l.17.19a3.61,3.61,0,0,0,.74.6,2.21,2.21,0,0,0,.76.28,2,2,0,0,0,.73-.05,1.77,1.77,0,0,0,1.08-1.06,2.92,2.92,0,0,0,.11-.95Zm-3.06-.81c.1-.09.17-.17.23-.23a.48.48,0,0,0,.1-.15.17.17,0,0,0,0-.12.31.31,0,0,0-.09-.12,1,1,0,0,0-.72-.33,1.15,1.15,0,0,0-.77.36,1.34,1.34,0,0,0-.08,1.86Z"/><path class="cls-2" d="M32.21,20.48l0,0a2.21,2.21,0,0,1-.24,1,2,2,0,0,1-.68.71,2.51,2.51,0,0,1-1,.4,2.41,2.41,0,0,1-1,0,2.62,2.62,0,0,1-.93-.43,3.19,3.19,0,0,1-1.22-1.84,2.57,2.57,0,0,1,0-1,2.35,2.35,0,0,1,.38-.93,2.65,2.65,0,0,1,.75-.74,2.12,2.12,0,0,1,.8-.34,2.26,2.26,0,0,1,.89,0l-.57-.85c-.2-.32-.38-.58-.53-.79a4.59,4.59,0,0,0-.33-.41.4.4,0,0,0-.4-.1,2.21,2.21,0,0,0-.68.34l-.16-.25,1.5-1.45,3.18,4.81.64.94a2.91,2.91,0,0,0,.4.5.64.64,0,0,0,.17.13.48.48,0,0,0,.18,0,.79.79,0,0,0,.22-.07l.33-.19.19.28-1.33,1Zm-1.38-1.73a4.15,4.15,0,0,0-.48-.63,1.07,1.07,0,0,0-.44-.27,1.55,1.55,0,0,0-.74-.06,1.69,1.69,0,0,0-.68.26,1.21,1.21,0,0,0-.58,1.1,2.93,2.93,0,0,0,.58,1.55,3.62,3.62,0,0,0,.61.75,2.29,2.29,0,0,0,.63.46,1.39,1.39,0,0,0,.65.14,1.24,1.24,0,0,0,.62-.21,2.09,2.09,0,0,0,.28-.24,1.33,1.33,0,0,0,.23-.3,1.58,1.58,0,0,0,.16-.35,1.53,1.53,0,0,0,.07-.36,1.74,1.74,0,0,0-.13-.55,4.74,4.74,0,0,0-.42-.74Z"/><path class="cls-2" d="M32,13.15a.59.59,0,0,1,0-.47.58.58,0,0,1,.32-.35.62.62,0,0,1,.48,0,.63.63,0,0,1,.35.33.59.59,0,0,1,0,.47.58.58,0,0,1-.32.35.62.62,0,0,1-.48,0A.58.58,0,0,1,32,13.15ZM35.5,18a4.26,4.26,0,0,0,.3.55.93.93,0,0,0,.28.28.53.53,0,0,0,.33,0,2,2,0,0,0,.46-.15L37,19l-2.6,1.22-.15-.31a3.11,3.11,0,0,0,.42-.27.59.59,0,0,0,.19-.29.72.72,0,0,0,0-.38,5.61,5.61,0,0,0-.22-.53l-.54-1.16-.42-.86a3.08,3.08,0,0,0-.27-.44.44.44,0,0,0-.34-.19,1.78,1.78,0,0,0-.65.21l-.15-.31,1.61-1.18Z"/><path class="cls-2" d="M41.53,16.57a2.44,2.44,0,0,1-.67.94,3,3,0,0,1-1.1.61A2.3,2.3,0,0,1,37.88,18a2.55,2.55,0,0,1-.74-.66,3.62,3.62,0,0,1-.51-1,3.27,3.27,0,0,1-.17-1.16,2.49,2.49,0,0,1,.27-1,2.38,2.38,0,0,1,.66-.8,3.09,3.09,0,0,1,1-.54,3.79,3.79,0,0,1,.69-.16,2.8,2.8,0,0,1,.58,0,1.09,1.09,0,0,1,.44.15.56.56,0,0,1,.23.3.4.4,0,0,1,0,.34.61.61,0,0,1-.31.21.48.48,0,0,1-.31,0,1.16,1.16,0,0,1-.4-.22,1.36,1.36,0,0,0-.47-.19,1.09,1.09,0,0,0-.48.06,1.21,1.21,0,0,0-.85.86,2.93,2.93,0,0,0,.16,1.65,3.09,3.09,0,0,0,.93,1.53,1.33,1.33,0,0,0,1.31.2,2,2,0,0,0,.7-.4,2.58,2.58,0,0,0,.54-.74Z"/><path class="cls-2" d="M44.72,13.41,44.65,13c-.13-.8-.54-1.14-1.22-1a1.42,1.42,0,0,0-.28.07.44.44,0,0,0-.18.14.51.51,0,0,0-.12.22c0,.09-.05.2-.07.33a1,1,0,0,1-.15.42.44.44,0,0,1-.28.14.45.45,0,0,1-.58-.41.82.82,0,0,1,.39-.82,3.15,3.15,0,0,1,1.38-.5,2.32,2.32,0,0,1,1.46.12,1.5,1.5,0,0,1,.61,1.13L46,15q.2,1.13.63,1.05a1,1,0,0,0,.26-.08.35.35,0,0,0,.19-.22l.18.22a1,1,0,0,1-.37.45,1.7,1.7,0,0,1-.64.26.76.76,0,0,1-.69-.17,1.25,1.25,0,0,1-.34-.75h0a1.91,1.91,0,0,1-.59.88,1.86,1.86,0,0,1-1,.45,1.4,1.4,0,0,1-1-.16,1.08,1.08,0,0,1-.49-.79,1.24,1.24,0,0,1,0-.47,1.27,1.27,0,0,1,.2-.45,2.62,2.62,0,0,1,.43-.47,5.37,5.37,0,0,1,.69-.52Zm.07.42c-.35.21-.65.4-.89.58a3.51,3.51,0,0,0-.55.52,1.39,1.39,0,0,0-.28.47,1,1,0,0,0,0,.44.76.76,0,0,0,.3.5.83.83,0,0,0,.61.11,1,1,0,0,0,.46-.2,1.4,1.4,0,0,0,.33-.42,1.59,1.59,0,0,0,.18-.57,2.36,2.36,0,0,0,0-.65Z"/><path class="cls-2" d="M49.09,14.88c0,.25,0,.45,0,.6a.8.8,0,0,0,.14.36.53.53,0,0,0,.28.17,2,2,0,0,0,.47,0v.35l-2.76.11v-.35a2.29,2.29,0,0,0,.48-.09.59.59,0,0,0,.27-.18.69.69,0,0,0,.13-.34,3.42,3.42,0,0,0,0-.57L48,10.67c0-.35,0-.66-.05-.9a3.94,3.94,0,0,0-.06-.49.41.41,0,0,0-.25-.3A1.87,1.87,0,0,0,47,8.92V8.58l1.88-.44Z"/><path class="cls-2" d="M53.8,14.18l.36.06a2.57,2.57,0,0,0,.11.85,2.12,2.12,0,0,0,1,1.19,2.53,2.53,0,0,0,.8.28,1.77,1.77,0,0,0,1.21-.14,1.14,1.14,0,0,0,.59-.85,1.24,1.24,0,0,0,0-.47,1.14,1.14,0,0,0-.21-.45,2.51,2.51,0,0,0-.46-.48,7.39,7.39,0,0,0-.75-.55,7.46,7.46,0,0,1-.93-.7,2.71,2.71,0,0,1-.57-.63,1.84,1.84,0,0,1-.25-.63,2.39,2.39,0,0,1,0-.7,2.22,2.22,0,0,1,.32-.81,2,2,0,0,1,.58-.58,2.07,2.07,0,0,1,.77-.3,2.58,2.58,0,0,1,.92,0,2.42,2.42,0,0,1,.78.29,3,3,0,0,1,.68.58l.33-.4.23,0-.25,2-.36-.06a2.56,2.56,0,0,0-.47-1.33,1.59,1.59,0,0,0-1-.59,1.51,1.51,0,0,0-1,.12,1,1,0,0,0-.5.74,1.09,1.09,0,0,0,0,.44,1.15,1.15,0,0,0,.19.41,3,3,0,0,0,.4.43,5.59,5.59,0,0,0,.64.48,13,13,0,0,1,1.1.83,3.9,3.9,0,0,1,.67.7,1.59,1.59,0,0,1,.29.66,1.93,1.93,0,0,1,0,.72,2.11,2.11,0,0,1-.36.87,2.33,2.33,0,0,1-.68.61,2.82,2.82,0,0,1-.93.3,3.48,3.48,0,0,1-1.11,0,3,3,0,0,1-1-.35,3.17,3.17,0,0,1-.82-.69l-.36.43-.23,0Z"/><path class="cls-2" d="M64.06,18.42a2.61,2.61,0,0,1-2.33.24,2.83,2.83,0,0,1-.94-.56,2.38,2.38,0,0,1-.58-.8,2.3,2.3,0,0,1-.21-1,3.08,3.08,0,0,1,.2-1.09,3,3,0,0,1,.58-1,2.36,2.36,0,0,1,.84-.64,2.64,2.64,0,0,1,1-.25,2.89,2.89,0,0,1,1.11.19,2,2,0,0,1,1.23,1,2,2,0,0,1,0,1.59c0,.09-.07.14-.11.14a.5.5,0,0,1-.25-.06L61.5,15.09a1.94,1.94,0,0,0-.1.17l-.09.23a3.08,3.08,0,0,0-.21.94,2.29,2.29,0,0,0,.08.8,1.67,1.67,0,0,0,.37.63,1.6,1.6,0,0,0,.62.41,1.82,1.82,0,0,0,.8.09,2.68,2.68,0,0,0,.9-.31Zm-.61-3.11.3.11a.45.45,0,0,0,.19,0,.14.14,0,0,0,.1,0,.32.32,0,0,0,.07-.13.94.94,0,0,0,0-.79,1.17,1.17,0,0,0-.66-.54,1.34,1.34,0,0,0-1.71.75Z"/><path class="cls-2" d="M66.7,19.08a6.17,6.17,0,0,0-.29.58.71.71,0,0,0-.09.37.42.42,0,0,0,.14.26l.36.27-.16.31-2.34-1.28.17-.31a2.33,2.33,0,0,0,.43.17.46.46,0,0,0,.31,0,.73.73,0,0,0,.27-.24c.08-.13.19-.3.31-.52l.56-1c.22-.4.39-.71.5-.94a1.56,1.56,0,0,0,.18-.53.34.34,0,0,0-.13-.32,2.19,2.19,0,0,0-.42-.27l.17-.31,1.72.51-.48,1.16h0a2.33,2.33,0,0,1,.55-.32,2.47,2.47,0,0,1,.57-.17,2.11,2.11,0,0,1,.56,0,1.41,1.41,0,0,1,.49.16.75.75,0,0,1,.37.38.48.48,0,0,1,0,.45.47.47,0,0,1-.31.26.62.62,0,0,1-.44-.09.8.8,0,0,1-.22-.17l-.13-.17-.1-.15a.43.43,0,0,0-.12-.11.73.73,0,0,0-.64,0,2.66,2.66,0,0,0-.79.57,4.77,4.77,0,0,0-.43.51,5.93,5.93,0,0,0-.4.65Z"/><path class="cls-2" d="M71.28,18.93a4.37,4.37,0,0,0,.12-.51,1,1,0,0,0,0-.34.56.56,0,0,0-.13-.24L71,17.62l.21-.28L73.35,19l-.21.28L72.86,19a.6.6,0,0,0-.19-.08.17.17,0,0,0-.14,0,.54.54,0,0,0-.14.13,1.08,1.08,0,0,0-.15.28c0,.1-.08.2-.11.3l-.92,2.94,0,0,2-1.16A5.88,5.88,0,0,0,74,21a2.06,2.06,0,0,0,.4-.36.36.36,0,0,0,.09-.32,1.05,1.05,0,0,0-.36-.38l.21-.28,1.58,1.21-.22.28a.46.46,0,0,0-.27-.11,1.06,1.06,0,0,0-.31,0,1.59,1.59,0,0,0-.31.14l-.37.2a3.13,3.13,0,0,0-.36.22l-.3.17-3.23,1.8-.46-.36Z"/><path class="cls-2" d="M75.31,25.62a3.18,3.18,0,0,0-.42.46,1,1,0,0,0-.17.36.57.57,0,0,0,.07.33,2.4,2.4,0,0,0,.29.38l-.24.25-2-2,.25-.24a3.45,3.45,0,0,0,.39.3.63.63,0,0,0,.34.08.71.71,0,0,0,.34-.15,4.16,4.16,0,0,0,.44-.38l.9-.9c.28-.28.5-.5.67-.69a2.43,2.43,0,0,0,.33-.4.44.44,0,0,0,.06-.38,2,2,0,0,0-.42-.55l.25-.24L78,22.93Zm3.32-4.94a.62.62,0,0,1,.44-.18.6.6,0,0,1,.44.18.58.58,0,0,1,.18.44.62.62,0,0,1-1.06.44.62.62,0,0,1-.18-.44A.6.6,0,0,1,78.63,20.68Z"/><path class="cls-2" d="M78.63,30.84a2.47,2.47,0,0,1-1.11-.32,3.18,3.18,0,0,1-.94-.82,2.22,2.22,0,0,1-.44-.9,2.29,2.29,0,0,1,0-.94,2.56,2.56,0,0,1,.38-.91,3.5,3.5,0,0,1,1.81-1.37,2.65,2.65,0,0,1,1-.09,2.43,2.43,0,0,1,1,.36,3.4,3.4,0,0,1,.85.77,3.77,3.77,0,0,1,.38.61,2.31,2.31,0,0,1,.2.55,1.18,1.18,0,0,1,0,.46.63.63,0,0,1-.2.32.38.38,0,0,1-.33.08.54.54,0,0,1-.31-.21.6.6,0,0,1-.12-.29,1.4,1.4,0,0,1,.08-.45,1.45,1.45,0,0,0,0-.5,1.13,1.13,0,0,0-.22-.44,1.21,1.21,0,0,0-1.09-.51,3,3,0,0,0-1.51.7,3.14,3.14,0,0,0-1.13,1.39,1.34,1.34,0,0,0,.26,1.3,1.93,1.93,0,0,0,.61.53,2.86,2.86,0,0,0,.88.26Z"/><path class="cls-2" d="M81.35,35.5a2.62,2.62,0,0,1-1.91-1.36,2.78,2.78,0,0,1-.34-1,2.36,2.36,0,0,1,.09-1,2.54,2.54,0,0,1,.48-.88,3.46,3.46,0,0,1,.88-.69,3.13,3.13,0,0,1,1.08-.36,2.51,2.51,0,0,1,1.06.07,2.62,2.62,0,0,1,.92.48,3.1,3.1,0,0,1,.72.87,2.07,2.07,0,0,1,.25,1.57,2,2,0,0,1-1.07,1.19c-.08,0-.13.05-.17,0a.5.5,0,0,1-.15-.21L81.61,31.3l-.18.07-.23.11a3.58,3.58,0,0,0-.77.57,2,2,0,0,0-.46.66,1.61,1.61,0,0,0-.14.71,1.56,1.56,0,0,0,.2.72,1.72,1.72,0,0,0,.54.6,2.48,2.48,0,0,0,.88.35Zm1.58-2.74c.07.12.12.21.17.28a.38.38,0,0,0,.12.13.11.11,0,0,0,.11,0,.3.3,0,0,0,.14-.05.94.94,0,0,0,.5-.61,1.13,1.13,0,0,0-.14-.84,1.35,1.35,0,0,0-1.78-.56Z"/><path class="cls-2" d="M52.42,41.63a4.23,4.23,0,0,0-.67-2.57,2.21,2.21,0,0,0-1.89-.91,3.74,3.74,0,0,1-.67.26,2.94,2.94,0,0,1-.67.1,1.05,1.05,0,0,1-.66-.19.59.59,0,0,1-.26-.49.45.45,0,0,1,.24-.42,1.19,1.19,0,0,1,.64-.14,3.37,3.37,0,0,1,.59.06,4.15,4.15,0,0,1,.63.16,2,2,0,0,0,1.73-1A4.54,4.54,0,0,0,52.08,34c0-1.87-.79-2.8-2.36-2.8a2.63,2.63,0,0,0-1.67.48A1.58,1.58,0,0,0,47.44,33a1.52,1.52,0,0,0,.4,1.1,1.37,1.37,0,0,0,1,.42,1,1,0,0,1-.49.55,1.88,1.88,0,0,1-.91.21,2,2,0,0,1-.81-.16,2,2,0,0,1-.64-.45A2.33,2.33,0,0,1,45.6,34a2.13,2.13,0,0,1-.16-.84A2.17,2.17,0,0,1,45.75,32a2.73,2.73,0,0,1,.87-.89A4.16,4.16,0,0,1,48,30.51a6.84,6.84,0,0,1,1.75-.2,6.69,6.69,0,0,1,2,.26,4.55,4.55,0,0,1,1.5.72,3.23,3.23,0,0,1,1,1.12,3.08,3.08,0,0,1,.34,1.46,3.43,3.43,0,0,1-.24,1.28,4.11,4.11,0,0,1-.64,1.09,4,4,0,0,1-1,.83,4.64,4.64,0,0,1-1.17.5v.12a5.25,5.25,0,0,1,1.38.58,4.42,4.42,0,0,1,1.1.9,3.74,3.74,0,0,1,.72,1.18,3.9,3.9,0,0,1,.26,1.42,3.76,3.76,0,0,1-.4,1.73,4.38,4.38,0,0,1-1.1,1.37,5.36,5.36,0,0,1-1.67.91,6.61,6.61,0,0,1-2.13.33,6.44,6.44,0,0,1-1.91-.27,5.19,5.19,0,0,1-1.51-.74,3.53,3.53,0,0,1-1-1.12,2.9,2.9,0,0,1-.36-1.41,2.7,2.7,0,0,1,.18-1,2.54,2.54,0,0,1,.49-.81,2,2,0,0,1,.73-.54,2.11,2.11,0,0,1,.9-.19,2,2,0,0,1,1,.25,1.08,1.08,0,0,1,.54.63,1.55,1.55,0,0,0-1.24.55A2,2,0,0,0,47,42.87a2.12,2.12,0,0,0,.72,1.66,2.78,2.78,0,0,0,1.9.64,2.54,2.54,0,0,0,2.1-.91A4.18,4.18,0,0,0,52.42,41.63Z"/></svg>
             p(class="medical-service-tab__title") アンチエンジング
         ul(class="slick03 medical-service__li")
           li(class="medical-service__item medical-service__item--rheumatoid")
@@ -475,7 +475,7 @@ block content
               h3(class="medical-service__title") リウマチ科
             div(class="medical-service__body")
               div(class="medical-service__image--wrapper")
-                img(src="../images/service_img_01.jpg" alt="リウマチの寛解の定義" class="medical-service__image" width="308" height="auto")
+                img(src="../images/service_img_01.jpg" alt="リウマチの寛解の定義" class="medical-service__image" width="308")
               div(class="medical-service__description")
                 div(class="medical-service__texts")
                   p 関節リウマチは、30代～50代で発症することが多い病気です。患者さんは女性の比率が高く、早期発見で治療を始めることが大切。<br>現在では良い薬があり、多くの方を「寛解」という痛みのない状態へ導くことが可能です。もしかして、と思われた時に受診してみることをおすすめします。
@@ -486,7 +486,7 @@ block content
               h3(class="medical-service__title") 内科
             div(class="medical-service__body")
               div(class="medical-service__image--wrapper")
-                img(src="../images/service_img_02.jpg" alt="" class="medical-service__image medical-service__image--round" width="240" height="auto")
+                img(src="../images/service_img_02.jpg" alt="" class="medical-service__image medical-service__image--round" width="240")
               div(class="medical-service__description")
                 div(class="medical-service__texts")
                   p 風邪やインフルエンザ、痛風、血圧が高いなど、なんでもお気軽にご相談下さい。仕事の休憩の時間に定期薬の継続で通院したい、出勤前に病院の風邪薬が欲しい。そんな時にも時間が読める内科診療を目指します。
@@ -497,7 +497,7 @@ block content
               h3(class="medical-service__title") アンチエイジング
             div(class="medical-service__body")
               div(class="medical-service__image--wrapper")
-                img(src="../images/service_img_03.jpg" alt="" class="medical-service__image medical-service__image--round" width="308" height="auto")
+                img(src="../images/service_img_03.jpg" alt="" class="medical-service__image medical-service__image--round" width="308")
               div(class="medical-service__description")
                 div(class="medical-service__texts")
                   p プラセンタ、ニンニク注射などを取り扱っております。健やかに美しく、リウマチと生きる女性のトータルサポートを目指します。もちろん、アンチエイジングのみの方も大歓迎です。尚、アンチエイジングは自費診療となります。※お支払いには現金のほか、各種クレジットカード(VISA/ MasterCard/ /Diners/ AMEX/ JCB)もご利用いただけます。
@@ -506,130 +506,153 @@ block content
         ul(class="service-post")
           li(class="service-post__item")
             a(href="" class="service-post__link category--aging")
-              span(class="service-post__thumbnail" style="background-image: url('../images/4e5623daafd5f233f41c91645a8ec0a4-500x300.jpg')")
-              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
-              ul(class="service-post__service service-list")
-                li(class="service-list__item") リウマチ科
-                li(class="service-list__item") アンチエイジング
+              div(class="service-post__thumbnail--wrapper")
+                img(src="../images/4e5623daafd5f233f41c91645a8ec0a4-500x300.jpg" alt="" width="338" class="service-post__thumbnail")
+              div(class="service-post__meta")
+                time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+                ul(class="service-post__service service-list")
+                  li(class="service-list__item") リウマチ科
+                  li(class="service-list__item") アンチエイジング
               h3(class="service-post__title") 「関節リウマチ除外後の関節痛に対するアグリコン型イソフラボン (へバスター) の効果の検討」日本リウマチ学会（2021）で院長が発表
               p(class="service-post__excerpt") 院長が2021年4/26に行われる第65回日本…
-
           li(class="service-post__item")
             a(href="" class="service-post__link category--rheumatoid")
-              span(class="service-post__thumbnail" style="background-image: url('../images/7dd4c3f74f006b34bb1d70d7adebd54e-500x300.jpg')")
-              time(datetime="2021-01-05" class="service-post__time") 2021.01.05
-              ul(class="service-post__service service-list")
-                li(class="service-list__item") リウマチ科
+              div(class="service-post__thumbnail--wrapper")
+                img(src="../images/7dd4c3f74f006b34bb1d70d7adebd54e-500x300.jpg" alt="" width="338" class="service-post__thumbnail")
+              div(class="service-post__meta")
+                time(datetime="2021-01-05" class="service-post__time") 2021.01.05
+                ul(class="service-post__service service-list")
+                  li(class="service-list__item") リウマチ科
               h3(class="service-post__title") 関節リウマチと更年期関節痛の鑑別と対策　情報誌に院長の記事が掲載
               p(class="service-post__excerpt") 情報誌　調剤と情報（2021年1月1日発行）に、院長の記事が…
-
           li(class="service-post__item")
             a(href="" class="service-post__link category--aging")
-              span(class="service-post__thumbnail" style="background-image: url('../images/85d50a5d6f17e17653ecdd60c1e63fc2-scaled-e1597046043749-500x300.jpg')")
-              time(datetime="2021-04-14" class="service-post__time") 2020.08.10
-              ul(class="service-post__service service-list")
-                li(class="service-list__item") リウマチ科
-                li(class="service-list__item") アンチエイジング
+              div(class="service-post__thumbnail--wrapper")
+                img(src="../images/85d50a5d6f17e17653ecdd60c1e63fc2-scaled-e1597046043749-500x300.jpg" alt="" width="338" class="service-post__thumbnail")
+              div(class="service-post__meta")
+                time(datetime="2021-04-14" class="service-post__time") 2020.08.10
+                ul(class="service-post__service service-list")
+                  li(class="service-list__item") リウマチ科
+                  li(class="service-list__item") アンチエイジング
               h3(class="service-post__title") 「更年期関節痛に対するエクオールの効果」日本リウマチ学会（2020）で院長が発表
               p(class="service-post__excerpt") 院長が日本リウマチ学会に下記内容で発表いたします。本来4月に…
-
           li(class="service-post__item")
             a(href="" class="service-post__link category--aging")
-              span(class="service-post__thumbnail" style="background-image: url('../images/aging.jpg')")
-              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
-              ul(class="service-post__service service-list")
-                li(class="service-list__item") リウマチ科
-                li(class="service-list__item") アンチエイジング
+              div(class="service-post__thumbnail--wrapper")
+                img(src="../images/aging.jpg" alt="" width="338" class="service-post__thumbnail")
+              div(class="service-post__meta")
+                time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+                ul(class="service-post__service service-list")
+                  li(class="service-list__item") リウマチ科
+                  li(class="service-list__item") アンチエイジング
               h3(class="service-post__title") メニュー表
               p(class="service-post__excerpt")
 
           li(class="service-post__item")
             a(href="" class="service-post__link category--rheumatoid")
-              span(class="service-post__thumbnail" style="background-image: url('../images/IMG_3665-500x300.jpg')")
-              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
-              ul(class="service-post__service service-list")
-                li(class="service-list__item") リウマチ科
-                li(class="service-list__item") アンチエイジング
+              div(class="service-post__thumbnail--wrapper")
+                img(src="../images/IMG_3665-500x300.jpg" alt="" width="338" class="service-post__thumbnail")
+              div(class="service-post__meta")
+                time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+                ul(class="service-post__service service-list")
+                  li(class="service-list__item") リウマチ科
+                  li(class="service-list__item") アンチエイジング
               h3(class="service-post__title") 「飲み薬」のリウマチ新薬、日本発のJAK阻害剤スマイラフの特徴
               p(class="service-post__excerpt")
 
           li(class="service-post__item")
             a(href="" class="service-post__link category--aging")
-              span(class="service-post__thumbnail" style="background-image: url('../images/IMG_4091-500x300.jpg')")
-              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
-              ul(class="service-post__service service-list")
-                li(class="service-list__item") リウマチ科
-                li(class="service-list__item") アンチエイジング
+              div(class="service-post__thumbnail--wrapper")
+                img(src="../images/IMG_4091-500x300.jpg" alt="" width="338" class="service-post__thumbnail")
+              div(class="service-post__meta")
+                time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+                ul(class="service-post__service service-list")
+                  li(class="service-list__item") リウマチ科
+                  li(class="service-list__item") アンチエイジング
               h3(class="service-post__title") リウマチではない、のその先に。 へバスター HEBER STAR
               p(class="service-post__excerpt")
 
           li(class="service-post__item")
             a(href="" class="service-post__link category--rheumatoid")
-              span(class="service-post__thumbnail" style="background-image: url('../images/IMG_7215-e1573774840993-500x300.jpg')")
-              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
-              ul(class="service-post__service service-list")
-                li(class="service-list__item") リウマチ科
-                li(class="service-list__item") アンチエイジング
+              div(class="service-post__thumbnail--wrapper")
+                img(src="../images/IMG_7215-e1573774840993-500x300.jpg" alt="" width="338" class="service-post__thumbnail")
+              div(class="service-post__meta")
+                time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+                ul(class="service-post__service service-list")
+                  li(class="service-list__item") リウマチ科
+                  li(class="service-list__item") アンチエイジング
               h3(class="service-post__title") リウマチと日常生活について　(財界さっぽろ リウマチコラム最終回)
               p(class="service-post__excerpt")
 
           li(class="service-post__item")
             a(href="" class="service-post__link category--rheumatoid")
-              span(class="service-post__thumbnail" style="background-image: url('../images/7dd4c3f74f006b34bb1d70d7adebd54e-500x300.png')")
-              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
-              ul(class="service-post__service service-list")
-                li(class="service-list__item") リウマチ科
-                li(class="service-list__item") アンチエイジング
+              div(class="service-post__thumbnail--wrapper")
+                img(src="../images/7dd4c3f74f006b34bb1d70d7adebd54e-500x300.png" alt="" width="338" class="service-post__thumbnail")
+              div(class="service-post__meta")
+                time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+                ul(class="service-post__service service-list")
+                  li(class="service-list__item") リウマチ科
+                  li(class="service-list__item") アンチエイジング
               h3(class="service-post__title") 2019/12/14　更年期関節痛セミナー開催
               p(class="service-post__excerpt")
 
           li(class="service-post__item")
             a(href="" class="service-post__link category--rheumatoid")
-              span(class="service-post__thumbnail" style="background-image: url('../images/IMG_7180-500x300.jpg')")
-              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
-              ul(class="service-post__service service-list")
-                li(class="service-list__item") リウマチ科
-                li(class="service-list__item") アンチエイジング
+              div(class="service-post__thumbnail--wrapper")
+                img(src="../images/IMG_7180-500x300.jpg" alt="" width="338" class="service-post__thumbnail")
+              div(class="service-post__meta")
+                time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+                ul(class="service-post__service service-list")
+                  li(class="service-list__item") リウマチ科
+                  li(class="service-list__item") アンチエイジング
               h3(class="service-post__title") リウマチの治療について　(財界さっぽろ リウマチコラム第５回)
               p(class="service-post__excerpt")
 
           li(class="service-post__item")
             a(href="" class="service-post__link category--rheumatoid")
-              span(class="service-post__thumbnail" style="background-image: url('../images/IMG_7122-e1568362972324-500x300.jpg')")
-              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
-              ul(class="service-post__service service-list")
-                li(class="service-list__item") リウマチ科
-                li(class="service-list__item") アンチエイジング
+              div(class="service-post__thumbnail--wrapper")
+                img(src="../images/IMG_7122-e1568362972324-500x300.jpg" alt="" width="338" class="service-post__thumbnail")
+              div(class="service-post__meta")
+                time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+                ul(class="service-post__service service-list")
+                  li(class="service-list__item") リウマチ科
+                  li(class="service-list__item") アンチエイジング
               h3(class="service-post__title") リウマチが難病である理由　(財界さっぽろ リウマチコラム第４回)
               p(class="service-post__excerpt")
 
           li(class="service-post__item")
             a(href="" class="service-post__link category--rheumatoid")
-              span(class="service-post__thumbnail" style="background-image: url('../images/6e3061f9b6b26b11f36621beb38b51c4-500x300.jpg')")
-              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
-              ul(class="service-post__service service-list")
-                li(class="service-list__item") リウマチ科
-                li(class="service-list__item") アンチエイジング
+              div(class="service-post__thumbnail--wrapper")
+                img(src="../images/6e3061f9b6b26b11f36621beb38b51c4-500x300.jpg" alt="" width="338" class="service-post__thumbnail")
+              div(class="service-post__meta")
+                time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+                ul(class="service-post__service service-list")
+                  li(class="service-list__item") リウマチ科
+                  li(class="service-list__item") アンチエイジング
               h3(class="service-post__title") 2019/10/5　リウマチ市民講座開催
               p(class="service-post__excerpt")
 
           li(class="service-post__item")
             a(href="" class="service-post__link category--rheumatoid")
-              span(class="service-post__thumbnail" style="background-image: url('../images/990709EC-A1AC-4F98-B3C4-12DA545A0664-e1565762408908-500x300.jpg')")
-              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
-              ul(class="service-post__service service-list")
-                li(class="service-list__item") リウマチ科
-                li(class="service-list__item") アンチエイジング
+              div(class="service-post__thumbnail--wrapper")
+                img(src="../images/990709EC-A1AC-4F98-B3C4-12DA545A0664-e1565762408908-500x300.jpg" alt="" width="338" class="service-post__thumbnail")
+              div(class="service-post__meta")
+                time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+                ul(class="service-post__service service-list")
+                  li(class="service-list__item") リウマチ科
+                  li(class="service-list__item") アンチエイジング
               h3(class="service-post__title") あなたはリウマチではない　(財界さっぽろ リウマチコラム第３回)
               p(class="service-post__excerpt")
 
           li(class="service-post__item")
             a(href="" class="service-post__link category--rheumatoid")
-              span(class="service-post__thumbnail" style="background-image: url('../images/dc0994aa37d922da95f69305c3f700d9-e1565333864327-500x300.jpg')")
-              time(datetime="2021-04-14" class="service-post__time") 2021.04.14
-              ul(class="service-post__service service-list")
-                li(class="service-list__item") リウマチ科
-                li(class="service-list__item") アンチエイジング
+              div(class="service-post__thumbnail--wrapper")
+                img(src="../images/dc0994aa37d922da95f69305c3f700d9-e1565333864327-500x300.jpg" alt="" width="338" class="service-post__thumbnail")
+              div(class="service-post__meta")
+                time(datetime="2021-04-14" class="service-post__time") 2021.04.14
+                ul(class="service-post__service service-list")
+                  li(class="service-list__item") リウマチ科
+                  li(class="service-list__item") アンチエイジング
               h3(class="service-post__title") リウマチのイロハ　ontona オントナ (北海道新聞)
               p(class="service-post__excerpt")
         a(href="#" class="button-arrow button-arrow--red button-arrow--w200 mt60") もっと見る
@@ -649,8 +672,8 @@ block content
           div(class="doctor-name--wrapper")
             div(class="doctor-name--inner on-scroll-add-class")
               div(class="doctor-profile__photo--wrapper")
-                img(src="../images/doctor_img_01.jpg" alt="山田 一郎" width="1110" height="auto" class="doctor-profile__photo")
-                h3(class="doctor-name") 山田 一郎
+                img(src="../images/doctor_img_01.jpg" alt="澤向 範文" width="1110" class="doctor-profile__photo")
+                h3(class="doctor-name") 澤向 範文
                   span(class="doctor-name__ruby") Ichiro <br class="sp-only">Yamada
               section(class="doctor-career doctor-career--fadein")
                 h4(class="doctor-career__title") ［専門医資格］
@@ -848,56 +871,56 @@ block content
         div(class="clinic-map")
           ol(class="slick05-tab clinic-map__map")
             li(class="clinic-map__room clinic-map__room--no1")
-              img(src="../images/map_btn_01.svg" alt="Room1" class="clinic-map__image" width="30px" height="auto")
+              img(src="../images/map_btn_01.svg" alt="Room1" class="clinic-map__image" width="30")
             li(class="clinic-map__room clinic-map__room--no2")
-              img(src="../images/map_btn_02.svg" alt="Room2" class="clinic-map__image" width="30px" height="auto")
+              img(src="../images/map_btn_02.svg" alt="Room2" class="clinic-map__image" width="30")
             li(class="clinic-map__room clinic-map__room--no3")
-              img(src="../images/map_btn_03.svg" alt="Room3" class="clinic-map__image" width="30px" height="auto")
+              img(src="../images/map_btn_03.svg" alt="Room3" class="clinic-map__image" width="30")
             li(class="clinic-map__room clinic-map__room--no4")
-              img(src="../images/map_btn_04.svg" alt="Room4" class="clinic-map__image" width="30px" height="auto")
+              img(src="../images/map_btn_04.svg" alt="Room4" class="clinic-map__image" width="30")
             li(class="clinic-map__room clinic-map__room--no5")
-              img(src="../images/map_btn_05.svg" alt="Room5" class="clinic-map__image" width="30px" height="auto")
+              img(src="../images/map_btn_05.svg" alt="Room5" class="clinic-map__image" width="30")
             li(class="clinic-map__room clinic-map__room--no6")
-              img(src="../images/map_btn_06.svg" alt="Room6" class="clinic-map__image" width="30px" height="auto")
+              img(src="../images/map_btn_06.svg" alt="Room6" class="clinic-map__image" width="30")
             li(class="clinic-map__room clinic-map__room--no7")
-              img(src="../images/map_btn_07.svg" alt="Room7" class="clinic-map__image" width="30px" height="auto")
+              img(src="../images/map_btn_07.svg" alt="Room7" class="clinic-map__image" width="30")
           div(class="clinic-photos--wrapper")
             ol(class="slick05 clinic-photos")
               li(class="clinic-photos__item clinic-photos__item--no1")
                 p(class="clinic-photos__room-num")
                   span(class="clinic-photos__room") Room
                   span(class="clinic-photos__num") 1
-                img(src="../images/map_img_01.jpg" alt="Room1" class="clinic-photos__image" width="532" height="auto")
+                img(src="../images/map_img_01.jpg" alt="Room1" class="clinic-photos__image" width="532")
               li(class="clinic-photos__item clinic-photos__item--no2")
                 p(class="clinic-photos__room-num")
                   span(class="clinic-photos__room") Room
                   span(class="clinic-photos__num") 2
-                img(src="../images/map_img_02.jpg" alt="Room2" class="clinic-photos__image" width="532" height="auto")
+                img(src="../images/map_img_02.jpg" alt="Room2" class="clinic-photos__image" width="532")
               li(class="clinic-photos__item clinic-photos__item--no3")
                 p(class="clinic-photos__room-num")
                   span(class="clinic-photos__room") Room
                   span(class="clinic-photos__num") 3
-                img(src="../images/map_img_03.jpg" alt="Room3" class="clinic-photos__image" width="532" height="auto")
+                img(src="../images/map_img_03.jpg" alt="Room3" class="clinic-photos__image" width="532")
               li(class="clinic-photos__item clinic-photos__item--no4")
                 p(class="clinic-photos__room-num")
                   span(class="clinic-photos__room") Room
                   span(class="clinic-photos__num") 4
-                img(src="../images/map_img_04.jpg" alt="Room4" class="clinic-photos__image" width="532" height="auto")
+                img(src="../images/map_img_04.jpg" alt="Room4" class="clinic-photos__image" width="532")
               li(class="clinic-photos__item clinic-photos__item--no5")
                 p(class="clinic-photos__room-num")
                   span(class="clinic-photos__room") Room
                   span(class="clinic-photos__num") 5
-                img(src="../images/map_img_05.jpg" alt="Room5" class="clinic-photos__image" width="532" height="auto")
+                img(src="../images/map_img_05.jpg" alt="Room5" class="clinic-photos__image" width="532")
               li(class="clinic-photos__item clinic-photos__item--no6")
                 p(class="clinic-photos__room-num")
                   span(class="clinic-photos__room") Room
                   span(class="clinic-photos__num") 6
-                img(src="../images/map_img_06.jpg" alt="Room6" class="clinic-photos__image" width="532" height="auto")
+                img(src="../images/map_img_06.jpg" alt="Room6" class="clinic-photos__image" width="532")
               li(class="clinic-photos__item clinic-photos__item--no7")
                 p(class="clinic-photos__room-num")
                   span(class="clinic-photos__room") Room
                   span(class="clinic-photos__num") 7
-                img(src="../images/map_img_07.jpg" alt="Room7" class="clinic-photos__image" width="532" height="auto")
+                img(src="../images/map_img_07.jpg" alt="Room7" class="clinic-photos__image" width="532")
             div(class="clinic-photos__comment")
               p イメージカラーにあわせ、壁紙やチェア、小物やカーテンまで色合いを揃えた快適な診察室をご用意しております。
 
@@ -934,37 +957,37 @@ block content
       div(class="inner-wrapper")
         div(class="home-reservation-decos item01 decos--c7")
           div(class="decos__item")
-            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c7.svg" class="decos__image" width="16" height="16" alt="")
           img(src="../images/ico_decoGroup_01.svg" alt="" class="decos__image--ruler")
         div(class="home-reservation-decos item02 decos--c5")
           div(class="decos__item")
-            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c5.svg" class="decos__image" width="16" height="16" alt="")
           img(src="../images/ico_decoGroup_02.svg" alt="" class="decos__image--ruler")
         div(class="home-reservation-decos item03 decos--c1")
           div(class="decos__item")
-            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16" alt="")
           div(class="decos__item")
-            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16")
+            img(src="../images/deco_c1.svg" class="decos__image" width="16" height="16" alt="")
           img(src="../images/ico_decoGroup_03.svg" alt="" class="decos__image--ruler")
         h2(class="content-head content-head--mb")
           span(class="content-head__jp")

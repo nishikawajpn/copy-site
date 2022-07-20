@@ -216,17 +216,14 @@
 
   @keyframes home-mv-scroll {
     0% {
-      -webkit-transform: scale(1);
       transform: scale(1);
       opacity: 1;
     }
     80% {
-      -webkit-transform: scale(1.8);
       transform: scale(1.8);
       opacity: 0;
     }
     100% {
-      -webkit-transform: scale(1.8);
       transform: scale(1.8);
       opacity: 0;
     }
@@ -606,6 +603,10 @@
     }
   }
 
+  .service-post__link {
+    display: block;
+  }
+
   .service-post {
     display: flex;
     flex-wrap: wrap;
@@ -621,6 +622,10 @@
       width: 30.5%;
       margin-right: 4.25%;
       margin-bottom: 50px;
+
+      .service-post__meta {
+        display: flex;
+      }
 
       .service-post__time {
         width: 50%;
@@ -662,9 +667,8 @@
     }
   }
 
-  .service-post__thumbnail {
-    width: 100%;
-    padding-bottom: 60%;
+  .service-post__thumbnail--wrapper {
+    flex: 0 1 100%;
   }
 
   .category--rheumatoid {

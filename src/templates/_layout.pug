@@ -5,19 +5,22 @@ block locals
   - var pageDescription = 'This is My Website.';
   - var url = 'https://';
 
-html(lang="en")
+html(lang="ja")
   head
     meta(charset="UTF-8")
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
     title #{title}
     meta(name="description" content=pageDescription)
+    meta(name="robots" content="noindex")
     link(rel="canonical" href=url)
+    link(rel="shortcut icon" href="../images/favicon.ico")
+    link(rel="icon" href="../images/favicon.ico")
 
   body
     header(class="header")
       h1(class="header__title")
         a(href="" class="header__link")
-          img(src="../images/logo_01.svg" class="header__logo" width="322" height="auto" alt="")
+          img(src="../images/logo_01.svg" class="header__logo" width="322" alt="札幌大通りリウマチ内科")
       a(href="#" class="header__info--sp") 診療時間
       div(class="header__info--tab-pc")
         p(class="header-tel") Tel :
@@ -35,7 +38,7 @@ html(lang="en")
       div(class="footer__innner")
         div(class="footer__left")
           a(href="/" class="footer__logo--wrapper")
-            img(src="../images/logo_01.svg" alt="" width="337" height="auto" class="footer__logo")
+            img(src="../images/logo_01.svg" alt="札幌大通りリウマチ内科" width="337" class="footer__logo")
           nav(class="footer__nav footer-nav")
             ul(class="footer-nav__li")
               li(class="footer-nav__item")
