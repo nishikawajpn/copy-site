@@ -141,12 +141,20 @@
 
   @include media(tb) {
     .slick-arrow {
+      width: 36px;
+      height: 72px;
+
+      &::before {
+        width: 36px;
+        height: 72px;
+      }
+
       &.slick-next {
-        transform: translate(30px, -50%);
+        transform: translate(36px, -50%);
       }
 
       &.slick-prev {
-        transform: translate(-30px, -50%);
+        transform: translate(-36px, -50%);
       }
     }
   }
@@ -183,12 +191,20 @@
 
   @include media(tb) {
     .slick-arrow {
+      width: 36px;
+      height: 72px;
+
+      &::before {
+        width: 36px;
+        height: 72px;
+      }
+
       &.slick-next {
-        transform: translate(30px, -50%);
+        transform: translate(36px, -50%);
       }
 
       &.slick-prev {
-        transform: translate(-30px, -50%);
+        transform: translate(-36px, -50%);
       }
     }
   }
