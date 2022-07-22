@@ -102,13 +102,15 @@
     writing-mode: vertical-rl;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, .3);
     transform: translateY(-130px);
+    right: 0;
 
     &::after {
       content: '';
       display: block;
       width: 16px;
       height: 16px;
-      background: url('../images/ico_arrow02_wh.svg');
+      background: url('../images/ico_arrow02_wh.svg') center no-repeat;
+      background-size: contain;
       position: absolute;
       bottom: 10px;
       left: 50%;
